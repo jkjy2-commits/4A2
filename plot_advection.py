@@ -1,4 +1,4 @@
-#
+
 #   plot_advection
 #                               
 #   Script to plot the flowfield calculated using the example Fortran advection
