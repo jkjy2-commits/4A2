@@ -15,6 +15,8 @@
 
 !     Declare integers or any extra variables you need here
 !     INSERT
+      real :: sj(g%nj)
+      integer :: i, j
 
 !     Get the size of the mesh and store locally for convenience
       ni = g%ni; nj = g%nj;
@@ -38,6 +40,19 @@
 !     "linspace", loop over the mesh in the i-direction and calculate the
 !     intermediate coordinates from a weighted sum of the two boundaries
 !     INSERT
+      call linspace(0.0, 1.0, sj)
+      do i = 1, ni
+         do j = 1, nj
+            g%x(i,j) = (1.0 - sj(j)) * g%x(i,1) + sj(j) * g%x(i,nj)
+            g%y(i,j) = (1.0 - sj(j)) * g%y(i,1) + sj(j) * g%y(i,nj)
+         end do
+      end do
+      
+      write(6,*) '--- MESH VERIFICATION ---'
+      write(6,*) 'Bottom-Left (i=1, j=1)   :', g%x(1, 1), g%y(1, 1)
+      write(6,*) 'Midpoint    (i=ni/2, j=nj/2):', g%x(ni/2, nj/2), g%y(ni/2, nj/2)
+      write(6,*) 'Top-Right   (i=ni, j=nj) :', g%x(ni, nj), g%y(ni, nj)
+      write(6,*) '-------------------------'
 
 !     In all of the test cases for the basic solver the the "j = 1" and "j = nj"
 !     boundaries are walls, for the extensions you may need to return to this
