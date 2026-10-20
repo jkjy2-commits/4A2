@@ -52,8 +52,8 @@
 !     Now repeat the calculation for the project lengths on the "j=const"
 !     facets. 
 !     INSERT
-      do i = 1, nj-1
-         do j = 1, ni
+      do i = 1, ni-1
+         do j = 1, nj
             g%lx_j(i,j) = g%y(i+1,j) - g%y(i,j)
             g%ly_j(i,j) = g%x(i,j) - g%x(i+1,j)
          end do
