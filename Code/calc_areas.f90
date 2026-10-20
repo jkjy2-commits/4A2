@@ -25,8 +25,8 @@
 !     the i and j-directions or in a vectorised way by indexing the coordinate
 !     arrays with lists of indices
 !     INSERT
-      do j = 1, nj
-         do i = 1, ni
+      do j = 1, nj-1
+         do i = 1, ni-1
             g%area(i,j) = 0.5 * abs((g%x(i+1,j+1) - g%x(i,j)) * &
                                     (g%y(i+1,j) - g%y(i,j+1)) - &
                                     (g%y(i+1,j+1) - g%y(i,j)) * &
