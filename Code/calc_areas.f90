@@ -27,10 +27,10 @@
 !     INSERT
       do j = 1, nj
          do i = 1, ni
-            g%area(i,j) = 0.5 * abs((g%x(i+1,j) - g%x(i,j)) * &
-                                    (g%y(i,j+1) - g%y(i,j)) - &
-                                    (g%y(i+1,j) - g%y(i,j)) * &
-                                    (g%x(i,j+1) - g%x(i,j)))
+            g%area(i,j) = 0.5 * abs((g%x(i+1,j+1) - g%x(i,j)) * &
+                                    (g%y(i+1,j) - g%y(i,j+1)) - &
+                                    (g%y(i+1,j+1) - g%y(i,j)) * &
+                                    (g%x(i+1,j) - g%x(i,j+1)))
          end do
       end do
 
