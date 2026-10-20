@@ -1,0 +1,2026 @@
+
+ Solver begins on bend case
+
+ Read application variables from file
+   rgas =   287.000000     cp =   1004.50000     cv =   717.500000    
+   CFL =  0.400000006     sfac =  0.200000003    
+   Convergence  d_max =   3.99999990E-05
+   Mesh size  ni =          53 nj =          37
+   Inlet  pstag =   100000.000     tstag =   300.000000     alpha =   0.785397530    
+   Outlet  p_out =   50000.0000    
+
+ Read domain curves from file
+   Curve lengths ni_a =         363 ni_b =          363
+
+ --- MESH VERIFICATION ---
+ Bottom-Left (i=1, j=1)   : -0.742462099      0.388908744    
+ Midpoint    (i=ni/2, j=nj/2):  -3.66239063E-02  0.893692374    
+ Top-Right   (i=ni, j=nj) :  0.883883476      0.530330062    
+ -------------------------
+ Interpolated mesh from the bounding geometry curves
+
+ Calculated cell areas and facet lengths
+   Overall minimum element size =    5.55545092E-03
+
+
+ Time step number            5
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number           10
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number           15
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number           20
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number           25
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number           30
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number           35
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number           40
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number           45
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number           50
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number           55
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number           60
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number           65
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number           70
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number           75
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number           80
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number           85
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number           90
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number           95
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          100
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          105
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          110
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          115
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          120
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          125
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          130
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          135
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          140
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          145
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          150
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          155
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          160
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          165
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          170
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          175
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          180
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          185
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          190
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          195
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          200
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          205
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          210
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          215
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          220
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          225
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          230
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          235
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          240
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          245
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          250
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          255
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          260
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          265
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          270
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          275
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          280
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          285
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          290
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          295
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          300
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          305
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          310
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          315
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          320
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          325
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          330
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          335
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          340
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          345
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          350
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          355
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          360
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          365
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          370
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          375
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          380
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          385
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          390
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          395
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          400
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          405
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          410
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          415
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          420
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          425
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          430
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          435
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          440
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          445
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          450
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          455
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          460
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          465
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          470
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          475
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          480
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          485
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          490
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          495
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          500
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          505
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          510
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          515
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          520
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          525
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          530
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          535
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          540
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          545
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          550
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          555
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          560
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          565
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          570
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          575
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          580
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          585
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          590
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          595
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          600
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          605
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          610
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          615
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          620
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          625
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          630
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          635
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          640
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          645
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          650
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          655
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          660
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          665
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          670
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          675
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          680
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          685
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          690
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          695
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          700
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          705
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          710
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          715
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          720
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          725
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          730
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          735
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          740
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          745
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          750
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          755
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          760
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          765
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          770
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          775
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          780
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          785
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          790
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          795
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          800
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          805
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          810
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          815
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          820
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          825
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          830
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          835
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          840
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          845
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          850
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          855
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          860
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          865
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          870
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          875
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          880
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          885
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          890
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          895
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          900
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          905
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          910
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          915
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          920
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          925
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          930
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          935
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          940
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          945
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          950
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          955
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          960
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          965
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          970
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          975
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          980
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          985
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          990
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number          995
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1000
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1005
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1010
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1015
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1020
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1025
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1030
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1035
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1040
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1045
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1050
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1055
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1060
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1065
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1070
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1075
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1080
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1085
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1090
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1095
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1100
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1105
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1110
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1115
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1120
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1125
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1130
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1135
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1140
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1145
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1150
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1155
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1160
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1165
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1170
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1175
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1180
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1185
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1190
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1195
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1200
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1205
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1210
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1215
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1220
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1225
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1230
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1235
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1240
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1245
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1250
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1255
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1260
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1265
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1270
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1275
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1280
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1285
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1290
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1295
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1300
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1305
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1310
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1315
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1320
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1325
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1330
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1335
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1340
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1345
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1350
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1355
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1360
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1365
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1370
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1375
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1380
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1385
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1390
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1395
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1400
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1405
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1410
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1415
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1420
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1425
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1430
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1435
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1440
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1445
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1450
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1455
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1460
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1465
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1470
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1475
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1480
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1485
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1490
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1495
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1500
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1505
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1510
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1515
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1520
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1525
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1530
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1535
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1540
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1545
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1550
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1555
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1560
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1565
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1570
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1575
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1580
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1585
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1590
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1595
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1600
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1605
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1610
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1615
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1620
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1625
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1630
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1635
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1640
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1645
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1650
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1655
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1660
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1665
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1670
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1675
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1680
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1685
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1690
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1695
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1700
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1705
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1710
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1715
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1720
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1725
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1730
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1735
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1740
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1745
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1750
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1755
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1760
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1765
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1770
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1775
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1780
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1785
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1790
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1795
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1800
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1805
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1810
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1815
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1820
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1825
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1830
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1835
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1840
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1845
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1850
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1855
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1860
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1865
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1870
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1875
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1880
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1885
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1890
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1895
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1900
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1905
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1910
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1915
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1920
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1925
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1930
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1935
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1940
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1945
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1950
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1955
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1960
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1965
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1970
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1975
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1980
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1985
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1990
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         1995
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2000
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2005
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2010
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2015
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2020
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2025
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2030
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2035
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2040
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2045
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2050
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2055
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2060
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2065
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2070
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2075
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2080
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2085
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2090
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2095
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2100
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2105
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2110
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2115
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2120
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2125
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2130
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2135
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2140
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2145
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2150
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2155
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2160
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2165
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2170
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2175
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2180
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2185
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2190
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2195
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2200
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2205
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2210
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2215
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2220
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2225
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2230
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2235
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2240
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2245
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2250
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2255
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2260
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2265
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2270
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2275
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2280
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2285
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2290
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2295
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2300
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2305
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2310
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2315
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2320
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2325
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2330
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2335
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2340
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2345
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2350
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2355
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2360
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2365
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2370
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2375
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2380
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2385
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2390
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2395
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2400
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2405
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2410
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2415
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2420
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2425
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2430
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2435
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2440
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2445
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2450
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2455
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2460
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2465
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2470
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2475
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2480
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2485
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2490
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2495
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2500
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2505
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2510
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2515
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2520
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2525
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2530
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2535
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2540
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2545
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2550
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2555
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2560
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2565
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2570
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2575
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2580
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2585
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2590
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2595
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2600
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2605
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2610
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2615
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2620
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2625
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2630
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2635
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2640
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2645
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2650
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2655
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2660
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2665
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2670
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2675
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2680
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2685
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2690
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2695
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2700
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2705
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2710
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2715
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2720
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2725
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2730
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2735
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2740
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2745
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2750
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2755
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2760
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2765
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2770
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2775
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2780
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2785
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2790
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2795
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2800
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2805
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2810
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2815
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2820
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2825
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2830
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2835
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2840
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2845
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2850
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2855
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2860
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2865
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2870
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2875
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2880
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2885
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2890
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2895
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2900
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2905
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2910
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2915
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2920
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2925
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2930
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2935
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2940
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2945
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2950
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2955
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2960
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2965
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2970
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2975
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2980
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2985
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2990
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         2995
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3000
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3005
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3010
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3015
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3020
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3025
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3030
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3035
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3040
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3045
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3050
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3055
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3060
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3065
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3070
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3075
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3080
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3085
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3090
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3095
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3100
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3105
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3110
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3115
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3120
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3125
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3130
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3135
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3140
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3145
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3150
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3155
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3160
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3165
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3170
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3175
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3180
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3185
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3190
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3195
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3200
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3205
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3210
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3215
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3220
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3225
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3230
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3235
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3240
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3245
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3250
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3255
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3260
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3265
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3270
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3275
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3280
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3285
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3290
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3295
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3300
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3305
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3310
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3315
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3320
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3325
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3330
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3335
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3340
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3345
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3350
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3355
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3360
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3365
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3370
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3375
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3380
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3385
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3390
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3395
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3400
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3405
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3410
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3415
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3420
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3425
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3430
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3435
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3440
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3445
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3450
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3455
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3460
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3465
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3470
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3475
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3480
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3485
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3490
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3495
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3500
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3505
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3510
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3515
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3520
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3525
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3530
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3535
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3540
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3545
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3550
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3555
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3560
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3565
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3570
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3575
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3580
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3585
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3590
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3595
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3600
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3605
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3610
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3615
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3620
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3625
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3630
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3635
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3640
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3645
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3650
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3655
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3660
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3665
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3670
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3675
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3680
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3685
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3690
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3695
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3700
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3705
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3710
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3715
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3720
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3725
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3730
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3735
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3740
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3745
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3750
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3755
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3760
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3765
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3770
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3775
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3780
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3785
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3790
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3795
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3800
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3805
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3810
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3815
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3820
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3825
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3830
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3835
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3840
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3845
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3850
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3855
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3860
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3865
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3870
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3875
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3880
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3885
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3890
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3895
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3900
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3905
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3910
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3915
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3920
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3925
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3930
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3935
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3940
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3945
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3950
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3955
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3960
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3965
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3970
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3975
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3980
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3985
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3990
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         3995
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4000
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4005
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4010
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4015
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4020
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4025
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4030
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4035
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4040
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4045
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4050
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4055
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4060
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4065
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4070
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4075
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4080
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4085
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4090
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4095
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4100
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4105
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4110
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4115
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4120
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4125
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4130
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4135
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4140
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4145
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4150
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4155
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4160
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4165
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4170
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4175
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4180
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4185
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4190
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4195
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4200
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4205
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4210
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4215
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4220
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4225
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4230
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4235
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4240
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4245
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4250
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4255
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4260
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4265
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4270
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4275
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4280
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4285
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4290
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4295
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4300
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4305
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4310
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4315
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4320
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4325
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4330
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4335
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4340
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4345
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4350
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4355
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4360
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4365
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4370
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4375
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4380
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4385
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4390
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4395
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4400
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4405
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4410
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4415
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4420
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4425
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4430
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4435
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4440
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4445
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4450
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4455
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4460
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4465
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4470
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4475
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4480
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4485
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4490
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4495
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4500
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4505
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4510
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4515
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4520
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4525
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4530
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4535
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4540
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4545
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4550
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4555
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4560
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4565
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4570
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4575
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4580
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4585
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4590
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4595
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4600
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4605
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4610
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4615
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4620
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4625
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4630
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4635
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4640
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4645
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4650
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4655
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4660
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4665
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4670
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4675
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4680
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4685
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4690
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4695
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4700
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4705
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4710
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4715
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4720
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4725
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4730
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4735
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4740
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4745
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4750
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4755
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4760
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4765
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4770
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4775
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4780
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4785
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4790
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4795
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4800
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4805
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4810
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4815
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4820
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4825
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4830
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4835
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4840
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4845
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4850
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4855
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4860
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4865
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4870
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4875
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4880
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4885
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4890
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4895
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4900
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4905
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4910
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4915
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4920
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4925
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4930
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4935
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4940
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4945
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4950
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4955
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4960
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4965
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4970
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4975
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4980
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4985
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4990
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         4995
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Time step number         5000
+   d_max =       NaN at i =   1, j =   1, d_avg =       NaN
+ Calculation completed after        5000 iterations
