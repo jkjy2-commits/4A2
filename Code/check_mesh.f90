@@ -24,12 +24,24 @@
 !     and flag negative numbers as an error with an if statement to "stop" the
 !     program
 !     INSERT
+      g%area_min = minval(g%area)
+      if (g%area_min < 0.0) then
+         write(6,*) 'Error: Negative cell area detected!'
+         stop
+      end if
 
 !     Next check that the sum of the edge vectors around every quadrilateral is 
 !     very nearly zero in both the x and y-coordinate directions. You can
 !     complete this with some elementwise addition of the arrays and use of the
 !     "maxval" and "abs" intrinsic functions.
 !     INSERT
+      g%dx_error = maxval(abs(g%lx_i(1:ni-1,1:nj-1) + g%lx_j(1:ni-1,1:nj-1) - &
+                            g%lx_i(2:ni,1:nj-1) - g%lx_j(1:ni-1,2:nj)))
+      g%dy_error = maxval(abs(g%ly_i(1:ni-1,1:nj-1) + g%ly_j(1:ni-1,1:nj-1) - &
+                            g%ly_i(2:ni,1:nj-1) - g%ly_j(1:ni-1,2:nj)))
+      if (g%dx_error > tol .or. g%dy_error > tol) then
+            stop 'Vector sum of cell edges is not zero!'
+      end if
 
 !     It may be worthwhile to complete some other checks, the prevous call to
 !     the "write_output" subroutine has written a file that you can read and
