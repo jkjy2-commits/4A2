@@ -39,7 +39,7 @@
                             g%lx_i(2:ni,1:nj-1) - g%lx_j(1:ni-1,2:nj)))
       dy_error = maxval(abs(g%ly_i(1:ni-1,1:nj-1) + g%ly_j(1:ni-1,1:nj-1) - &
                             g%ly_i(2:ni,1:nj-1) - g%ly_j(1:ni-1,2:nj)))
-      if (dx_error > tol .or. g%dy_error > tol) then
+      if (dx_error > tol .or. dy_error > tol) then
             stop 'Vector sum of cell edges is not zero!'
       end if      
 
