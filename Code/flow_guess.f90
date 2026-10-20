@@ -96,7 +96,6 @@
               t_guess = max(t_guess, t_lim)
               ro_guess(i) = bcs%p_out / (av%rgas * t_guess)
               v_guess(i) = mass_flow / (ro_guess(i) * l_i(i))
-              g%ro_guess(i,:) = ro_guess(i)
           end do
 
 !         Direct the calculated velocity to be parallel to the "j = const"
