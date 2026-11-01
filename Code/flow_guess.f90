@@ -20,7 +20,7 @@
 !     Variables required for the improved guess, you will need to add to these
       real :: l_i(g%ni)
 !     INSERT
-      real :: mass_flow, mach_lim, t_lim, t_guess, v_guess(g%ni), ro_guess(g%ni)
+      real :: mass_flow, mach_lim, t_lim, t_guess(g%ni), v_guess(g%ni), ro_guess(g%ni)
 
 !     Get the size of the mesh and store locally for convenience
       ni = g%ni; nj = g%nj;
@@ -92,9 +92,9 @@
           g%ro(ni,:) = ro_out
           do i = 1, ni
               v_guess(i) = mass_flow / (ro_out * l_i(i))
-              t_guess = bcs%tstag - 0.5 * v_guess(i)**2 / av%cp
-              t_guess = max(t_guess, t_lim)
-              ro_guess(i) = bcs%p_out / (av%rgas * t_guess)
+              t_guess(i) = bcs%tstag - 0.5 * v_guess(i)**2 / av%cp
+              t_guess(i) = max(t_guess(i), t_lim)
+              ro_guess(i) = bcs%p_out / (av%rgas * t_guess(i))
               v_guess(i) = mass_flow / (ro_guess(i) * l_i(i))
           end do
 
@@ -104,20 +104,26 @@
 !         crude guess. Then set all of ro, roe, rovx and rovy, note that roe 
 !         includes the kinetic energy component of the internal energy.
 !         INSERT
-          g%ro(ni,:) = ro_guess(i)
-          ! Should I use the t_guess(i) here instead of t_guess?
-          g%roe(i,:)  = g%ro(i,:) * (av%cv * t_guess + 0.5 * v_guess(i)**2) 
-          j_mid = nj / 2
           do i = 1,ni-1
-              lx = g%lx_j(i,j_mid); ly = g%ly_j(i,j_mid); 
+            do j = 1,nj
+              lx = g%lx_j(i,j)
+              ly = g%ly_j(i,j)
               l = hypot(lx,ly)
-              g%rovx(i,:) = g%ro(i,:) * v_guess(i) * ly / l
-              g%rovy(i,:) = -g%ro(i,:) * v_guess(i) * lx / l
+              g%ro(i,j) = ro_guess(i)
+              g%roe(i,j)  = g%ro(i,j) * (av%cv * t_guess(i) + 0.5 * v_guess(i)**2)
+              g%rovx(i,j) = g%ro(i,j) * v_guess(i) * ly / l
+              g%rovy(i,j) = -g%ro(i,j) * v_guess(i) * lx / l
+
+              end do
+              
           end do
 
               
 !         Make sure the guess has been copied for the "i = ni" values too
 !         INSERT
+          g%ro(ni,:) = ro_guess(ni)
+          g%roe(ni,:) = g%ro(ni,:) * &
+               (av%cv * t_guess(ni) + 0.5 * v_guess(ni)**2)
           g%rovx(ni,:) = g%rovx(ni-1,:)
           g%rovy(ni,:) = g%rovy(ni-1,:)
 
