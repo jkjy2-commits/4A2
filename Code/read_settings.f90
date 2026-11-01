@@ -25,7 +25,7 @@
       read(5,*) av%gam, av%rgas
       read(5,*) av%cfl, av%sfac, av%d_max
       read(5,*) av%nsteps
-      read(5,*) av%ni, av%nj  
+      read(5,*) av%ni, av%nj
 
 !     Calculate other gas constants used throughout the calculation
       av%cp = av%rgas * av%gam / (av%gam - 1.0)
