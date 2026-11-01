@@ -54,8 +54,8 @@
 !     INSERT
       do i = 1, ni-1
          do j = 1, nj
-            g%lx_j(i,j) = g%y(i+1,j) - g%y(i,j)
-            g%ly_j(i,j) = g%x(i,j) - g%x(i+1,j)
+            g%lx_j(i,j) = g%y(i,j) - g%y(i+1,j)
+            g%ly_j(i,j) = g%x(i+1,j) - g%x(i,j)
          end do
       end do
 
