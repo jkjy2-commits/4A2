@@ -22,3 +22,19 @@
  Calculated cell areas and facet lengths
    Overall minimum element size =    5.55545092E-03
 
+
+ Improved flow guess calculated
+   At first point ro =  0.609756112     roe =   169496.766     rovx =   164.718445     rovy =   164.718445    
+
+ Calculated timestep =   3.20024856E-06
+ Time step number            5
+   d_max = 0.974E-01 at i =  23, j =  36, d_avg = 0.654E-02
+ Time step number           10
+   d_max = 0.158E+00 at i =  39, j =   1, d_avg = 0.104E-01
+ Time step number           15
+   d_max = 0.200E+00 at i =  42, j =   1, d_avg = 0.144E-01
+ Time step number           20
+   d_max = 0.208E+00 at i =   5, j =  36, d_avg =       NaN
+ NaN detected, stopping the solver
+ "ifstop" modified, writing an output
+ Solver stopped prematurely
