@@ -10,7 +10,6 @@
 *.pdf
 *.mat
 *.log
-*.bin
 *.plt
 __*
 *.bak
