@@ -24,13 +24,13 @@ def calc_secondary(av,b):
     b['rostag'] = av['pstag'] / (av['rgas'] * av['tstag'])
     b['tstag'] = av['tstag']
 
-    # Static temperature from isentropic relation with density
+    # Static temperature
     b['t'] = b['tstag'] * (b['ro']/b['rostag']) ** (av['gam']-1)
 
-    # Velocity from stagnation enthalpy (steady adiabatic flow)
+    # Velocity
     b['v'] = (2 * av['cp'] * (b['tstag'] - b['t'])) ** 0.5
 
-    # Mach number uses the LOCAL static temperature
+    # Mach number
     b['M'] = b['v'] / (av['gam'] * av['rgas'] * b['t']) ** 0.5
 
     # Static pressure
@@ -39,7 +39,7 @@ def calc_secondary(av,b):
     # Flow angle
     b['alpha'] = np.arctan(b['rovy']/b['rovx'])
 
-    # Static enthalpy (cp * T)
+    # Static enthalpy
     b['h'] = av['cp'] * b['t']
 
     # Entropy relative to a reference state
