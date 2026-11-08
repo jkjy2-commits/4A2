@@ -32,6 +32,23 @@ def main():
     # reference pressures at the inlet plane and therefore the static pressure
     # coefficient
     # INSERT
+        # Mach number under the name used by the plotting loop
+    g['mach'] = g['M']
+
+    # Local stagnation pressure at every node (varies in the flow field, so
+    # it must be computed before it can be mass averaged)
+    g['pstag'] = g['p'] * (1 + 0.5 * (av['gam'] - 1) * g['mach']**2) \
+        ** (av['gam'] / (av['gam'] - 1))
+
+    # Take the inlet plane (i = 0 in Python indexing) and calculate the
+    # reference pressures. area_av and mass_av return (value, weights), so
+    # keep only the first output.
+    c_in = cut_i(g,0)
+    p_ref,_ = area_av(c_in,'p')
+    pstag_ref,_ = mass_av(c_in,'pstag')
+
+    # Static pressure coefficient, stored in g so the plotting loop can find it
+    g['cp'] = (g['p'] - p_ref) / (pstag_ref - p_ref)
 
     # Specify the parameters to plot
     fieldnames = ['cp', 'mach']; 

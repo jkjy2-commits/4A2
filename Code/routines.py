@@ -21,6 +21,32 @@ def calc_secondary(av,b):
     # your post-processing, save them into the block "b" dictionary alongside
     # mesh coordinates and primary flow variables.
     # INSERT
+    b['rostag'] = av['pstag'] / (av['rgas'] * av['tstag'])
+    b['tstag'] = av['tstag']
+
+    # Static temperature from isentropic relation with density
+    b['t'] = b['tstag'] * (b['ro']/b['rostag']) ** (av['gam']-1)
+
+    # Velocity from stagnation enthalpy (steady adiabatic flow)
+    b['v'] = (2 * av['cp'] * (b['tstag'] - b['t'])) ** 0.5
+
+    # Mach number uses the LOCAL static temperature
+    b['M'] = b['v'] / (av['gam'] * av['rgas'] * b['t']) ** 0.5
+
+    # Static pressure
+    b['p'] = b['ro'] * av['rgas'] * b['t']
+
+    # Flow angle
+    b['alpha'] = np.arctan(b['rovy']/b['rovx'])
+
+    # Static enthalpy (cp * T)
+    b['h'] = av['cp'] * b['t']
+
+    # Entropy relative to a reference state
+    Tref = 288.15
+    Pref = 101325
+    b['s'] = av['cp'] * np.log(b['t']/Tref) - av['rgas'] * np.log(b['p']/Pref)
+    
 
     return b
 
