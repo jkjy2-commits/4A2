@@ -20,7 +20,7 @@
 !     Variables required for the improved guess, you will need to add to these
       real :: l_i(g%ni)
 !     INSERT
-      real :: mass_flow, mach_lim, t_lim, t_guess(g%ni), v_guess(g%ni), ro_guess(g%ni)
+      real :: mass_flow, mach_lim, t_lim, t_guess(g%ni), v_guess(g%ni), ro_guess(g%ni), p_guess(g%ni)
 
 !     Get the size of the mesh and store locally for convenience
       ni = g%ni; nj = g%nj;
@@ -77,7 +77,7 @@
 !         guess, call this "mach_lim", calculate the corresponding temperature,
 !         called "t_lim"
 !         INSERT
-          mach_lim = 0.5
+          mach_lim = 1
           t_lim = bcs%tstag / (1 + 0.5 * (mach_lim**2) * (av%gam - 1))
 
 !         Now estimate the velocity and density at every "i = const" line, call 
@@ -94,7 +94,8 @@
               v_guess(i) = mass_flow / (ro_out * l_i(i))
               t_guess(i) = bcs%tstag - 0.5 * v_guess(i)**2 / av%cp
               t_guess(i) = max(t_guess(i), t_lim)
-              ro_guess(i) = bcs%p_out / (av%rgas * t_guess(i))
+              p_guess(i) = bcs%pstag * (t_guess(i)/bcs%tstag) ** (1/av%fgam)
+              ro_guess(i) = p_guess(i) / (av%rgas * t_guess(i))
               v_guess(i) = mass_flow / (ro_guess(i) * l_i(i))
           end do
 

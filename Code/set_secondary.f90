@@ -12,6 +12,7 @@
 
 !     Define any further variables you may need
 !     INSERT
+      real, dimension(g%ni,g%nj) :: t
 
 !     The primary flow variables are "ro", "roe", "rovx" and "rovy", these are 
 !     the conserved quantities within the Euler equations. Write the code to
@@ -24,10 +25,11 @@
       g%vx = g%rovx / g%ro
       g%vy = g%rovy / g%ro
 
-      g%p = (av%gam - 1.0) * (g%roe - 0.5 * g%ro * &
-            (g%vx**2 + g%vy**2))
+      t = (g%roe / g%ro - 0.5 * (g%vx**2 + g%vy**2))/ av%cv
 
-      g%hstag = av%cp * (g%p / (av%rgas * g%ro)) + &
+      g%p = g%ro * av%rgas * t
+
+      g%hstag = av%cp * t + &
             0.5 * (g%vx**2 + g%vy**2)
 
       end subroutine set_secondary
