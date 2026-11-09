@@ -21,14 +21,14 @@ def calc_secondary(av,b):
     # your post-processing, save them into the block "b" dictionary alongside
     # mesh coordinates and primary flow variables.
     # INSERT
-    b['rostag'] = av['pstag'] / (av['rgas'] * av['tstag'])
-    b['tstag'] = av['tstag']
+
+    # Velocities
+    b['vx'] = b['rovx']/b['ro']
+    b['vy'] = b['rovy']/b['ro']
+    b['v'] = (b['vy']**2 + b['vx']**2)**0.5
 
     # Static temperature
-    b['t'] = b['tstag'] * (b['ro']/b['rostag']) ** (av['gam']-1)
-
-    # Velocity
-    b['v'] = (2 * av['cp'] * (b['tstag'] - b['t'])) ** 0.5
+    b['t'] = (b['roe']/b['ro'] - (b['v']**2)/2) / av['cv']
 
     # Mach number
     b['M'] = b['v'] / (av['gam'] * av['rgas'] * b['t']) ** 0.5
@@ -37,7 +37,7 @@ def calc_secondary(av,b):
     b['p'] = b['ro'] * av['rgas'] * b['t']
 
     # Flow angle
-    b['alpha'] = np.arctan(b['rovy']/b['rovx'])
+    b['alpha'] = 180 * np.arctan(b['rovy']/b['rovx'])/ np.pi
 
     # Static enthalpy
     b['h'] = av['cp'] * b['t']

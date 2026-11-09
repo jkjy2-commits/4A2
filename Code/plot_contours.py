@@ -51,8 +51,8 @@ def main():
     g['cp'] = (g['p'] - p_ref) / (pstag_ref - p_ref)
 
     # Specify the parameters to plot
-    fieldnames = ['cp', 'mach']; 
-    colnames = ['Static pressure coefficient','Mach number']
+    fieldnames = ['cp', 'mach','vx','vy']; 
+    colnames = ['Static pressure coefficient','Mach number','Vx','Vy']
 
     # Plot the calculated non-dimensional parameters to show the flow solution
     for n,name in enumerate(fieldnames):
@@ -79,6 +79,7 @@ def main():
 
     # Show all the plots
     plt.show()
+
 
     
 main()

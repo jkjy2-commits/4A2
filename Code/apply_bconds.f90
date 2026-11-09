@@ -14,7 +14,7 @@
 
 !     Declare the other variables you need here
 !     INSERT
-      real, dimension(g%nj) :: t, v
+      real, dimension(g%nj) :: t, v , p
       integer :: ni
       ni = g%ni
 
@@ -41,7 +41,7 @@
 !     "hstag(1,:)"
 !     INSERT
       t(:) = bcs%tstag * (bcs%ro(:) / bcs%rostag)**(av%gam-1)
-      g%p(1,:) = bcs%ro(:) * av%rgas * t(:)
+      p(:) = bcs%ro(:) * av%rgas * t(:)
       v(:) = (2 * av%cp * (bcs%tstag - t(:)))**0.5
       g%vx(1,:) = v(:) * cos(bcs%alpha)
       g%vy(1,:) = v(:) * sin(bcs%alpha)
