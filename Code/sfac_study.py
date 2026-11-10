@@ -18,7 +18,9 @@ NSTEPS_LINE = 3                         # 0-based line of nsteps in the input fi
 
 # 0-based line of the smoothing factor in input_<BASE>.txt. If the line holds
 # several numbers, SFAC_TOKEN picks which one to replace.
-SFAC_LINE = 7                           # <-- CHECK (generate prints the line it changes)
+# None = auto-detect: first line mentioning "sfac" (case-insensitive).
+# If that fails, generate prints the numbered input file so you can set it here.
+SFAC_LINE = None
 SFAC_TOKEN = 0
 
 # Solver output holding the profile. {name} = casename.
@@ -35,7 +37,20 @@ def name_of(sfac):
 def generate():
     with open(f'input_{BASE}.txt') as f:
         lines = f.read().splitlines()
-    print('Base SFAC line:', repr(lines[SFAC_LINE]))
+    global SFAC_LINE
+    if SFAC_LINE is None:
+        hits = [i for i, l in enumerate(lines) if 'sfac' in l.lower()]
+        if hits:
+            SFAC_LINE = hits[0]
+    if SFAC_LINE is None or not (0 <= SFAC_LINE < len(lines)):
+        print(f'Could not locate SFAC in input_{BASE}.txt. File contents '
+              '(0-based line numbers):')
+        for i, l in enumerate(lines):
+            print(f'{i:3d}: {l}')
+        sys.exit('Set SFAC_LINE (and SFAC_TOKEN if the line has several '
+                 'numbers) at the top of the script.')
+    print(f'Using line {SFAC_LINE}, token {SFAC_TOKEN}:',
+          repr(lines[SFAC_LINE]))
     for sfac in SFAC_LIST:
         name = name_of(sfac)
         new = lines.copy()
