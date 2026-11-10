@@ -4,7 +4,8 @@
 #   nohup python3 mesh_study.py run > run.log 2>&1 &
 #                                    -> runs each case ONE AT A TIME (Linux),
 #                                       writes screen_*.txt and times.txt
-#   python mesh_study.py plot        -> convergence, run time, error vs time
+#   python mesh_study.py plot        -> convergence, run time, error vs time,
+#                                       wall second derivative (one mesh)
 
 import sys, shutil, subprocess
 import numpy as np
@@ -20,6 +21,13 @@ TIMES_FILE = 'times.txt'
 # Name of the numeric convergence file the solver writes. CHECK plot_conv.py
 # for the real pattern; {name} is replaced by the casename.
 CONV_PATTERN = 'conv_{name}.csv'
+
+# Wall second derivative plot: ONE mesh only (192 cells -> ni = 193).
+WALL_NI = 193
+# ASSUMED layout of geom_<name>.txt: whitespace-separated columns "x y",
+# grid points stored i-fastest, so the first ni rows are the wall (j = 0).
+# Adjust these if your geometry file differs.
+GEOM_XCOL, GEOM_YCOL = 0, 1
 
 def name_of(ni):
     return f'{BASE}_ni{ni}'
@@ -58,6 +66,39 @@ def run():
         with open(TIMES_FILE, 'a') as f:
             f.write(f'{ni} {cpu:.3f}\n')
 
+def plot_wall():
+    # Wall second derivative d2y/dx2 vs cell index for a single mesh (WALL_NI)
+    name = name_of(WALL_NI)
+    # Tolerant reader: skips header lines (e.g. a lone point count) and any
+    # line that doesn't have two numbers in the x / y columns.
+    rows = []
+    with open(f'geom_{name}.txt') as f:
+        for line in f:
+            p = line.split()
+            if len(p) <= max(GEOM_XCOL, GEOM_YCOL):
+                continue
+            try:
+                rows.append([float(p[GEOM_XCOL]), float(p[GEOM_YCOL])])
+            except ValueError:
+                continue
+    g = np.array(rows)
+    print(f'geom_{name}.txt: {len(g)} x-y rows read (expected >= {WALL_NI})')
+    if len(g) < WALL_NI:
+        raise SystemExit('Too few x-y rows: check the geom file layout')
+    x, y = g[:WALL_NI, 0], g[:WALL_NI, 1]        # wall nodes (j = 0)
+    xc = 0.5 * (x[1:] + x[:-1])                  # cell centres
+    yc = 0.5 * (y[1:] + y[:-1])
+    d2 = np.gradient(np.gradient(yc, xc), xc)    # non-uniform spacing safe
+    idx = np.arange(1, len(d2) + 1)
+
+    fig, ax = plt.subplots(figsize=(9.6, 7.2))
+    ax.plot(idx, d2, 'o-', ms=3, color='C0')
+    ax.set_xlabel('Cell index')
+    ax.set_ylabel('Wall second derivative')
+    ax.set_xlim(0, len(d2))
+    ax.grid(True, alpha=0.3)
+    fig.savefig('wall_second_derivative.png', dpi=300, bbox_inches='tight')
+
 def plot():
     cells, err = [], []
     for ni in NI_LIST:
@@ -85,6 +126,9 @@ def plot():
 
     order = -np.diff(np.log(err)) / np.diff(np.log(cells))
     print('Observed order between meshes:', np.round(order, 2))
+
+    # --- Wall second derivative (single mesh) ---
+    plot_wall()
 
     # --- Run time (only if times.txt exists) ---
     try:
@@ -120,4 +164,5 @@ def plot():
     plt.show()
 
 if __name__ == '__main__':
-    {'generate': generate, 'run': run, 'plot': plot}[sys.argv[1]]()
+    {'generate': generate, 'run': run, 'plot': plot,
+     'wall': lambda: (plot_wall(), plt.show())}[sys.argv[1]]()
