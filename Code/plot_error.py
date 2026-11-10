@@ -43,7 +43,7 @@ def main():
 
     vals_list = [tratio, mass_ratio]
     ylabels = ['Stagnation temperature ratio',
-               r'Mass flow ratio $\dot{m}/\dot{m}_{inlet}$']
+               r'Mass flow ratio']
     i_index = np.arange(1, ni + 1)
 
     for vals, label in zip(vals_list, ylabels):

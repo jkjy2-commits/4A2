@@ -11,7 +11,7 @@ from routines import read_conv
 
 BASE = 'bump'
 NI_LIST = [13, 25, 49, 97, 193, 385, 769]   # 12*2^k + 1  ->  12, 24, ... cells
-NSTEPS = 20000                               # large enough for the finest mesh
+NSTEPS = 5000                              
 # Name of the numeric convergence file the solver writes. CHECK plot_conv.py
 # for the real pattern; {name} is replaced by the casename.
 CONV_PATTERN = 'conv_{name}.csv'
