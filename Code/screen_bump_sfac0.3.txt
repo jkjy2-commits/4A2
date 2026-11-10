@@ -1,0 +1,4030 @@
+
+ Solver begins on bump_sfac0.3 case
+
+ Read application variables from file
+   rgas =   287.000000     cp =   1004.50000     cv =   717.500000    
+   CFL =  0.100000001     sfac =   3.00000012E-02
+   Convergence  d_max =   9.99999975E-06
+   Mesh size  ni =          53 nj =          37
+   Inlet  pstag =   100000.000     tstag =   300.000000     alpha =    0.00000000    
+   Outlet  p_out =   85000.0000    
+
+ Read domain curves from file
+   Curve lengths ni_a =         401 ni_b =          401
+
+ --- MESH VERIFICATION ---
+ Bottom-Left (i=1, j=1)   :   0.00000000       0.00000000    
+ Midpoint    (i=ni/2, j=nj/2):  0.716409087      0.188888893    
+ Top-Right   (i=ni, j=nj) :   1.50000000      0.400000006    
+ -------------------------
+ Interpolated mesh from the bounding geometry curves
+
+ Calculated cell areas and facet lengths
+   Overall minimum element size =    9.44944378E-03
+
+
+ Improved flow guess calculated
+   At first point ro =   1.03414583     roe =   226639.844     rovx =   171.012680     rovy =  -0.00000000    
+
+ Calculated timestep =   1.36085123E-06
+ Time step number            5
+   d_max = 0.188E-02 at i =  15, j =   1, d_avg = 0.128E-03
+ Time step number           10
+   d_max = 0.222E-02 at i =  15, j =   1, d_avg = 0.131E-03
+ Time step number           15
+   d_max = 0.251E-02 at i =  16, j =   1, d_avg = 0.133E-03
+ Time step number           20
+   d_max = 0.275E-02 at i =  16, j =   1, d_avg = 0.135E-03
+ Time step number           25
+   d_max = 0.290E-02 at i =  16, j =   1, d_avg = 0.137E-03
+ Time step number           30
+   d_max = 0.295E-02 at i =  16, j =   1, d_avg = 0.138E-03
+ Time step number           35
+   d_max = 0.290E-02 at i =  16, j =   1, d_avg = 0.138E-03
+ Time step number           40
+   d_max = 0.275E-02 at i =  16, j =   1, d_avg = 0.138E-03
+ Time step number           45
+   d_max = 0.251E-02 at i =  16, j =   1, d_avg = 0.136E-03
+ Time step number           50
+   d_max = 0.220E-02 at i =  16, j =   1, d_avg = 0.135E-03
+ Time step number           55
+   d_max = 0.190E-02 at i =  16, j =   3, d_avg = 0.133E-03
+ Time step number           60
+   d_max = 0.192E-02 at i =  16, j =   3, d_avg = 0.131E-03
+ Time step number           65
+   d_max = 0.190E-02 at i =  16, j =   3, d_avg = 0.128E-03
+ Time step number           70
+   d_max = 0.185E-02 at i =  16, j =   3, d_avg = 0.126E-03
+ Time step number           75
+   d_max = 0.178E-02 at i =  16, j =   4, d_avg = 0.124E-03
+ Time step number           80
+   d_max = 0.175E-02 at i =  16, j =   4, d_avg = 0.123E-03
+ Time step number           85
+   d_max = 0.169E-02 at i =  16, j =   4, d_avg = 0.123E-03
+ Time step number           90
+   d_max = 0.160E-02 at i =  16, j =   4, d_avg = 0.123E-03
+ Time step number           95
+   d_max = 0.154E-02 at i =  17, j =   5, d_avg = 0.123E-03
+ Time step number          100
+   d_max = 0.152E-02 at i =  17, j =   5, d_avg = 0.123E-03
+ Time step number          105
+   d_max = 0.148E-02 at i =  17, j =   5, d_avg = 0.122E-03
+ Time step number          110
+   d_max = 0.144E-02 at i =  17, j =   6, d_avg = 0.121E-03
+ Time step number          115
+   d_max = 0.142E-02 at i =  17, j =   6, d_avg = 0.120E-03
+ Time step number          120
+   d_max = 0.140E-02 at i =  17, j =   6, d_avg = 0.118E-03
+ Time step number          125
+   d_max = 0.135E-02 at i =  17, j =   6, d_avg = 0.116E-03
+ Time step number          130
+   d_max = 0.132E-02 at i =  17, j =   7, d_avg = 0.114E-03
+ Time step number          135
+   d_max = 0.130E-02 at i =  17, j =   7, d_avg = 0.112E-03
+ Time step number          140
+   d_max = 0.128E-02 at i =  17, j =   7, d_avg = 0.110E-03
+ Time step number          145
+   d_max = 0.123E-02 at i =  17, j =   7, d_avg = 0.108E-03
+ Time step number          150
+   d_max = 0.121E-02 at i =  17, j =   8, d_avg = 0.107E-03
+ Time step number          155
+   d_max = 0.120E-02 at i =  17, j =   8, d_avg = 0.105E-03
+ Time step number          160
+   d_max = 0.117E-02 at i =  17, j =   8, d_avg = 0.103E-03
+ Time step number          165
+   d_max = 0.113E-02 at i =  17, j =   8, d_avg = 0.102E-03
+ Time step number          170
+   d_max = 0.111E-02 at i =  17, j =   9, d_avg = 0.102E-03
+ Time step number          175
+   d_max = 0.110E-02 at i =  17, j =   9, d_avg = 0.100E-03
+ Time step number          180
+   d_max = 0.107E-02 at i =  17, j =   9, d_avg = 0.992E-04
+ Time step number          185
+   d_max = 0.104E-02 at i =  17, j =  10, d_avg = 0.979E-04
+ Time step number          190
+   d_max = 0.102E-02 at i =  17, j =  10, d_avg = 0.965E-04
+ Time step number          195
+   d_max = 0.101E-02 at i =  17, j =  10, d_avg = 0.950E-04
+ Time step number          200
+   d_max = 0.979E-03 at i =  17, j =  10, d_avg = 0.934E-04
+ Time step number          205
+   d_max = 0.954E-03 at i =  17, j =  11, d_avg = 0.918E-04
+ Time step number          210
+   d_max = 0.941E-03 at i =  17, j =  11, d_avg = 0.901E-04
+ Time step number          215
+   d_max = 0.923E-03 at i =  17, j =  11, d_avg = 0.885E-04
+ Time step number          220
+   d_max = 0.897E-03 at i =  17, j =  11, d_avg = 0.869E-04
+ Time step number          225
+   d_max = 0.884E-03 at i =  18, j =  12, d_avg = 0.854E-04
+ Time step number          230
+   d_max = 0.869E-03 at i =  18, j =  12, d_avg = 0.840E-04
+ Time step number          235
+   d_max = 0.849E-03 at i =  18, j =  12, d_avg = 0.830E-04
+ Time step number          240
+   d_max = 0.836E-03 at i =  18, j =  13, d_avg = 0.820E-04
+ Time step number          245
+   d_max = 0.826E-03 at i =  18, j =  13, d_avg = 0.812E-04
+ Time step number          250
+   d_max = 0.811E-03 at i =  18, j =  13, d_avg = 0.803E-04
+ Time step number          255
+   d_max = 0.791E-03 at i =  18, j =  13, d_avg = 0.793E-04
+ Time step number          260
+   d_max = 0.780E-03 at i =  18, j =  14, d_avg = 0.783E-04
+ Time step number          265
+   d_max = 0.770E-03 at i =  18, j =  14, d_avg = 0.772E-04
+ Time step number          270
+   d_max = 0.755E-03 at i =  18, j =  14, d_avg = 0.761E-04
+ Time step number          275
+   d_max = 0.736E-03 at i =  18, j =  14, d_avg = 0.750E-04
+ Time step number          280
+   d_max = 0.728E-03 at i =  18, j =  15, d_avg = 0.738E-04
+ Time step number          285
+   d_max = 0.717E-03 at i =  18, j =  15, d_avg = 0.728E-04
+ Time step number          290
+   d_max = 0.702E-03 at i =  18, j =  15, d_avg = 0.717E-04
+ Time step number          295
+   d_max = 0.689E-03 at i =  13, j =   1, d_avg = 0.707E-04
+ Time step number          300
+   d_max = 0.691E-03 at i =  13, j =   1, d_avg = 0.697E-04
+ Time step number          305
+   d_max = 0.689E-03 at i =  13, j =   1, d_avg = 0.686E-04
+ Time step number          310
+   d_max = 0.108E-02 at i =  15, j =   1, d_avg = 0.688E-04
+ Time step number          315
+   d_max = 0.106E-02 at i =  15, j =   1, d_avg = 0.696E-04
+ Time step number          320
+   d_max = 0.107E-02 at i =  24, j =   1, d_avg = 0.704E-04
+ Time step number          325
+   d_max = 0.110E-02 at i =  24, j =   1, d_avg = 0.710E-04
+ Time step number          330
+   d_max = 0.113E-02 at i =  24, j =   1, d_avg = 0.717E-04
+ Time step number          335
+   d_max = 0.115E-02 at i =  24, j =   1, d_avg = 0.724E-04
+ Time step number          340
+   d_max = 0.118E-02 at i =  24, j =   1, d_avg = 0.730E-04
+ Time step number          345
+   d_max = 0.120E-02 at i =  24, j =   1, d_avg = 0.735E-04
+ Time step number          350
+   d_max = 0.122E-02 at i =  24, j =   1, d_avg = 0.740E-04
+ Time step number          355
+   d_max = 0.124E-02 at i =  24, j =   1, d_avg = 0.745E-04
+ Time step number          360
+   d_max = 0.126E-02 at i =  24, j =   1, d_avg = 0.749E-04
+ Time step number          365
+   d_max = 0.128E-02 at i =  24, j =   1, d_avg = 0.754E-04
+ Time step number          370
+   d_max = 0.129E-02 at i =  24, j =   1, d_avg = 0.759E-04
+ Time step number          375
+   d_max = 0.130E-02 at i =  24, j =   1, d_avg = 0.763E-04
+ Time step number          380
+   d_max = 0.131E-02 at i =  24, j =   1, d_avg = 0.767E-04
+ Time step number          385
+   d_max = 0.132E-02 at i =  24, j =   1, d_avg = 0.772E-04
+ Time step number          390
+   d_max = 0.132E-02 at i =  24, j =   1, d_avg = 0.776E-04
+ Time step number          395
+   d_max = 0.132E-02 at i =  24, j =   1, d_avg = 0.780E-04
+ Time step number          400
+   d_max = 0.132E-02 at i =  24, j =   1, d_avg = 0.783E-04
+ Time step number          405
+   d_max = 0.132E-02 at i =  24, j =   1, d_avg = 0.786E-04
+ Time step number          410
+   d_max = 0.132E-02 at i =  24, j =   1, d_avg = 0.788E-04
+ Time step number          415
+   d_max = 0.131E-02 at i =  24, j =   1, d_avg = 0.790E-04
+ Time step number          420
+   d_max = 0.131E-02 at i =  24, j =   1, d_avg = 0.792E-04
+ Time step number          425
+   d_max = 0.130E-02 at i =  24, j =   1, d_avg = 0.792E-04
+ Time step number          430
+   d_max = 0.129E-02 at i =  24, j =   1, d_avg = 0.793E-04
+ Time step number          435
+   d_max = 0.129E-02 at i =  24, j =   1, d_avg = 0.795E-04
+ Time step number          440
+   d_max = 0.128E-02 at i =  24, j =   1, d_avg = 0.796E-04
+ Time step number          445
+   d_max = 0.127E-02 at i =  24, j =   1, d_avg = 0.798E-04
+ Time step number          450
+   d_max = 0.126E-02 at i =  24, j =   1, d_avg = 0.799E-04
+ Time step number          455
+   d_max = 0.125E-02 at i =  24, j =   1, d_avg = 0.800E-04
+ Time step number          460
+   d_max = 0.124E-02 at i =  24, j =   1, d_avg = 0.801E-04
+ Time step number          465
+   d_max = 0.123E-02 at i =  24, j =   1, d_avg = 0.800E-04
+ Time step number          470
+   d_max = 0.121E-02 at i =  24, j =   1, d_avg = 0.800E-04
+ Time step number          475
+   d_max = 0.120E-02 at i =  24, j =   1, d_avg = 0.799E-04
+ Time step number          480
+   d_max = 0.119E-02 at i =  24, j =   1, d_avg = 0.798E-04
+ Time step number          485
+   d_max = 0.118E-02 at i =  24, j =   1, d_avg = 0.797E-04
+ Time step number          490
+   d_max = 0.117E-02 at i =  24, j =   1, d_avg = 0.796E-04
+ Time step number          495
+   d_max = 0.116E-02 at i =  24, j =   1, d_avg = 0.795E-04
+ Time step number          500
+   d_max = 0.115E-02 at i =  24, j =   1, d_avg = 0.794E-04
+ Time step number          505
+   d_max = 0.114E-02 at i =  24, j =   1, d_avg = 0.793E-04
+ Time step number          510
+   d_max = 0.113E-02 at i =  24, j =   1, d_avg = 0.792E-04
+ Time step number          515
+   d_max = 0.111E-02 at i =  24, j =   1, d_avg = 0.790E-04
+ Time step number          520
+   d_max = 0.110E-02 at i =  24, j =   1, d_avg = 0.788E-04
+ Time step number          525
+   d_max = 0.109E-02 at i =  24, j =   1, d_avg = 0.786E-04
+ Time step number          530
+   d_max = 0.108E-02 at i =  24, j =   1, d_avg = 0.784E-04
+ Time step number          535
+   d_max = 0.107E-02 at i =  24, j =   1, d_avg = 0.782E-04
+ Time step number          540
+   d_max = 0.105E-02 at i =  24, j =   1, d_avg = 0.779E-04
+ Time step number          545
+   d_max = 0.104E-02 at i =  24, j =   1, d_avg = 0.777E-04
+ Time step number          550
+   d_max = 0.103E-02 at i =  24, j =   1, d_avg = 0.774E-04
+ Time step number          555
+   d_max = 0.101E-02 at i =  24, j =   1, d_avg = 0.771E-04
+ Time step number          560
+   d_max = 0.100E-02 at i =  24, j =   1, d_avg = 0.768E-04
+ Time step number          565
+   d_max = 0.988E-03 at i =  24, j =   1, d_avg = 0.765E-04
+ Time step number          570
+   d_max = 0.975E-03 at i =  24, j =   1, d_avg = 0.762E-04
+ Time step number          575
+   d_max = 0.961E-03 at i =  24, j =   1, d_avg = 0.760E-04
+ Time step number          580
+   d_max = 0.948E-03 at i =  24, j =   1, d_avg = 0.756E-04
+ Time step number          585
+   d_max = 0.934E-03 at i =  24, j =   1, d_avg = 0.753E-04
+ Time step number          590
+   d_max = 0.921E-03 at i =  24, j =   1, d_avg = 0.749E-04
+ Time step number          595
+   d_max = 0.907E-03 at i =  24, j =   1, d_avg = 0.745E-04
+ Time step number          600
+   d_max = 0.894E-03 at i =  24, j =   1, d_avg = 0.741E-04
+ Time step number          605
+   d_max = 0.882E-03 at i =  24, j =   1, d_avg = 0.737E-04
+ Time step number          610
+   d_max = 0.869E-03 at i =  24, j =   1, d_avg = 0.733E-04
+ Time step number          615
+   d_max = 0.857E-03 at i =  24, j =   1, d_avg = 0.730E-04
+ Time step number          620
+   d_max = 0.845E-03 at i =  24, j =   1, d_avg = 0.726E-04
+ Time step number          625
+   d_max = 0.834E-03 at i =  24, j =   1, d_avg = 0.722E-04
+ Time step number          630
+   d_max = 0.823E-03 at i =  24, j =   1, d_avg = 0.718E-04
+ Time step number          635
+   d_max = 0.812E-03 at i =  24, j =   1, d_avg = 0.713E-04
+ Time step number          640
+   d_max = 0.804E-03 at i =  16, j =   2, d_avg = 0.709E-04
+ Time step number          645
+   d_max = 0.802E-03 at i =  16, j =   2, d_avg = 0.704E-04
+ Time step number          650
+   d_max = 0.800E-03 at i =  16, j =   2, d_avg = 0.700E-04
+ Time step number          655
+   d_max = 0.797E-03 at i =  16, j =   2, d_avg = 0.695E-04
+ Time step number          660
+   d_max = 0.794E-03 at i =  16, j =   2, d_avg = 0.691E-04
+ Time step number          665
+   d_max = 0.791E-03 at i =  16, j =   2, d_avg = 0.687E-04
+ Time step number          670
+   d_max = 0.788E-03 at i =  16, j =   2, d_avg = 0.682E-04
+ Time step number          675
+   d_max = 0.784E-03 at i =  16, j =   2, d_avg = 0.678E-04
+ Time step number          680
+   d_max = 0.781E-03 at i =  17, j =   2, d_avg = 0.673E-04
+ Time step number          685
+   d_max = 0.779E-03 at i =  17, j =   2, d_avg = 0.669E-04
+ Time step number          690
+   d_max = 0.777E-03 at i =  17, j =   2, d_avg = 0.665E-04
+ Time step number          695
+   d_max = 0.774E-03 at i =  17, j =   2, d_avg = 0.660E-04
+ Time step number          700
+   d_max = 0.772E-03 at i =  17, j =   2, d_avg = 0.655E-04
+ Time step number          705
+   d_max = 0.770E-03 at i =  17, j =   2, d_avg = 0.651E-04
+ Time step number          710
+   d_max = 0.768E-03 at i =  17, j =   2, d_avg = 0.646E-04
+ Time step number          715
+   d_max = 0.766E-03 at i =  17, j =   2, d_avg = 0.642E-04
+ Time step number          720
+   d_max = 0.764E-03 at i =  17, j =   2, d_avg = 0.637E-04
+ Time step number          725
+   d_max = 0.762E-03 at i =  17, j =   2, d_avg = 0.632E-04
+ Time step number          730
+   d_max = 0.760E-03 at i =  17, j =   2, d_avg = 0.628E-04
+ Time step number          735
+   d_max = 0.759E-03 at i =  17, j =   2, d_avg = 0.624E-04
+ Time step number          740
+   d_max = 0.757E-03 at i =  17, j =   2, d_avg = 0.619E-04
+ Time step number          745
+   d_max = 0.756E-03 at i =  17, j =   2, d_avg = 0.614E-04
+ Time step number          750
+   d_max = 0.755E-03 at i =  17, j =   2, d_avg = 0.609E-04
+ Time step number          755
+   d_max = 0.754E-03 at i =  17, j =   2, d_avg = 0.605E-04
+ Time step number          760
+   d_max = 0.753E-03 at i =  17, j =   2, d_avg = 0.601E-04
+ Time step number          765
+   d_max = 0.751E-03 at i =  17, j =   2, d_avg = 0.597E-04
+ Time step number          770
+   d_max = 0.750E-03 at i =  17, j =   2, d_avg = 0.593E-04
+ Time step number          775
+   d_max = 0.749E-03 at i =  17, j =   2, d_avg = 0.589E-04
+ Time step number          780
+   d_max = 0.748E-03 at i =  17, j =   2, d_avg = 0.585E-04
+ Time step number          785
+   d_max = 0.746E-03 at i =  17, j =   2, d_avg = 0.581E-04
+ Time step number          790
+   d_max = 0.745E-03 at i =  17, j =   2, d_avg = 0.577E-04
+ Time step number          795
+   d_max = 0.743E-03 at i =  17, j =   2, d_avg = 0.573E-04
+ Time step number          800
+   d_max = 0.742E-03 at i =  17, j =   2, d_avg = 0.570E-04
+ Time step number          805
+   d_max = 0.740E-03 at i =  17, j =   2, d_avg = 0.567E-04
+ Time step number          810
+   d_max = 0.738E-03 at i =  17, j =   2, d_avg = 0.564E-04
+ Time step number          815
+   d_max = 0.736E-03 at i =  17, j =   2, d_avg = 0.561E-04
+ Time step number          820
+   d_max = 0.734E-03 at i =  17, j =   2, d_avg = 0.558E-04
+ Time step number          825
+   d_max = 0.732E-03 at i =  17, j =   2, d_avg = 0.555E-04
+ Time step number          830
+   d_max = 0.730E-03 at i =  17, j =   2, d_avg = 0.552E-04
+ Time step number          835
+   d_max = 0.728E-03 at i =  17, j =   2, d_avg = 0.550E-04
+ Time step number          840
+   d_max = 0.726E-03 at i =  17, j =   2, d_avg = 0.547E-04
+ Time step number          845
+   d_max = 0.724E-03 at i =  17, j =   2, d_avg = 0.545E-04
+ Time step number          850
+   d_max = 0.722E-03 at i =  17, j =   2, d_avg = 0.543E-04
+ Time step number          855
+   d_max = 0.720E-03 at i =  17, j =   2, d_avg = 0.541E-04
+ Time step number          860
+   d_max = 0.718E-03 at i =  17, j =   2, d_avg = 0.538E-04
+ Time step number          865
+   d_max = 0.716E-03 at i =  17, j =   2, d_avg = 0.536E-04
+ Time step number          870
+   d_max = 0.714E-03 at i =  17, j =   2, d_avg = 0.533E-04
+ Time step number          875
+   d_max = 0.712E-03 at i =  17, j =   2, d_avg = 0.531E-04
+ Time step number          880
+   d_max = 0.711E-03 at i =  17, j =   2, d_avg = 0.529E-04
+ Time step number          885
+   d_max = 0.709E-03 at i =  17, j =   2, d_avg = 0.527E-04
+ Time step number          890
+   d_max = 0.707E-03 at i =  17, j =   2, d_avg = 0.524E-04
+ Time step number          895
+   d_max = 0.706E-03 at i =  17, j =   2, d_avg = 0.522E-04
+ Time step number          900
+   d_max = 0.704E-03 at i =  17, j =   2, d_avg = 0.519E-04
+ Time step number          905
+   d_max = 0.703E-03 at i =  17, j =   2, d_avg = 0.516E-04
+ Time step number          910
+   d_max = 0.701E-03 at i =  17, j =   2, d_avg = 0.514E-04
+ Time step number          915
+   d_max = 0.700E-03 at i =  17, j =   2, d_avg = 0.511E-04
+ Time step number          920
+   d_max = 0.698E-03 at i =  17, j =   2, d_avg = 0.508E-04
+ Time step number          925
+   d_max = 0.697E-03 at i =  17, j =   2, d_avg = 0.505E-04
+ Time step number          930
+   d_max = 0.695E-03 at i =  17, j =   2, d_avg = 0.502E-04
+ Time step number          935
+   d_max = 0.580E-03 at i =  18, j =   2, d_avg = 0.504E-04
+ Time step number          940
+   d_max = 0.580E-03 at i =  18, j =   2, d_avg = 0.507E-04
+ Time step number          945
+   d_max = 0.580E-03 at i =  18, j =   2, d_avg = 0.510E-04
+ Time step number          950
+   d_max = 0.580E-03 at i =  18, j =   2, d_avg = 0.513E-04
+ Time step number          955
+   d_max = 0.580E-03 at i =  18, j =   2, d_avg = 0.516E-04
+ Time step number          960
+   d_max = 0.580E-03 at i =  18, j =   2, d_avg = 0.519E-04
+ Time step number          965
+   d_max = 0.580E-03 at i =  18, j =   2, d_avg = 0.522E-04
+ Time step number          970
+   d_max = 0.580E-03 at i =  18, j =   2, d_avg = 0.524E-04
+ Time step number          975
+   d_max = 0.580E-03 at i =  18, j =   2, d_avg = 0.526E-04
+ Time step number          980
+   d_max = 0.580E-03 at i =  18, j =   2, d_avg = 0.528E-04
+ Time step number          985
+   d_max = 0.580E-03 at i =  18, j =   2, d_avg = 0.530E-04
+ Time step number          990
+   d_max = 0.580E-03 at i =  18, j =   2, d_avg = 0.532E-04
+ Time step number          995
+   d_max = 0.580E-03 at i =  18, j =   2, d_avg = 0.533E-04
+ Time step number         1000
+   d_max = 0.580E-03 at i =  18, j =   2, d_avg = 0.535E-04
+ Time step number         1005
+   d_max = 0.580E-03 at i =  18, j =   2, d_avg = 0.536E-04
+ Time step number         1010
+   d_max = 0.580E-03 at i =  18, j =   2, d_avg = 0.536E-04
+ Time step number         1015
+   d_max = 0.579E-03 at i =  18, j =   2, d_avg = 0.537E-04
+ Time step number         1020
+   d_max = 0.579E-03 at i =  18, j =   2, d_avg = 0.538E-04
+ Time step number         1025
+   d_max = 0.579E-03 at i =  18, j =   2, d_avg = 0.538E-04
+ Time step number         1030
+   d_max = 0.578E-03 at i =  18, j =   2, d_avg = 0.539E-04
+ Time step number         1035
+   d_max = 0.578E-03 at i =  18, j =   2, d_avg = 0.539E-04
+ Time step number         1040
+   d_max = 0.577E-03 at i =  18, j =   2, d_avg = 0.539E-04
+ Time step number         1045
+   d_max = 0.577E-03 at i =  18, j =   2, d_avg = 0.539E-04
+ Time step number         1050
+   d_max = 0.576E-03 at i =  18, j =   2, d_avg = 0.539E-04
+ Time step number         1055
+   d_max = 0.576E-03 at i =  18, j =   2, d_avg = 0.539E-04
+ Time step number         1060
+   d_max = 0.576E-03 at i =  18, j =   2, d_avg = 0.538E-04
+ Time step number         1065
+   d_max = 0.575E-03 at i =  18, j =   2, d_avg = 0.537E-04
+ Time step number         1070
+   d_max = 0.575E-03 at i =  18, j =   2, d_avg = 0.536E-04
+ Time step number         1075
+   d_max = 0.574E-03 at i =  18, j =   2, d_avg = 0.535E-04
+ Time step number         1080
+   d_max = 0.574E-03 at i =  18, j =   2, d_avg = 0.534E-04
+ Time step number         1085
+   d_max = 0.573E-03 at i =  18, j =   2, d_avg = 0.533E-04
+ Time step number         1090
+   d_max = 0.573E-03 at i =  18, j =   2, d_avg = 0.532E-04
+ Time step number         1095
+   d_max = 0.573E-03 at i =  18, j =   2, d_avg = 0.531E-04
+ Time step number         1100
+   d_max = 0.572E-03 at i =  18, j =   2, d_avg = 0.529E-04
+ Time step number         1105
+   d_max = 0.572E-03 at i =  18, j =   2, d_avg = 0.527E-04
+ Time step number         1110
+   d_max = 0.572E-03 at i =  18, j =   2, d_avg = 0.526E-04
+ Time step number         1115
+   d_max = 0.571E-03 at i =  18, j =   2, d_avg = 0.524E-04
+ Time step number         1120
+   d_max = 0.571E-03 at i =  18, j =   2, d_avg = 0.522E-04
+ Time step number         1125
+   d_max = 0.571E-03 at i =  18, j =   2, d_avg = 0.520E-04
+ Time step number         1130
+   d_max = 0.570E-03 at i =  18, j =   2, d_avg = 0.518E-04
+ Time step number         1135
+   d_max = 0.570E-03 at i =  18, j =   2, d_avg = 0.516E-04
+ Time step number         1140
+   d_max = 0.570E-03 at i =  18, j =   2, d_avg = 0.514E-04
+ Time step number         1145
+   d_max = 0.569E-03 at i =  18, j =   2, d_avg = 0.512E-04
+ Time step number         1150
+   d_max = 0.569E-03 at i =  18, j =   2, d_avg = 0.510E-04
+ Time step number         1155
+   d_max = 0.569E-03 at i =  18, j =   2, d_avg = 0.508E-04
+ Time step number         1160
+   d_max = 0.568E-03 at i =  18, j =   2, d_avg = 0.506E-04
+ Time step number         1165
+   d_max = 0.568E-03 at i =  18, j =   2, d_avg = 0.504E-04
+ Time step number         1170
+   d_max = 0.567E-03 at i =  18, j =   2, d_avg = 0.502E-04
+ Time step number         1175
+   d_max = 0.567E-03 at i =  18, j =   2, d_avg = 0.500E-04
+ Time step number         1180
+   d_max = 0.567E-03 at i =  18, j =   2, d_avg = 0.498E-04
+ Time step number         1185
+   d_max = 0.566E-03 at i =  18, j =   2, d_avg = 0.496E-04
+ Time step number         1190
+   d_max = 0.566E-03 at i =  18, j =   2, d_avg = 0.494E-04
+ Time step number         1195
+   d_max = 0.565E-03 at i =  18, j =   2, d_avg = 0.492E-04
+ Time step number         1200
+   d_max = 0.565E-03 at i =  18, j =   2, d_avg = 0.490E-04
+ Time step number         1205
+   d_max = 0.564E-03 at i =  18, j =   2, d_avg = 0.488E-04
+ Time step number         1210
+   d_max = 0.564E-03 at i =  18, j =   2, d_avg = 0.486E-04
+ Time step number         1215
+   d_max = 0.563E-03 at i =  18, j =   2, d_avg = 0.484E-04
+ Time step number         1220
+   d_max = 0.563E-03 at i =  18, j =   2, d_avg = 0.482E-04
+ Time step number         1225
+   d_max = 0.563E-03 at i =  18, j =   2, d_avg = 0.481E-04
+ Time step number         1230
+   d_max = 0.562E-03 at i =  18, j =   2, d_avg = 0.479E-04
+ Time step number         1235
+   d_max = 0.562E-03 at i =  18, j =   2, d_avg = 0.477E-04
+ Time step number         1240
+   d_max = 0.561E-03 at i =  18, j =   2, d_avg = 0.476E-04
+ Time step number         1245
+   d_max = 0.561E-03 at i =  18, j =   2, d_avg = 0.474E-04
+ Time step number         1250
+   d_max = 0.561E-03 at i =  18, j =   2, d_avg = 0.472E-04
+ Time step number         1255
+   d_max = 0.560E-03 at i =  18, j =   2, d_avg = 0.470E-04
+ Time step number         1260
+   d_max = 0.560E-03 at i =  18, j =   2, d_avg = 0.469E-04
+ Time step number         1265
+   d_max = 0.560E-03 at i =  18, j =   2, d_avg = 0.467E-04
+ Time step number         1270
+   d_max = 0.559E-03 at i =  18, j =   2, d_avg = 0.465E-04
+ Time step number         1275
+   d_max = 0.559E-03 at i =  18, j =   2, d_avg = 0.464E-04
+ Time step number         1280
+   d_max = 0.559E-03 at i =  18, j =   2, d_avg = 0.462E-04
+ Time step number         1285
+   d_max = 0.558E-03 at i =  18, j =   2, d_avg = 0.460E-04
+ Time step number         1290
+   d_max = 0.558E-03 at i =  18, j =   2, d_avg = 0.458E-04
+ Time step number         1295
+   d_max = 0.558E-03 at i =  18, j =   2, d_avg = 0.457E-04
+ Time step number         1300
+   d_max = 0.557E-03 at i =  18, j =   2, d_avg = 0.455E-04
+ Time step number         1305
+   d_max = 0.557E-03 at i =  18, j =   2, d_avg = 0.453E-04
+ Time step number         1310
+   d_max = 0.557E-03 at i =  18, j =   2, d_avg = 0.451E-04
+ Time step number         1315
+   d_max = 0.556E-03 at i =  18, j =   2, d_avg = 0.450E-04
+ Time step number         1320
+   d_max = 0.556E-03 at i =  18, j =   2, d_avg = 0.448E-04
+ Time step number         1325
+   d_max = 0.556E-03 at i =  18, j =   2, d_avg = 0.446E-04
+ Time step number         1330
+   d_max = 0.555E-03 at i =  18, j =   2, d_avg = 0.444E-04
+ Time step number         1335
+   d_max = 0.555E-03 at i =  18, j =   2, d_avg = 0.442E-04
+ Time step number         1340
+   d_max = 0.554E-03 at i =  18, j =   2, d_avg = 0.440E-04
+ Time step number         1345
+   d_max = 0.554E-03 at i =  18, j =   2, d_avg = 0.438E-04
+ Time step number         1350
+   d_max = 0.554E-03 at i =  18, j =   2, d_avg = 0.436E-04
+ Time step number         1355
+   d_max = 0.553E-03 at i =  18, j =   2, d_avg = 0.434E-04
+ Time step number         1360
+   d_max = 0.553E-03 at i =  18, j =   2, d_avg = 0.432E-04
+ Time step number         1365
+   d_max = 0.553E-03 at i =  18, j =   2, d_avg = 0.429E-04
+ Time step number         1370
+   d_max = 0.596E-03 at i =  17, j =   2, d_avg = 0.430E-04
+ Time step number         1375
+   d_max = 0.596E-03 at i =  17, j =   2, d_avg = 0.431E-04
+ Time step number         1380
+   d_max = 0.595E-03 at i =  17, j =   2, d_avg = 0.432E-04
+ Time step number         1385
+   d_max = 0.594E-03 at i =  17, j =   2, d_avg = 0.433E-04
+ Time step number         1390
+   d_max = 0.594E-03 at i =  17, j =   2, d_avg = 0.435E-04
+ Time step number         1395
+   d_max = 0.593E-03 at i =  17, j =   2, d_avg = 0.436E-04
+ Time step number         1400
+   d_max = 0.593E-03 at i =  17, j =   2, d_avg = 0.436E-04
+ Time step number         1405
+   d_max = 0.592E-03 at i =  17, j =   2, d_avg = 0.437E-04
+ Time step number         1410
+   d_max = 0.592E-03 at i =  17, j =   2, d_avg = 0.438E-04
+ Time step number         1415
+   d_max = 0.591E-03 at i =  17, j =   2, d_avg = 0.439E-04
+ Time step number         1420
+   d_max = 0.591E-03 at i =  17, j =   2, d_avg = 0.440E-04
+ Time step number         1425
+   d_max = 0.590E-03 at i =  17, j =   2, d_avg = 0.441E-04
+ Time step number         1430
+   d_max = 0.590E-03 at i =  17, j =   2, d_avg = 0.442E-04
+ Time step number         1435
+   d_max = 0.589E-03 at i =  17, j =   2, d_avg = 0.443E-04
+ Time step number         1440
+   d_max = 0.589E-03 at i =  17, j =   2, d_avg = 0.444E-04
+ Time step number         1445
+   d_max = 0.588E-03 at i =  17, j =   2, d_avg = 0.445E-04
+ Time step number         1450
+   d_max = 0.588E-03 at i =  17, j =   2, d_avg = 0.445E-04
+ Time step number         1455
+   d_max = 0.587E-03 at i =  17, j =   2, d_avg = 0.446E-04
+ Time step number         1460
+   d_max = 0.587E-03 at i =  17, j =   2, d_avg = 0.447E-04
+ Time step number         1465
+   d_max = 0.586E-03 at i =  17, j =   2, d_avg = 0.448E-04
+ Time step number         1470
+   d_max = 0.586E-03 at i =  17, j =   2, d_avg = 0.448E-04
+ Time step number         1475
+   d_max = 0.585E-03 at i =  17, j =   2, d_avg = 0.449E-04
+ Time step number         1480
+   d_max = 0.585E-03 at i =  17, j =   2, d_avg = 0.449E-04
+ Time step number         1485
+   d_max = 0.584E-03 at i =  17, j =   2, d_avg = 0.450E-04
+ Time step number         1490
+   d_max = 0.584E-03 at i =  17, j =   2, d_avg = 0.450E-04
+ Time step number         1495
+   d_max = 0.584E-03 at i =  17, j =   2, d_avg = 0.451E-04
+ Time step number         1500
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.451E-04
+ Time step number         1505
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.452E-04
+ Time step number         1510
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.452E-04
+ Time step number         1515
+   d_max = 0.582E-03 at i =  17, j =   2, d_avg = 0.452E-04
+ Time step number         1520
+   d_max = 0.582E-03 at i =  17, j =   2, d_avg = 0.453E-04
+ Time step number         1525
+   d_max = 0.582E-03 at i =  17, j =   2, d_avg = 0.453E-04
+ Time step number         1530
+   d_max = 0.582E-03 at i =  17, j =   2, d_avg = 0.453E-04
+ Time step number         1535
+   d_max = 0.581E-03 at i =  17, j =   2, d_avg = 0.454E-04
+ Time step number         1540
+   d_max = 0.581E-03 at i =  17, j =   2, d_avg = 0.454E-04
+ Time step number         1545
+   d_max = 0.581E-03 at i =  17, j =   2, d_avg = 0.454E-04
+ Time step number         1550
+   d_max = 0.581E-03 at i =  17, j =   2, d_avg = 0.454E-04
+ Time step number         1555
+   d_max = 0.581E-03 at i =  17, j =   2, d_avg = 0.454E-04
+ Time step number         1560
+   d_max = 0.581E-03 at i =  17, j =   2, d_avg = 0.455E-04
+ Time step number         1565
+   d_max = 0.582E-03 at i =  17, j =   2, d_avg = 0.455E-04
+ Time step number         1570
+   d_max = 0.582E-03 at i =  17, j =   2, d_avg = 0.455E-04
+ Time step number         1575
+   d_max = 0.582E-03 at i =  17, j =   2, d_avg = 0.455E-04
+ Time step number         1580
+   d_max = 0.582E-03 at i =  17, j =   2, d_avg = 0.455E-04
+ Time step number         1585
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.455E-04
+ Time step number         1590
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.455E-04
+ Time step number         1595
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.455E-04
+ Time step number         1600
+   d_max = 0.584E-03 at i =  17, j =   2, d_avg = 0.455E-04
+ Time step number         1605
+   d_max = 0.584E-03 at i =  17, j =   2, d_avg = 0.455E-04
+ Time step number         1610
+   d_max = 0.585E-03 at i =  17, j =   2, d_avg = 0.455E-04
+ Time step number         1615
+   d_max = 0.585E-03 at i =  17, j =   2, d_avg = 0.455E-04
+ Time step number         1620
+   d_max = 0.586E-03 at i =  17, j =   2, d_avg = 0.455E-04
+ Time step number         1625
+   d_max = 0.587E-03 at i =  17, j =   2, d_avg = 0.455E-04
+ Time step number         1630
+   d_max = 0.587E-03 at i =  17, j =   2, d_avg = 0.454E-04
+ Time step number         1635
+   d_max = 0.588E-03 at i =  17, j =   2, d_avg = 0.454E-04
+ Time step number         1640
+   d_max = 0.589E-03 at i =  17, j =   2, d_avg = 0.454E-04
+ Time step number         1645
+   d_max = 0.589E-03 at i =  17, j =   2, d_avg = 0.453E-04
+ Time step number         1650
+   d_max = 0.590E-03 at i =  17, j =   2, d_avg = 0.453E-04
+ Time step number         1655
+   d_max = 0.591E-03 at i =  17, j =   2, d_avg = 0.453E-04
+ Time step number         1660
+   d_max = 0.592E-03 at i =  17, j =   2, d_avg = 0.452E-04
+ Time step number         1665
+   d_max = 0.592E-03 at i =  17, j =   2, d_avg = 0.452E-04
+ Time step number         1670
+   d_max = 0.593E-03 at i =  17, j =   2, d_avg = 0.451E-04
+ Time step number         1675
+   d_max = 0.594E-03 at i =  17, j =   2, d_avg = 0.450E-04
+ Time step number         1680
+   d_max = 0.594E-03 at i =  17, j =   2, d_avg = 0.450E-04
+ Time step number         1685
+   d_max = 0.595E-03 at i =  17, j =   2, d_avg = 0.449E-04
+ Time step number         1690
+   d_max = 0.596E-03 at i =  17, j =   2, d_avg = 0.448E-04
+ Time step number         1695
+   d_max = 0.596E-03 at i =  17, j =   2, d_avg = 0.447E-04
+ Time step number         1700
+   d_max = 0.597E-03 at i =  17, j =   2, d_avg = 0.446E-04
+ Time step number         1705
+   d_max = 0.597E-03 at i =  17, j =   2, d_avg = 0.446E-04
+ Time step number         1710
+   d_max = 0.597E-03 at i =  17, j =   2, d_avg = 0.445E-04
+ Time step number         1715
+   d_max = 0.598E-03 at i =  17, j =   2, d_avg = 0.444E-04
+ Time step number         1720
+   d_max = 0.598E-03 at i =  17, j =   2, d_avg = 0.443E-04
+ Time step number         1725
+   d_max = 0.598E-03 at i =  17, j =   2, d_avg = 0.442E-04
+ Time step number         1730
+   d_max = 0.598E-03 at i =  17, j =   2, d_avg = 0.441E-04
+ Time step number         1735
+   d_max = 0.599E-03 at i =  17, j =   2, d_avg = 0.440E-04
+ Time step number         1740
+   d_max = 0.598E-03 at i =  17, j =   2, d_avg = 0.439E-04
+ Time step number         1745
+   d_max = 0.598E-03 at i =  17, j =   2, d_avg = 0.437E-04
+ Time step number         1750
+   d_max = 0.598E-03 at i =  17, j =   2, d_avg = 0.436E-04
+ Time step number         1755
+   d_max = 0.598E-03 at i =  17, j =   2, d_avg = 0.435E-04
+ Time step number         1760
+   d_max = 0.598E-03 at i =  17, j =   2, d_avg = 0.434E-04
+ Time step number         1765
+   d_max = 0.597E-03 at i =  17, j =   2, d_avg = 0.433E-04
+ Time step number         1770
+   d_max = 0.597E-03 at i =  17, j =   2, d_avg = 0.433E-04
+ Time step number         1775
+   d_max = 0.596E-03 at i =  17, j =   2, d_avg = 0.432E-04
+ Time step number         1780
+   d_max = 0.596E-03 at i =  17, j =   2, d_avg = 0.431E-04
+ Time step number         1785
+   d_max = 0.595E-03 at i =  17, j =   2, d_avg = 0.430E-04
+ Time step number         1790
+   d_max = 0.594E-03 at i =  17, j =   2, d_avg = 0.429E-04
+ Time step number         1795
+   d_max = 0.594E-03 at i =  17, j =   2, d_avg = 0.428E-04
+ Time step number         1800
+   d_max = 0.593E-03 at i =  17, j =   2, d_avg = 0.426E-04
+ Time step number         1805
+   d_max = 0.592E-03 at i =  17, j =   2, d_avg = 0.425E-04
+ Time step number         1810
+   d_max = 0.591E-03 at i =  17, j =   2, d_avg = 0.424E-04
+ Time step number         1815
+   d_max = 0.590E-03 at i =  17, j =   2, d_avg = 0.423E-04
+ Time step number         1820
+   d_max = 0.589E-03 at i =  17, j =   2, d_avg = 0.422E-04
+ Time step number         1825
+   d_max = 0.588E-03 at i =  17, j =   2, d_avg = 0.421E-04
+ Time step number         1830
+   d_max = 0.587E-03 at i =  17, j =   2, d_avg = 0.420E-04
+ Time step number         1835
+   d_max = 0.586E-03 at i =  17, j =   2, d_avg = 0.418E-04
+ Time step number         1840
+   d_max = 0.585E-03 at i =  17, j =   2, d_avg = 0.417E-04
+ Time step number         1845
+   d_max = 0.584E-03 at i =  17, j =   2, d_avg = 0.416E-04
+ Time step number         1850
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.415E-04
+ Time step number         1855
+   d_max = 0.582E-03 at i =  17, j =   2, d_avg = 0.414E-04
+ Time step number         1860
+   d_max = 0.581E-03 at i =  17, j =   2, d_avg = 0.413E-04
+ Time step number         1865
+   d_max = 0.580E-03 at i =  17, j =   2, d_avg = 0.411E-04
+ Time step number         1870
+   d_max = 0.579E-03 at i =  17, j =   2, d_avg = 0.410E-04
+ Time step number         1875
+   d_max = 0.579E-03 at i =  17, j =   2, d_avg = 0.409E-04
+ Time step number         1880
+   d_max = 0.578E-03 at i =  17, j =   2, d_avg = 0.408E-04
+ Time step number         1885
+   d_max = 0.577E-03 at i =  17, j =   2, d_avg = 0.407E-04
+ Time step number         1890
+   d_max = 0.576E-03 at i =  17, j =   2, d_avg = 0.406E-04
+ Time step number         1895
+   d_max = 0.575E-03 at i =  17, j =   2, d_avg = 0.405E-04
+ Time step number         1900
+   d_max = 0.574E-03 at i =  17, j =   2, d_avg = 0.404E-04
+ Time step number         1905
+   d_max = 0.573E-03 at i =  17, j =   2, d_avg = 0.403E-04
+ Time step number         1910
+   d_max = 0.573E-03 at i =  17, j =   2, d_avg = 0.402E-04
+ Time step number         1915
+   d_max = 0.572E-03 at i =  17, j =   2, d_avg = 0.401E-04
+ Time step number         1920
+   d_max = 0.571E-03 at i =  17, j =   2, d_avg = 0.400E-04
+ Time step number         1925
+   d_max = 0.571E-03 at i =  17, j =   2, d_avg = 0.399E-04
+ Time step number         1930
+   d_max = 0.570E-03 at i =  17, j =   2, d_avg = 0.398E-04
+ Time step number         1935
+   d_max = 0.570E-03 at i =  17, j =   2, d_avg = 0.397E-04
+ Time step number         1940
+   d_max = 0.569E-03 at i =  17, j =   2, d_avg = 0.396E-04
+ Time step number         1945
+   d_max = 0.569E-03 at i =  17, j =   2, d_avg = 0.395E-04
+ Time step number         1950
+   d_max = 0.568E-03 at i =  17, j =   2, d_avg = 0.394E-04
+ Time step number         1955
+   d_max = 0.568E-03 at i =  17, j =   2, d_avg = 0.393E-04
+ Time step number         1960
+   d_max = 0.567E-03 at i =  17, j =   2, d_avg = 0.392E-04
+ Time step number         1965
+   d_max = 0.567E-03 at i =  17, j =   2, d_avg = 0.392E-04
+ Time step number         1970
+   d_max = 0.567E-03 at i =  17, j =   2, d_avg = 0.391E-04
+ Time step number         1975
+   d_max = 0.566E-03 at i =  17, j =   2, d_avg = 0.390E-04
+ Time step number         1980
+   d_max = 0.566E-03 at i =  17, j =   2, d_avg = 0.389E-04
+ Time step number         1985
+   d_max = 0.566E-03 at i =  17, j =   2, d_avg = 0.388E-04
+ Time step number         1990
+   d_max = 0.566E-03 at i =  17, j =   2, d_avg = 0.387E-04
+ Time step number         1995
+   d_max = 0.565E-03 at i =  17, j =   2, d_avg = 0.386E-04
+ Time step number         2000
+   d_max = 0.565E-03 at i =  17, j =   2, d_avg = 0.385E-04
+ Time step number         2005
+   d_max = 0.565E-03 at i =  17, j =   2, d_avg = 0.384E-04
+ Time step number         2010
+   d_max = 0.565E-03 at i =  17, j =   2, d_avg = 0.383E-04
+ Time step number         2015
+   d_max = 0.565E-03 at i =  17, j =   2, d_avg = 0.382E-04
+ Time step number         2020
+   d_max = 0.564E-03 at i =  17, j =   2, d_avg = 0.381E-04
+ Time step number         2025
+   d_max = 0.564E-03 at i =  17, j =   2, d_avg = 0.380E-04
+ Time step number         2030
+   d_max = 0.564E-03 at i =  17, j =   2, d_avg = 0.379E-04
+ Time step number         2035
+   d_max = 0.564E-03 at i =  17, j =   2, d_avg = 0.378E-04
+ Time step number         2040
+   d_max = 0.564E-03 at i =  17, j =   2, d_avg = 0.377E-04
+ Time step number         2045
+   d_max = 0.564E-03 at i =  17, j =   2, d_avg = 0.376E-04
+ Time step number         2050
+   d_max = 0.563E-03 at i =  17, j =   2, d_avg = 0.374E-04
+ Time step number         2055
+   d_max = 0.563E-03 at i =  17, j =   2, d_avg = 0.374E-04
+ Time step number         2060
+   d_max = 0.563E-03 at i =  17, j =   2, d_avg = 0.373E-04
+ Time step number         2065
+   d_max = 0.563E-03 at i =  17, j =   2, d_avg = 0.372E-04
+ Time step number         2070
+   d_max = 0.563E-03 at i =  17, j =   2, d_avg = 0.371E-04
+ Time step number         2075
+   d_max = 0.563E-03 at i =  17, j =   2, d_avg = 0.370E-04
+ Time step number         2080
+   d_max = 0.563E-03 at i =  17, j =   2, d_avg = 0.370E-04
+ Time step number         2085
+   d_max = 0.562E-03 at i =  17, j =   2, d_avg = 0.369E-04
+ Time step number         2090
+   d_max = 0.562E-03 at i =  17, j =   2, d_avg = 0.368E-04
+ Time step number         2095
+   d_max = 0.562E-03 at i =  17, j =   2, d_avg = 0.368E-04
+ Time step number         2100
+   d_max = 0.562E-03 at i =  17, j =   2, d_avg = 0.367E-04
+ Time step number         2105
+   d_max = 0.562E-03 at i =  17, j =   2, d_avg = 0.366E-04
+ Time step number         2110
+   d_max = 0.562E-03 at i =  17, j =   2, d_avg = 0.365E-04
+ Time step number         2115
+   d_max = 0.562E-03 at i =  17, j =   2, d_avg = 0.365E-04
+ Time step number         2120
+   d_max = 0.561E-03 at i =  17, j =   2, d_avg = 0.364E-04
+ Time step number         2125
+   d_max = 0.561E-03 at i =  17, j =   2, d_avg = 0.364E-04
+ Time step number         2130
+   d_max = 0.561E-03 at i =  17, j =   2, d_avg = 0.363E-04
+ Time step number         2135
+   d_max = 0.561E-03 at i =  17, j =   2, d_avg = 0.362E-04
+ Time step number         2140
+   d_max = 0.561E-03 at i =  17, j =   2, d_avg = 0.362E-04
+ Time step number         2145
+   d_max = 0.561E-03 at i =  17, j =   2, d_avg = 0.361E-04
+ Time step number         2150
+   d_max = 0.561E-03 at i =  17, j =   2, d_avg = 0.360E-04
+ Time step number         2155
+   d_max = 0.561E-03 at i =  17, j =   2, d_avg = 0.359E-04
+ Time step number         2160
+   d_max = 0.517E-03 at i =  18, j =   2, d_avg = 0.359E-04
+ Time step number         2165
+   d_max = 0.517E-03 at i =  18, j =   2, d_avg = 0.360E-04
+ Time step number         2170
+   d_max = 0.517E-03 at i =  18, j =   2, d_avg = 0.361E-04
+ Time step number         2175
+   d_max = 0.518E-03 at i =  18, j =   2, d_avg = 0.361E-04
+ Time step number         2180
+   d_max = 0.518E-03 at i =  18, j =   2, d_avg = 0.362E-04
+ Time step number         2185
+   d_max = 0.518E-03 at i =  18, j =   2, d_avg = 0.363E-04
+ Time step number         2190
+   d_max = 0.518E-03 at i =  18, j =   2, d_avg = 0.364E-04
+ Time step number         2195
+   d_max = 0.518E-03 at i =  18, j =   2, d_avg = 0.365E-04
+ Time step number         2200
+   d_max = 0.518E-03 at i =  18, j =   2, d_avg = 0.366E-04
+ Time step number         2205
+   d_max = 0.518E-03 at i =  18, j =   2, d_avg = 0.367E-04
+ Time step number         2210
+   d_max = 0.518E-03 at i =  18, j =   2, d_avg = 0.368E-04
+ Time step number         2215
+   d_max = 0.518E-03 at i =  18, j =   2, d_avg = 0.368E-04
+ Time step number         2220
+   d_max = 0.518E-03 at i =  18, j =   2, d_avg = 0.369E-04
+ Time step number         2225
+   d_max = 0.518E-03 at i =  18, j =   2, d_avg = 0.370E-04
+ Time step number         2230
+   d_max = 0.518E-03 at i =  18, j =   2, d_avg = 0.371E-04
+ Time step number         2235
+   d_max = 0.518E-03 at i =  18, j =   2, d_avg = 0.372E-04
+ Time step number         2240
+   d_max = 0.518E-03 at i =  18, j =   2, d_avg = 0.373E-04
+ Time step number         2245
+   d_max = 0.518E-03 at i =  18, j =   2, d_avg = 0.374E-04
+ Time step number         2250
+   d_max = 0.518E-03 at i =  18, j =   2, d_avg = 0.375E-04
+ Time step number         2255
+   d_max = 0.517E-03 at i =  18, j =   2, d_avg = 0.376E-04
+ Time step number         2260
+   d_max = 0.517E-03 at i =  18, j =   2, d_avg = 0.377E-04
+ Time step number         2265
+   d_max = 0.517E-03 at i =  18, j =   2, d_avg = 0.378E-04
+ Time step number         2270
+   d_max = 0.517E-03 at i =  18, j =   2, d_avg = 0.379E-04
+ Time step number         2275
+   d_max = 0.517E-03 at i =  18, j =   2, d_avg = 0.380E-04
+ Time step number         2280
+   d_max = 0.517E-03 at i =  18, j =   2, d_avg = 0.381E-04
+ Time step number         2285
+   d_max = 0.517E-03 at i =  18, j =   2, d_avg = 0.382E-04
+ Time step number         2290
+   d_max = 0.517E-03 at i =  18, j =   2, d_avg = 0.383E-04
+ Time step number         2295
+   d_max = 0.517E-03 at i =  18, j =   2, d_avg = 0.384E-04
+ Time step number         2300
+   d_max = 0.517E-03 at i =  18, j =   2, d_avg = 0.384E-04
+ Time step number         2305
+   d_max = 0.517E-03 at i =  18, j =   2, d_avg = 0.385E-04
+ Time step number         2310
+   d_max = 0.517E-03 at i =  18, j =   2, d_avg = 0.386E-04
+ Time step number         2315
+   d_max = 0.517E-03 at i =  18, j =   2, d_avg = 0.387E-04
+ Time step number         2320
+   d_max = 0.517E-03 at i =  18, j =   2, d_avg = 0.388E-04
+ Time step number         2325
+   d_max = 0.517E-03 at i =  18, j =   2, d_avg = 0.389E-04
+ Time step number         2330
+   d_max = 0.517E-03 at i =  18, j =   2, d_avg = 0.389E-04
+ Time step number         2335
+   d_max = 0.517E-03 at i =  18, j =   2, d_avg = 0.390E-04
+ Time step number         2340
+   d_max = 0.517E-03 at i =  18, j =   2, d_avg = 0.390E-04
+ Time step number         2345
+   d_max = 0.517E-03 at i =  18, j =   2, d_avg = 0.391E-04
+ Time step number         2350
+   d_max = 0.517E-03 at i =  18, j =   2, d_avg = 0.391E-04
+ Time step number         2355
+   d_max = 0.517E-03 at i =  18, j =   2, d_avg = 0.392E-04
+ Time step number         2360
+   d_max = 0.517E-03 at i =  18, j =   2, d_avg = 0.392E-04
+ Time step number         2365
+   d_max = 0.517E-03 at i =  18, j =   2, d_avg = 0.392E-04
+ Time step number         2370
+   d_max = 0.517E-03 at i =  18, j =   2, d_avg = 0.393E-04
+ Time step number         2375
+   d_max = 0.516E-03 at i =  18, j =   2, d_avg = 0.393E-04
+ Time step number         2380
+   d_max = 0.516E-03 at i =  18, j =   2, d_avg = 0.393E-04
+ Time step number         2385
+   d_max = 0.516E-03 at i =  18, j =   2, d_avg = 0.393E-04
+ Time step number         2390
+   d_max = 0.516E-03 at i =  18, j =   2, d_avg = 0.393E-04
+ Time step number         2395
+   d_max = 0.516E-03 at i =  18, j =   2, d_avg = 0.392E-04
+ Time step number         2400
+   d_max = 0.516E-03 at i =  18, j =   2, d_avg = 0.392E-04
+ Time step number         2405
+   d_max = 0.516E-03 at i =  18, j =   2, d_avg = 0.392E-04
+ Time step number         2410
+   d_max = 0.516E-03 at i =  18, j =   2, d_avg = 0.391E-04
+ Time step number         2415
+   d_max = 0.516E-03 at i =  18, j =   2, d_avg = 0.391E-04
+ Time step number         2420
+   d_max = 0.516E-03 at i =  18, j =   2, d_avg = 0.390E-04
+ Time step number         2425
+   d_max = 0.516E-03 at i =  18, j =   2, d_avg = 0.389E-04
+ Time step number         2430
+   d_max = 0.516E-03 at i =  18, j =   2, d_avg = 0.389E-04
+ Time step number         2435
+   d_max = 0.516E-03 at i =  18, j =   2, d_avg = 0.388E-04
+ Time step number         2440
+   d_max = 0.516E-03 at i =  18, j =   2, d_avg = 0.387E-04
+ Time step number         2445
+   d_max = 0.516E-03 at i =  18, j =   2, d_avg = 0.386E-04
+ Time step number         2450
+   d_max = 0.516E-03 at i =  18, j =   2, d_avg = 0.385E-04
+ Time step number         2455
+   d_max = 0.516E-03 at i =  18, j =   2, d_avg = 0.384E-04
+ Time step number         2460
+   d_max = 0.516E-03 at i =  18, j =   2, d_avg = 0.382E-04
+ Time step number         2465
+   d_max = 0.516E-03 at i =  18, j =   2, d_avg = 0.381E-04
+ Time step number         2470
+   d_max = 0.516E-03 at i =  18, j =   2, d_avg = 0.379E-04
+ Time step number         2475
+   d_max = 0.515E-03 at i =  18, j =   2, d_avg = 0.378E-04
+ Time step number         2480
+   d_max = 0.515E-03 at i =  18, j =   2, d_avg = 0.376E-04
+ Time step number         2485
+   d_max = 0.515E-03 at i =  18, j =   2, d_avg = 0.374E-04
+ Time step number         2490
+   d_max = 0.515E-03 at i =  18, j =   2, d_avg = 0.373E-04
+ Time step number         2495
+   d_max = 0.515E-03 at i =  18, j =   2, d_avg = 0.371E-04
+ Time step number         2500
+   d_max = 0.515E-03 at i =  18, j =   2, d_avg = 0.369E-04
+ Time step number         2505
+   d_max = 0.515E-03 at i =  18, j =   2, d_avg = 0.367E-04
+ Time step number         2510
+   d_max = 0.515E-03 at i =  18, j =   2, d_avg = 0.365E-04
+ Time step number         2515
+   d_max = 0.515E-03 at i =  18, j =   2, d_avg = 0.362E-04
+ Time step number         2520
+   d_max = 0.515E-03 at i =  18, j =   2, d_avg = 0.360E-04
+ Time step number         2525
+   d_max = 0.515E-03 at i =  18, j =   2, d_avg = 0.358E-04
+ Time step number         2530
+   d_max = 0.515E-03 at i =  18, j =   2, d_avg = 0.355E-04
+ Time step number         2535
+   d_max = 0.515E-03 at i =  18, j =   2, d_avg = 0.353E-04
+ Time step number         2540
+   d_max = 0.515E-03 at i =  18, j =   2, d_avg = 0.351E-04
+ Time step number         2545
+   d_max = 0.515E-03 at i =  18, j =   2, d_avg = 0.348E-04
+ Time step number         2550
+   d_max = 0.515E-03 at i =  18, j =   2, d_avg = 0.345E-04
+ Time step number         2555
+   d_max = 0.515E-03 at i =  18, j =   2, d_avg = 0.343E-04
+ Time step number         2560
+   d_max = 0.515E-03 at i =  18, j =   2, d_avg = 0.340E-04
+ Time step number         2565
+   d_max = 0.515E-03 at i =  18, j =   2, d_avg = 0.337E-04
+ Time step number         2570
+   d_max = 0.515E-03 at i =  18, j =   2, d_avg = 0.335E-04
+ Time step number         2575
+   d_max = 0.515E-03 at i =  18, j =   2, d_avg = 0.332E-04
+ Time step number         2580
+   d_max = 0.515E-03 at i =  18, j =   2, d_avg = 0.330E-04
+ Time step number         2585
+   d_max = 0.514E-03 at i =  18, j =   2, d_avg = 0.327E-04
+ Time step number         2590
+   d_max = 0.514E-03 at i =  18, j =   2, d_avg = 0.325E-04
+ Time step number         2595
+   d_max = 0.514E-03 at i =  18, j =   2, d_avg = 0.323E-04
+ Time step number         2600
+   d_max = 0.514E-03 at i =  18, j =   2, d_avg = 0.321E-04
+ Time step number         2605
+   d_max = 0.514E-03 at i =  18, j =   2, d_avg = 0.319E-04
+ Time step number         2610
+   d_max = 0.514E-03 at i =  18, j =   2, d_avg = 0.318E-04
+ Time step number         2615
+   d_max = 0.514E-03 at i =  18, j =   2, d_avg = 0.317E-04
+ Time step number         2620
+   d_max = 0.514E-03 at i =  18, j =   2, d_avg = 0.316E-04
+ Time step number         2625
+   d_max = 0.514E-03 at i =  18, j =   2, d_avg = 0.315E-04
+ Time step number         2630
+   d_max = 0.514E-03 at i =  18, j =   2, d_avg = 0.314E-04
+ Time step number         2635
+   d_max = 0.514E-03 at i =  18, j =   2, d_avg = 0.313E-04
+ Time step number         2640
+   d_max = 0.514E-03 at i =  18, j =   2, d_avg = 0.312E-04
+ Time step number         2645
+   d_max = 0.514E-03 at i =  18, j =   2, d_avg = 0.311E-04
+ Time step number         2650
+   d_max = 0.514E-03 at i =  18, j =   2, d_avg = 0.311E-04
+ Time step number         2655
+   d_max = 0.514E-03 at i =  18, j =   2, d_avg = 0.310E-04
+ Time step number         2660
+   d_max = 0.514E-03 at i =  18, j =   2, d_avg = 0.310E-04
+ Time step number         2665
+   d_max = 0.514E-03 at i =  18, j =   2, d_avg = 0.309E-04
+ Time step number         2670
+   d_max = 0.514E-03 at i =  18, j =   2, d_avg = 0.309E-04
+ Time step number         2675
+   d_max = 0.514E-03 at i =  18, j =   2, d_avg = 0.309E-04
+ Time step number         2680
+   d_max = 0.514E-03 at i =  18, j =   2, d_avg = 0.308E-04
+ Time step number         2685
+   d_max = 0.514E-03 at i =  18, j =   2, d_avg = 0.308E-04
+ Time step number         2690
+   d_max = 0.514E-03 at i =  18, j =   2, d_avg = 0.308E-04
+ Time step number         2695
+   d_max = 0.514E-03 at i =  18, j =   2, d_avg = 0.308E-04
+ Time step number         2700
+   d_max = 0.514E-03 at i =  18, j =   2, d_avg = 0.307E-04
+ Time step number         2705
+   d_max = 0.514E-03 at i =  18, j =   2, d_avg = 0.307E-04
+ Time step number         2710
+   d_max = 0.514E-03 at i =  18, j =   2, d_avg = 0.307E-04
+ Time step number         2715
+   d_max = 0.514E-03 at i =  18, j =   2, d_avg = 0.307E-04
+ Time step number         2720
+   d_max = 0.514E-03 at i =  18, j =   2, d_avg = 0.307E-04
+ Time step number         2725
+   d_max = 0.514E-03 at i =  18, j =   2, d_avg = 0.306E-04
+ Time step number         2730
+   d_max = 0.514E-03 at i =  18, j =   2, d_avg = 0.306E-04
+ Time step number         2735
+   d_max = 0.514E-03 at i =  18, j =   2, d_avg = 0.306E-04
+ Time step number         2740
+   d_max = 0.514E-03 at i =  18, j =   2, d_avg = 0.305E-04
+ Time step number         2745
+   d_max = 0.514E-03 at i =  18, j =   2, d_avg = 0.305E-04
+ Time step number         2750
+   d_max = 0.514E-03 at i =  18, j =   2, d_avg = 0.305E-04
+ Time step number         2755
+   d_max = 0.514E-03 at i =  18, j =   2, d_avg = 0.304E-04
+ Time step number         2760
+   d_max = 0.514E-03 at i =  18, j =   2, d_avg = 0.304E-04
+ Time step number         2765
+   d_max = 0.514E-03 at i =  18, j =   2, d_avg = 0.303E-04
+ Time step number         2770
+   d_max = 0.514E-03 at i =  18, j =   2, d_avg = 0.303E-04
+ Time step number         2775
+   d_max = 0.514E-03 at i =  18, j =   2, d_avg = 0.302E-04
+ Time step number         2780
+   d_max = 0.514E-03 at i =  18, j =   2, d_avg = 0.302E-04
+ Time step number         2785
+   d_max = 0.514E-03 at i =  18, j =   2, d_avg = 0.301E-04
+ Time step number         2790
+   d_max = 0.514E-03 at i =  18, j =   2, d_avg = 0.300E-04
+ Time step number         2795
+   d_max = 0.514E-03 at i =  18, j =   2, d_avg = 0.300E-04
+ Time step number         2800
+   d_max = 0.514E-03 at i =  18, j =   2, d_avg = 0.299E-04
+ Time step number         2805
+   d_max = 0.514E-03 at i =  18, j =   2, d_avg = 0.298E-04
+ Time step number         2810
+   d_max = 0.514E-03 at i =  18, j =   2, d_avg = 0.297E-04
+ Time step number         2815
+   d_max = 0.514E-03 at i =  18, j =   2, d_avg = 0.297E-04
+ Time step number         2820
+   d_max = 0.514E-03 at i =  18, j =   2, d_avg = 0.296E-04
+ Time step number         2825
+   d_max = 0.514E-03 at i =  18, j =   2, d_avg = 0.295E-04
+ Time step number         2830
+   d_max = 0.514E-03 at i =  18, j =   2, d_avg = 0.294E-04
+ Time step number         2835
+   d_max = 0.514E-03 at i =  18, j =   2, d_avg = 0.293E-04
+ Time step number         2840
+   d_max = 0.514E-03 at i =  18, j =   2, d_avg = 0.292E-04
+ Time step number         2845
+   d_max = 0.514E-03 at i =  18, j =   2, d_avg = 0.292E-04
+ Time step number         2850
+   d_max = 0.514E-03 at i =  18, j =   2, d_avg = 0.291E-04
+ Time step number         2855
+   d_max = 0.514E-03 at i =  18, j =   2, d_avg = 0.290E-04
+ Time step number         2860
+   d_max = 0.514E-03 at i =  18, j =   2, d_avg = 0.289E-04
+ Time step number         2865
+   d_max = 0.514E-03 at i =  18, j =   2, d_avg = 0.288E-04
+ Time step number         2870
+   d_max = 0.514E-03 at i =  18, j =   2, d_avg = 0.288E-04
+ Time step number         2875
+   d_max = 0.514E-03 at i =  18, j =   2, d_avg = 0.287E-04
+ Time step number         2880
+   d_max = 0.514E-03 at i =  18, j =   2, d_avg = 0.286E-04
+ Time step number         2885
+   d_max = 0.514E-03 at i =  18, j =   2, d_avg = 0.285E-04
+ Time step number         2890
+   d_max = 0.514E-03 at i =  18, j =   2, d_avg = 0.285E-04
+ Time step number         2895
+   d_max = 0.514E-03 at i =  18, j =   2, d_avg = 0.284E-04
+ Time step number         2900
+   d_max = 0.575E-03 at i =  17, j =   2, d_avg = 0.284E-04
+ Time step number         2905
+   d_max = 0.576E-03 at i =  17, j =   2, d_avg = 0.284E-04
+ Time step number         2910
+   d_max = 0.576E-03 at i =  17, j =   2, d_avg = 0.285E-04
+ Time step number         2915
+   d_max = 0.576E-03 at i =  17, j =   2, d_avg = 0.285E-04
+ Time step number         2920
+   d_max = 0.577E-03 at i =  17, j =   2, d_avg = 0.285E-04
+ Time step number         2925
+   d_max = 0.577E-03 at i =  17, j =   2, d_avg = 0.286E-04
+ Time step number         2930
+   d_max = 0.577E-03 at i =  17, j =   2, d_avg = 0.286E-04
+ Time step number         2935
+   d_max = 0.577E-03 at i =  17, j =   2, d_avg = 0.286E-04
+ Time step number         2940
+   d_max = 0.578E-03 at i =  17, j =   2, d_avg = 0.287E-04
+ Time step number         2945
+   d_max = 0.578E-03 at i =  17, j =   2, d_avg = 0.287E-04
+ Time step number         2950
+   d_max = 0.578E-03 at i =  17, j =   2, d_avg = 0.287E-04
+ Time step number         2955
+   d_max = 0.578E-03 at i =  17, j =   2, d_avg = 0.287E-04
+ Time step number         2960
+   d_max = 0.579E-03 at i =  17, j =   2, d_avg = 0.288E-04
+ Time step number         2965
+   d_max = 0.579E-03 at i =  17, j =   2, d_avg = 0.288E-04
+ Time step number         2970
+   d_max = 0.579E-03 at i =  17, j =   2, d_avg = 0.288E-04
+ Time step number         2975
+   d_max = 0.579E-03 at i =  17, j =   2, d_avg = 0.288E-04
+ Time step number         2980
+   d_max = 0.580E-03 at i =  17, j =   2, d_avg = 0.289E-04
+ Time step number         2985
+   d_max = 0.580E-03 at i =  17, j =   2, d_avg = 0.289E-04
+ Time step number         2990
+   d_max = 0.580E-03 at i =  17, j =   2, d_avg = 0.289E-04
+ Time step number         2995
+   d_max = 0.581E-03 at i =  17, j =   2, d_avg = 0.289E-04
+ Time step number         3000
+   d_max = 0.581E-03 at i =  17, j =   2, d_avg = 0.290E-04
+ Time step number         3005
+   d_max = 0.581E-03 at i =  17, j =   2, d_avg = 0.290E-04
+ Time step number         3010
+   d_max = 0.581E-03 at i =  17, j =   2, d_avg = 0.290E-04
+ Time step number         3015
+   d_max = 0.582E-03 at i =  17, j =   2, d_avg = 0.290E-04
+ Time step number         3020
+   d_max = 0.582E-03 at i =  17, j =   2, d_avg = 0.290E-04
+ Time step number         3025
+   d_max = 0.582E-03 at i =  17, j =   2, d_avg = 0.291E-04
+ Time step number         3030
+   d_max = 0.582E-03 at i =  17, j =   2, d_avg = 0.291E-04
+ Time step number         3035
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.291E-04
+ Time step number         3040
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.291E-04
+ Time step number         3045
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.291E-04
+ Time step number         3050
+   d_max = 0.584E-03 at i =  17, j =   2, d_avg = 0.292E-04
+ Time step number         3055
+   d_max = 0.584E-03 at i =  17, j =   2, d_avg = 0.292E-04
+ Time step number         3060
+   d_max = 0.584E-03 at i =  17, j =   2, d_avg = 0.292E-04
+ Time step number         3065
+   d_max = 0.584E-03 at i =  17, j =   2, d_avg = 0.292E-04
+ Time step number         3070
+   d_max = 0.585E-03 at i =  17, j =   2, d_avg = 0.292E-04
+ Time step number         3075
+   d_max = 0.585E-03 at i =  17, j =   2, d_avg = 0.292E-04
+ Time step number         3080
+   d_max = 0.585E-03 at i =  17, j =   2, d_avg = 0.293E-04
+ Time step number         3085
+   d_max = 0.586E-03 at i =  17, j =   2, d_avg = 0.293E-04
+ Time step number         3090
+   d_max = 0.586E-03 at i =  17, j =   2, d_avg = 0.293E-04
+ Time step number         3095
+   d_max = 0.586E-03 at i =  17, j =   2, d_avg = 0.293E-04
+ Time step number         3100
+   d_max = 0.586E-03 at i =  17, j =   2, d_avg = 0.293E-04
+ Time step number         3105
+   d_max = 0.587E-03 at i =  17, j =   2, d_avg = 0.293E-04
+ Time step number         3110
+   d_max = 0.587E-03 at i =  17, j =   2, d_avg = 0.293E-04
+ Time step number         3115
+   d_max = 0.587E-03 at i =  17, j =   2, d_avg = 0.293E-04
+ Time step number         3120
+   d_max = 0.587E-03 at i =  17, j =   2, d_avg = 0.294E-04
+ Time step number         3125
+   d_max = 0.588E-03 at i =  17, j =   2, d_avg = 0.294E-04
+ Time step number         3130
+   d_max = 0.588E-03 at i =  17, j =   2, d_avg = 0.294E-04
+ Time step number         3135
+   d_max = 0.588E-03 at i =  17, j =   2, d_avg = 0.294E-04
+ Time step number         3140
+   d_max = 0.589E-03 at i =  17, j =   2, d_avg = 0.294E-04
+ Time step number         3145
+   d_max = 0.589E-03 at i =  17, j =   2, d_avg = 0.294E-04
+ Time step number         3150
+   d_max = 0.589E-03 at i =  17, j =   2, d_avg = 0.294E-04
+ Time step number         3155
+   d_max = 0.589E-03 at i =  17, j =   2, d_avg = 0.294E-04
+ Time step number         3160
+   d_max = 0.590E-03 at i =  17, j =   2, d_avg = 0.294E-04
+ Time step number         3165
+   d_max = 0.590E-03 at i =  17, j =   2, d_avg = 0.294E-04
+ Time step number         3170
+   d_max = 0.590E-03 at i =  17, j =   2, d_avg = 0.294E-04
+ Time step number         3175
+   d_max = 0.590E-03 at i =  17, j =   2, d_avg = 0.294E-04
+ Time step number         3180
+   d_max = 0.591E-03 at i =  17, j =   2, d_avg = 0.294E-04
+ Time step number         3185
+   d_max = 0.591E-03 at i =  17, j =   2, d_avg = 0.294E-04
+ Time step number         3190
+   d_max = 0.591E-03 at i =  17, j =   2, d_avg = 0.294E-04
+ Time step number         3195
+   d_max = 0.591E-03 at i =  17, j =   2, d_avg = 0.294E-04
+ Time step number         3200
+   d_max = 0.592E-03 at i =  17, j =   2, d_avg = 0.294E-04
+ Time step number         3205
+   d_max = 0.592E-03 at i =  17, j =   2, d_avg = 0.294E-04
+ Time step number         3210
+   d_max = 0.592E-03 at i =  17, j =   2, d_avg = 0.293E-04
+ Time step number         3215
+   d_max = 0.592E-03 at i =  17, j =   2, d_avg = 0.293E-04
+ Time step number         3220
+   d_max = 0.593E-03 at i =  17, j =   2, d_avg = 0.293E-04
+ Time step number         3225
+   d_max = 0.593E-03 at i =  17, j =   2, d_avg = 0.293E-04
+ Time step number         3230
+   d_max = 0.593E-03 at i =  17, j =   2, d_avg = 0.293E-04
+ Time step number         3235
+   d_max = 0.593E-03 at i =  17, j =   2, d_avg = 0.293E-04
+ Time step number         3240
+   d_max = 0.594E-03 at i =  17, j =   2, d_avg = 0.293E-04
+ Time step number         3245
+   d_max = 0.594E-03 at i =  17, j =   2, d_avg = 0.292E-04
+ Time step number         3250
+   d_max = 0.594E-03 at i =  17, j =   2, d_avg = 0.292E-04
+ Time step number         3255
+   d_max = 0.594E-03 at i =  17, j =   2, d_avg = 0.292E-04
+ Time step number         3260
+   d_max = 0.595E-03 at i =  17, j =   2, d_avg = 0.292E-04
+ Time step number         3265
+   d_max = 0.595E-03 at i =  17, j =   2, d_avg = 0.292E-04
+ Time step number         3270
+   d_max = 0.595E-03 at i =  17, j =   2, d_avg = 0.291E-04
+ Time step number         3275
+   d_max = 0.595E-03 at i =  17, j =   2, d_avg = 0.291E-04
+ Time step number         3280
+   d_max = 0.595E-03 at i =  17, j =   2, d_avg = 0.291E-04
+ Time step number         3285
+   d_max = 0.596E-03 at i =  17, j =   2, d_avg = 0.291E-04
+ Time step number         3290
+   d_max = 0.596E-03 at i =  17, j =   2, d_avg = 0.291E-04
+ Time step number         3295
+   d_max = 0.596E-03 at i =  17, j =   2, d_avg = 0.290E-04
+ Time step number         3300
+   d_max = 0.596E-03 at i =  17, j =   2, d_avg = 0.290E-04
+ Time step number         3305
+   d_max = 0.596E-03 at i =  17, j =   2, d_avg = 0.290E-04
+ Time step number         3310
+   d_max = 0.597E-03 at i =  17, j =   2, d_avg = 0.290E-04
+ Time step number         3315
+   d_max = 0.597E-03 at i =  17, j =   2, d_avg = 0.289E-04
+ Time step number         3320
+   d_max = 0.597E-03 at i =  17, j =   2, d_avg = 0.289E-04
+ Time step number         3325
+   d_max = 0.597E-03 at i =  17, j =   2, d_avg = 0.289E-04
+ Time step number         3330
+   d_max = 0.597E-03 at i =  17, j =   2, d_avg = 0.289E-04
+ Time step number         3335
+   d_max = 0.597E-03 at i =  17, j =   2, d_avg = 0.288E-04
+ Time step number         3340
+   d_max = 0.598E-03 at i =  17, j =   2, d_avg = 0.288E-04
+ Time step number         3345
+   d_max = 0.598E-03 at i =  17, j =   2, d_avg = 0.288E-04
+ Time step number         3350
+   d_max = 0.598E-03 at i =  17, j =   2, d_avg = 0.288E-04
+ Time step number         3355
+   d_max = 0.598E-03 at i =  17, j =   2, d_avg = 0.287E-04
+ Time step number         3360
+   d_max = 0.598E-03 at i =  17, j =   2, d_avg = 0.287E-04
+ Time step number         3365
+   d_max = 0.598E-03 at i =  17, j =   2, d_avg = 0.287E-04
+ Time step number         3370
+   d_max = 0.598E-03 at i =  17, j =   2, d_avg = 0.286E-04
+ Time step number         3375
+   d_max = 0.598E-03 at i =  17, j =   2, d_avg = 0.286E-04
+ Time step number         3380
+   d_max = 0.598E-03 at i =  17, j =   2, d_avg = 0.286E-04
+ Time step number         3385
+   d_max = 0.599E-03 at i =  17, j =   2, d_avg = 0.285E-04
+ Time step number         3390
+   d_max = 0.599E-03 at i =  17, j =   2, d_avg = 0.285E-04
+ Time step number         3395
+   d_max = 0.599E-03 at i =  17, j =   2, d_avg = 0.285E-04
+ Time step number         3400
+   d_max = 0.599E-03 at i =  17, j =   2, d_avg = 0.285E-04
+ Time step number         3405
+   d_max = 0.599E-03 at i =  17, j =   2, d_avg = 0.284E-04
+ Time step number         3410
+   d_max = 0.599E-03 at i =  17, j =   2, d_avg = 0.284E-04
+ Time step number         3415
+   d_max = 0.599E-03 at i =  17, j =   2, d_avg = 0.284E-04
+ Time step number         3420
+   d_max = 0.599E-03 at i =  17, j =   2, d_avg = 0.283E-04
+ Time step number         3425
+   d_max = 0.599E-03 at i =  17, j =   2, d_avg = 0.283E-04
+ Time step number         3430
+   d_max = 0.599E-03 at i =  17, j =   2, d_avg = 0.283E-04
+ Time step number         3435
+   d_max = 0.599E-03 at i =  17, j =   2, d_avg = 0.282E-04
+ Time step number         3440
+   d_max = 0.599E-03 at i =  17, j =   2, d_avg = 0.282E-04
+ Time step number         3445
+   d_max = 0.599E-03 at i =  17, j =   2, d_avg = 0.282E-04
+ Time step number         3450
+   d_max = 0.599E-03 at i =  17, j =   2, d_avg = 0.281E-04
+ Time step number         3455
+   d_max = 0.599E-03 at i =  17, j =   2, d_avg = 0.281E-04
+ Time step number         3460
+   d_max = 0.599E-03 at i =  17, j =   2, d_avg = 0.281E-04
+ Time step number         3465
+   d_max = 0.599E-03 at i =  17, j =   2, d_avg = 0.280E-04
+ Time step number         3470
+   d_max = 0.599E-03 at i =  17, j =   2, d_avg = 0.280E-04
+ Time step number         3475
+   d_max = 0.599E-03 at i =  17, j =   2, d_avg = 0.280E-04
+ Time step number         3480
+   d_max = 0.599E-03 at i =  17, j =   2, d_avg = 0.279E-04
+ Time step number         3485
+   d_max = 0.599E-03 at i =  17, j =   2, d_avg = 0.279E-04
+ Time step number         3490
+   d_max = 0.599E-03 at i =  17, j =   2, d_avg = 0.279E-04
+ Time step number         3495
+   d_max = 0.599E-03 at i =  17, j =   2, d_avg = 0.278E-04
+ Time step number         3500
+   d_max = 0.599E-03 at i =  17, j =   2, d_avg = 0.278E-04
+ Time step number         3505
+   d_max = 0.599E-03 at i =  17, j =   2, d_avg = 0.278E-04
+ Time step number         3510
+   d_max = 0.599E-03 at i =  17, j =   2, d_avg = 0.277E-04
+ Time step number         3515
+   d_max = 0.599E-03 at i =  17, j =   2, d_avg = 0.277E-04
+ Time step number         3520
+   d_max = 0.598E-03 at i =  17, j =   2, d_avg = 0.277E-04
+ Time step number         3525
+   d_max = 0.598E-03 at i =  17, j =   2, d_avg = 0.276E-04
+ Time step number         3530
+   d_max = 0.598E-03 at i =  17, j =   2, d_avg = 0.276E-04
+ Time step number         3535
+   d_max = 0.598E-03 at i =  17, j =   2, d_avg = 0.276E-04
+ Time step number         3540
+   d_max = 0.598E-03 at i =  17, j =   2, d_avg = 0.276E-04
+ Time step number         3545
+   d_max = 0.598E-03 at i =  17, j =   2, d_avg = 0.275E-04
+ Time step number         3550
+   d_max = 0.598E-03 at i =  17, j =   2, d_avg = 0.275E-04
+ Time step number         3555
+   d_max = 0.598E-03 at i =  17, j =   2, d_avg = 0.275E-04
+ Time step number         3560
+   d_max = 0.598E-03 at i =  17, j =   2, d_avg = 0.275E-04
+ Time step number         3565
+   d_max = 0.597E-03 at i =  17, j =   2, d_avg = 0.274E-04
+ Time step number         3570
+   d_max = 0.597E-03 at i =  17, j =   2, d_avg = 0.274E-04
+ Time step number         3575
+   d_max = 0.597E-03 at i =  17, j =   2, d_avg = 0.274E-04
+ Time step number         3580
+   d_max = 0.597E-03 at i =  17, j =   2, d_avg = 0.274E-04
+ Time step number         3585
+   d_max = 0.597E-03 at i =  17, j =   2, d_avg = 0.273E-04
+ Time step number         3590
+   d_max = 0.597E-03 at i =  17, j =   2, d_avg = 0.273E-04
+ Time step number         3595
+   d_max = 0.597E-03 at i =  17, j =   2, d_avg = 0.273E-04
+ Time step number         3600
+   d_max = 0.596E-03 at i =  17, j =   2, d_avg = 0.273E-04
+ Time step number         3605
+   d_max = 0.596E-03 at i =  17, j =   2, d_avg = 0.272E-04
+ Time step number         3610
+   d_max = 0.596E-03 at i =  17, j =   2, d_avg = 0.272E-04
+ Time step number         3615
+   d_max = 0.596E-03 at i =  17, j =   2, d_avg = 0.272E-04
+ Time step number         3620
+   d_max = 0.596E-03 at i =  17, j =   2, d_avg = 0.272E-04
+ Time step number         3625
+   d_max = 0.596E-03 at i =  17, j =   2, d_avg = 0.272E-04
+ Time step number         3630
+   d_max = 0.596E-03 at i =  17, j =   2, d_avg = 0.271E-04
+ Time step number         3635
+   d_max = 0.595E-03 at i =  17, j =   2, d_avg = 0.271E-04
+ Time step number         3640
+   d_max = 0.595E-03 at i =  17, j =   2, d_avg = 0.271E-04
+ Time step number         3645
+   d_max = 0.595E-03 at i =  17, j =   2, d_avg = 0.271E-04
+ Time step number         3650
+   d_max = 0.595E-03 at i =  17, j =   2, d_avg = 0.270E-04
+ Time step number         3655
+   d_max = 0.595E-03 at i =  17, j =   2, d_avg = 0.270E-04
+ Time step number         3660
+   d_max = 0.595E-03 at i =  17, j =   2, d_avg = 0.270E-04
+ Time step number         3665
+   d_max = 0.594E-03 at i =  17, j =   2, d_avg = 0.270E-04
+ Time step number         3670
+   d_max = 0.594E-03 at i =  17, j =   2, d_avg = 0.270E-04
+ Time step number         3675
+   d_max = 0.594E-03 at i =  17, j =   2, d_avg = 0.269E-04
+ Time step number         3680
+   d_max = 0.594E-03 at i =  17, j =   2, d_avg = 0.269E-04
+ Time step number         3685
+   d_max = 0.594E-03 at i =  17, j =   2, d_avg = 0.269E-04
+ Time step number         3690
+   d_max = 0.593E-03 at i =  17, j =   2, d_avg = 0.269E-04
+ Time step number         3695
+   d_max = 0.593E-03 at i =  17, j =   2, d_avg = 0.269E-04
+ Time step number         3700
+   d_max = 0.593E-03 at i =  17, j =   2, d_avg = 0.268E-04
+ Time step number         3705
+   d_max = 0.593E-03 at i =  17, j =   2, d_avg = 0.268E-04
+ Time step number         3710
+   d_max = 0.593E-03 at i =  17, j =   2, d_avg = 0.268E-04
+ Time step number         3715
+   d_max = 0.593E-03 at i =  17, j =   2, d_avg = 0.268E-04
+ Time step number         3720
+   d_max = 0.592E-03 at i =  17, j =   2, d_avg = 0.267E-04
+ Time step number         3725
+   d_max = 0.592E-03 at i =  17, j =   2, d_avg = 0.267E-04
+ Time step number         3730
+   d_max = 0.592E-03 at i =  17, j =   2, d_avg = 0.267E-04
+ Time step number         3735
+   d_max = 0.592E-03 at i =  17, j =   2, d_avg = 0.267E-04
+ Time step number         3740
+   d_max = 0.592E-03 at i =  17, j =   2, d_avg = 0.267E-04
+ Time step number         3745
+   d_max = 0.592E-03 at i =  17, j =   2, d_avg = 0.266E-04
+ Time step number         3750
+   d_max = 0.591E-03 at i =  17, j =   2, d_avg = 0.266E-04
+ Time step number         3755
+   d_max = 0.591E-03 at i =  17, j =   2, d_avg = 0.266E-04
+ Time step number         3760
+   d_max = 0.591E-03 at i =  17, j =   2, d_avg = 0.266E-04
+ Time step number         3765
+   d_max = 0.591E-03 at i =  17, j =   2, d_avg = 0.265E-04
+ Time step number         3770
+   d_max = 0.591E-03 at i =  17, j =   2, d_avg = 0.265E-04
+ Time step number         3775
+   d_max = 0.591E-03 at i =  17, j =   2, d_avg = 0.265E-04
+ Time step number         3780
+   d_max = 0.590E-03 at i =  17, j =   2, d_avg = 0.265E-04
+ Time step number         3785
+   d_max = 0.590E-03 at i =  17, j =   2, d_avg = 0.265E-04
+ Time step number         3790
+   d_max = 0.590E-03 at i =  17, j =   2, d_avg = 0.264E-04
+ Time step number         3795
+   d_max = 0.590E-03 at i =  17, j =   2, d_avg = 0.264E-04
+ Time step number         3800
+   d_max = 0.590E-03 at i =  17, j =   2, d_avg = 0.264E-04
+ Time step number         3805
+   d_max = 0.590E-03 at i =  17, j =   2, d_avg = 0.264E-04
+ Time step number         3810
+   d_max = 0.590E-03 at i =  17, j =   2, d_avg = 0.263E-04
+ Time step number         3815
+   d_max = 0.589E-03 at i =  17, j =   2, d_avg = 0.263E-04
+ Time step number         3820
+   d_max = 0.589E-03 at i =  17, j =   2, d_avg = 0.263E-04
+ Time step number         3825
+   d_max = 0.589E-03 at i =  17, j =   2, d_avg = 0.263E-04
+ Time step number         3830
+   d_max = 0.589E-03 at i =  17, j =   2, d_avg = 0.263E-04
+ Time step number         3835
+   d_max = 0.589E-03 at i =  17, j =   2, d_avg = 0.262E-04
+ Time step number         3840
+   d_max = 0.589E-03 at i =  17, j =   2, d_avg = 0.262E-04
+ Time step number         3845
+   d_max = 0.589E-03 at i =  17, j =   2, d_avg = 0.262E-04
+ Time step number         3850
+   d_max = 0.589E-03 at i =  17, j =   2, d_avg = 0.262E-04
+ Time step number         3855
+   d_max = 0.589E-03 at i =  17, j =   2, d_avg = 0.262E-04
+ Time step number         3860
+   d_max = 0.588E-03 at i =  17, j =   2, d_avg = 0.262E-04
+ Time step number         3865
+   d_max = 0.588E-03 at i =  17, j =   2, d_avg = 0.261E-04
+ Time step number         3870
+   d_max = 0.588E-03 at i =  17, j =   2, d_avg = 0.261E-04
+ Time step number         3875
+   d_max = 0.588E-03 at i =  17, j =   2, d_avg = 0.261E-04
+ Time step number         3880
+   d_max = 0.588E-03 at i =  17, j =   2, d_avg = 0.261E-04
+ Time step number         3885
+   d_max = 0.588E-03 at i =  17, j =   2, d_avg = 0.261E-04
+ Time step number         3890
+   d_max = 0.588E-03 at i =  17, j =   2, d_avg = 0.261E-04
+ Time step number         3895
+   d_max = 0.588E-03 at i =  17, j =   2, d_avg = 0.260E-04
+ Time step number         3900
+   d_max = 0.588E-03 at i =  17, j =   2, d_avg = 0.260E-04
+ Time step number         3905
+   d_max = 0.588E-03 at i =  17, j =   2, d_avg = 0.260E-04
+ Time step number         3910
+   d_max = 0.588E-03 at i =  17, j =   2, d_avg = 0.260E-04
+ Time step number         3915
+   d_max = 0.588E-03 at i =  17, j =   2, d_avg = 0.260E-04
+ Time step number         3920
+   d_max = 0.588E-03 at i =  17, j =   2, d_avg = 0.260E-04
+ Time step number         3925
+   d_max = 0.588E-03 at i =  17, j =   2, d_avg = 0.260E-04
+ Time step number         3930
+   d_max = 0.587E-03 at i =  17, j =   2, d_avg = 0.260E-04
+ Time step number         3935
+   d_max = 0.587E-03 at i =  17, j =   2, d_avg = 0.259E-04
+ Time step number         3940
+   d_max = 0.587E-03 at i =  17, j =   2, d_avg = 0.259E-04
+ Time step number         3945
+   d_max = 0.587E-03 at i =  17, j =   2, d_avg = 0.259E-04
+ Time step number         3950
+   d_max = 0.587E-03 at i =  17, j =   2, d_avg = 0.259E-04
+ Time step number         3955
+   d_max = 0.587E-03 at i =  17, j =   2, d_avg = 0.259E-04
+ Time step number         3960
+   d_max = 0.587E-03 at i =  17, j =   2, d_avg = 0.259E-04
+ Time step number         3965
+   d_max = 0.587E-03 at i =  17, j =   2, d_avg = 0.259E-04
+ Time step number         3970
+   d_max = 0.587E-03 at i =  17, j =   2, d_avg = 0.259E-04
+ Time step number         3975
+   d_max = 0.587E-03 at i =  17, j =   2, d_avg = 0.258E-04
+ Time step number         3980
+   d_max = 0.587E-03 at i =  17, j =   2, d_avg = 0.258E-04
+ Time step number         3985
+   d_max = 0.587E-03 at i =  17, j =   2, d_avg = 0.258E-04
+ Time step number         3990
+   d_max = 0.587E-03 at i =  17, j =   2, d_avg = 0.258E-04
+ Time step number         3995
+   d_max = 0.587E-03 at i =  17, j =   2, d_avg = 0.258E-04
+ Time step number         4000
+   d_max = 0.587E-03 at i =  17, j =   2, d_avg = 0.258E-04
+ Time step number         4005
+   d_max = 0.587E-03 at i =  17, j =   2, d_avg = 0.258E-04
+ Time step number         4010
+   d_max = 0.587E-03 at i =  17, j =   2, d_avg = 0.258E-04
+ Time step number         4015
+   d_max = 0.587E-03 at i =  17, j =   2, d_avg = 0.257E-04
+ Time step number         4020
+   d_max = 0.587E-03 at i =  17, j =   2, d_avg = 0.257E-04
+ Time step number         4025
+   d_max = 0.587E-03 at i =  17, j =   2, d_avg = 0.257E-04
+ Time step number         4030
+   d_max = 0.587E-03 at i =  17, j =   2, d_avg = 0.257E-04
+ Time step number         4035
+   d_max = 0.587E-03 at i =  17, j =   2, d_avg = 0.257E-04
+ Time step number         4040
+   d_max = 0.587E-03 at i =  17, j =   2, d_avg = 0.257E-04
+ Time step number         4045
+   d_max = 0.588E-03 at i =  17, j =   2, d_avg = 0.257E-04
+ Time step number         4050
+   d_max = 0.588E-03 at i =  17, j =   2, d_avg = 0.257E-04
+ Time step number         4055
+   d_max = 0.588E-03 at i =  17, j =   2, d_avg = 0.256E-04
+ Time step number         4060
+   d_max = 0.588E-03 at i =  17, j =   2, d_avg = 0.256E-04
+ Time step number         4065
+   d_max = 0.588E-03 at i =  17, j =   2, d_avg = 0.256E-04
+ Time step number         4070
+   d_max = 0.588E-03 at i =  17, j =   2, d_avg = 0.256E-04
+ Time step number         4075
+   d_max = 0.588E-03 at i =  17, j =   2, d_avg = 0.256E-04
+ Time step number         4080
+   d_max = 0.588E-03 at i =  17, j =   2, d_avg = 0.256E-04
+ Time step number         4085
+   d_max = 0.588E-03 at i =  17, j =   2, d_avg = 0.256E-04
+ Time step number         4090
+   d_max = 0.588E-03 at i =  17, j =   2, d_avg = 0.255E-04
+ Time step number         4095
+   d_max = 0.588E-03 at i =  17, j =   2, d_avg = 0.255E-04
+ Time step number         4100
+   d_max = 0.588E-03 at i =  17, j =   2, d_avg = 0.255E-04
+ Time step number         4105
+   d_max = 0.588E-03 at i =  17, j =   2, d_avg = 0.255E-04
+ Time step number         4110
+   d_max = 0.588E-03 at i =  17, j =   2, d_avg = 0.255E-04
+ Time step number         4115
+   d_max = 0.588E-03 at i =  17, j =   2, d_avg = 0.255E-04
+ Time step number         4120
+   d_max = 0.589E-03 at i =  17, j =   2, d_avg = 0.255E-04
+ Time step number         4125
+   d_max = 0.589E-03 at i =  17, j =   2, d_avg = 0.255E-04
+ Time step number         4130
+   d_max = 0.589E-03 at i =  17, j =   2, d_avg = 0.255E-04
+ Time step number         4135
+   d_max = 0.589E-03 at i =  17, j =   2, d_avg = 0.255E-04
+ Time step number         4140
+   d_max = 0.589E-03 at i =  17, j =   2, d_avg = 0.255E-04
+ Time step number         4145
+   d_max = 0.589E-03 at i =  17, j =   2, d_avg = 0.255E-04
+ Time step number         4150
+   d_max = 0.589E-03 at i =  17, j =   2, d_avg = 0.255E-04
+ Time step number         4155
+   d_max = 0.589E-03 at i =  17, j =   2, d_avg = 0.255E-04
+ Time step number         4160
+   d_max = 0.589E-03 at i =  17, j =   2, d_avg = 0.255E-04
+ Time step number         4165
+   d_max = 0.589E-03 at i =  17, j =   2, d_avg = 0.255E-04
+ Time step number         4170
+   d_max = 0.590E-03 at i =  17, j =   2, d_avg = 0.255E-04
+ Time step number         4175
+   d_max = 0.590E-03 at i =  17, j =   2, d_avg = 0.255E-04
+ Time step number         4180
+   d_max = 0.590E-03 at i =  17, j =   2, d_avg = 0.255E-04
+ Time step number         4185
+   d_max = 0.590E-03 at i =  17, j =   2, d_avg = 0.255E-04
+ Time step number         4190
+   d_max = 0.590E-03 at i =  17, j =   2, d_avg = 0.255E-04
+ Time step number         4195
+   d_max = 0.590E-03 at i =  17, j =   2, d_avg = 0.255E-04
+ Time step number         4200
+   d_max = 0.590E-03 at i =  17, j =   2, d_avg = 0.255E-04
+ Time step number         4205
+   d_max = 0.590E-03 at i =  17, j =   2, d_avg = 0.255E-04
+ Time step number         4210
+   d_max = 0.590E-03 at i =  17, j =   2, d_avg = 0.255E-04
+ Time step number         4215
+   d_max = 0.591E-03 at i =  17, j =   2, d_avg = 0.255E-04
+ Time step number         4220
+   d_max = 0.591E-03 at i =  17, j =   2, d_avg = 0.255E-04
+ Time step number         4225
+   d_max = 0.591E-03 at i =  17, j =   2, d_avg = 0.255E-04
+ Time step number         4230
+   d_max = 0.591E-03 at i =  17, j =   2, d_avg = 0.255E-04
+ Time step number         4235
+   d_max = 0.591E-03 at i =  17, j =   2, d_avg = 0.254E-04
+ Time step number         4240
+   d_max = 0.591E-03 at i =  17, j =   2, d_avg = 0.254E-04
+ Time step number         4245
+   d_max = 0.591E-03 at i =  17, j =   2, d_avg = 0.254E-04
+ Time step number         4250
+   d_max = 0.591E-03 at i =  17, j =   2, d_avg = 0.254E-04
+ Time step number         4255
+   d_max = 0.592E-03 at i =  17, j =   2, d_avg = 0.254E-04
+ Time step number         4260
+   d_max = 0.592E-03 at i =  17, j =   2, d_avg = 0.254E-04
+ Time step number         4265
+   d_max = 0.592E-03 at i =  17, j =   2, d_avg = 0.254E-04
+ Time step number         4270
+   d_max = 0.592E-03 at i =  17, j =   2, d_avg = 0.254E-04
+ Time step number         4275
+   d_max = 0.592E-03 at i =  17, j =   2, d_avg = 0.254E-04
+ Time step number         4280
+   d_max = 0.592E-03 at i =  17, j =   2, d_avg = 0.253E-04
+ Time step number         4285
+   d_max = 0.592E-03 at i =  17, j =   2, d_avg = 0.253E-04
+ Time step number         4290
+   d_max = 0.593E-03 at i =  17, j =   2, d_avg = 0.253E-04
+ Time step number         4295
+   d_max = 0.593E-03 at i =  17, j =   2, d_avg = 0.253E-04
+ Time step number         4300
+   d_max = 0.593E-03 at i =  17, j =   2, d_avg = 0.253E-04
+ Time step number         4305
+   d_max = 0.593E-03 at i =  17, j =   2, d_avg = 0.253E-04
+ Time step number         4310
+   d_max = 0.593E-03 at i =  17, j =   2, d_avg = 0.252E-04
+ Time step number         4315
+   d_max = 0.593E-03 at i =  17, j =   2, d_avg = 0.252E-04
+ Time step number         4320
+   d_max = 0.593E-03 at i =  17, j =   2, d_avg = 0.252E-04
+ Time step number         4325
+   d_max = 0.593E-03 at i =  17, j =   2, d_avg = 0.252E-04
+ Time step number         4330
+   d_max = 0.594E-03 at i =  17, j =   2, d_avg = 0.251E-04
+ Time step number         4335
+   d_max = 0.594E-03 at i =  17, j =   2, d_avg = 0.251E-04
+ Time step number         4340
+   d_max = 0.594E-03 at i =  17, j =   2, d_avg = 0.251E-04
+ Time step number         4345
+   d_max = 0.594E-03 at i =  17, j =   2, d_avg = 0.251E-04
+ Time step number         4350
+   d_max = 0.594E-03 at i =  17, j =   2, d_avg = 0.250E-04
+ Time step number         4355
+   d_max = 0.594E-03 at i =  17, j =   2, d_avg = 0.250E-04
+ Time step number         4360
+   d_max = 0.594E-03 at i =  17, j =   2, d_avg = 0.250E-04
+ Time step number         4365
+   d_max = 0.595E-03 at i =  17, j =   2, d_avg = 0.250E-04
+ Time step number         4370
+   d_max = 0.595E-03 at i =  17, j =   2, d_avg = 0.249E-04
+ Time step number         4375
+   d_max = 0.595E-03 at i =  17, j =   2, d_avg = 0.249E-04
+ Time step number         4380
+   d_max = 0.595E-03 at i =  17, j =   2, d_avg = 0.249E-04
+ Time step number         4385
+   d_max = 0.595E-03 at i =  17, j =   2, d_avg = 0.248E-04
+ Time step number         4390
+   d_max = 0.595E-03 at i =  17, j =   2, d_avg = 0.248E-04
+ Time step number         4395
+   d_max = 0.595E-03 at i =  17, j =   2, d_avg = 0.248E-04
+ Time step number         4400
+   d_max = 0.595E-03 at i =  17, j =   2, d_avg = 0.247E-04
+ Time step number         4405
+   d_max = 0.596E-03 at i =  17, j =   2, d_avg = 0.247E-04
+ Time step number         4410
+   d_max = 0.518E-03 at i =  18, j =   2, d_avg = 0.247E-04
+ Time step number         4415
+   d_max = 0.518E-03 at i =  18, j =   2, d_avg = 0.247E-04
+ Time step number         4420
+   d_max = 0.518E-03 at i =  18, j =   2, d_avg = 0.247E-04
+ Time step number         4425
+   d_max = 0.518E-03 at i =  18, j =   2, d_avg = 0.246E-04
+ Time step number         4430
+   d_max = 0.519E-03 at i =  18, j =   2, d_avg = 0.246E-04
+ Time step number         4435
+   d_max = 0.519E-03 at i =  18, j =   2, d_avg = 0.246E-04
+ Time step number         4440
+   d_max = 0.519E-03 at i =  18, j =   2, d_avg = 0.246E-04
+ Time step number         4445
+   d_max = 0.519E-03 at i =  18, j =   2, d_avg = 0.246E-04
+ Time step number         4450
+   d_max = 0.519E-03 at i =  18, j =   2, d_avg = 0.246E-04
+ Time step number         4455
+   d_max = 0.519E-03 at i =  18, j =   2, d_avg = 0.245E-04
+ Time step number         4460
+   d_max = 0.519E-03 at i =  18, j =   2, d_avg = 0.245E-04
+ Time step number         4465
+   d_max = 0.519E-03 at i =  18, j =   2, d_avg = 0.245E-04
+ Time step number         4470
+   d_max = 0.519E-03 at i =  18, j =   2, d_avg = 0.245E-04
+ Time step number         4475
+   d_max = 0.519E-03 at i =  18, j =   2, d_avg = 0.244E-04
+ Time step number         4480
+   d_max = 0.519E-03 at i =  18, j =   2, d_avg = 0.244E-04
+ Time step number         4485
+   d_max = 0.519E-03 at i =  18, j =   2, d_avg = 0.244E-04
+ Time step number         4490
+   d_max = 0.519E-03 at i =  18, j =   2, d_avg = 0.244E-04
+ Time step number         4495
+   d_max = 0.519E-03 at i =  18, j =   2, d_avg = 0.243E-04
+ Time step number         4500
+   d_max = 0.519E-03 at i =  18, j =   2, d_avg = 0.243E-04
+ Time step number         4505
+   d_max = 0.519E-03 at i =  18, j =   2, d_avg = 0.242E-04
+ Time step number         4510
+   d_max = 0.519E-03 at i =  18, j =   2, d_avg = 0.242E-04
+ Time step number         4515
+   d_max = 0.519E-03 at i =  18, j =   2, d_avg = 0.242E-04
+ Time step number         4520
+   d_max = 0.519E-03 at i =  18, j =   2, d_avg = 0.241E-04
+ Time step number         4525
+   d_max = 0.519E-03 at i =  18, j =   2, d_avg = 0.241E-04
+ Time step number         4530
+   d_max = 0.519E-03 at i =  18, j =   2, d_avg = 0.241E-04
+ Time step number         4535
+   d_max = 0.519E-03 at i =  18, j =   2, d_avg = 0.240E-04
+ Time step number         4540
+   d_max = 0.519E-03 at i =  18, j =   2, d_avg = 0.240E-04
+ Time step number         4545
+   d_max = 0.519E-03 at i =  18, j =   2, d_avg = 0.239E-04
+ Time step number         4550
+   d_max = 0.519E-03 at i =  18, j =   2, d_avg = 0.239E-04
+ Time step number         4555
+   d_max = 0.519E-03 at i =  18, j =   2, d_avg = 0.238E-04
+ Time step number         4560
+   d_max = 0.519E-03 at i =  18, j =   2, d_avg = 0.238E-04
+ Time step number         4565
+   d_max = 0.519E-03 at i =  18, j =   2, d_avg = 0.237E-04
+ Time step number         4570
+   d_max = 0.519E-03 at i =  18, j =   2, d_avg = 0.237E-04
+ Time step number         4575
+   d_max = 0.600E-03 at i =  17, j =   2, d_avg = 0.236E-04
+ Time step number         4580
+   d_max = 0.600E-03 at i =  17, j =   2, d_avg = 0.236E-04
+ Time step number         4585
+   d_max = 0.600E-03 at i =  17, j =   2, d_avg = 0.236E-04
+ Time step number         4590
+   d_max = 0.600E-03 at i =  17, j =   2, d_avg = 0.236E-04
+ Time step number         4595
+   d_max = 0.600E-03 at i =  17, j =   2, d_avg = 0.236E-04
+ Time step number         4600
+   d_max = 0.600E-03 at i =  17, j =   2, d_avg = 0.235E-04
+ Time step number         4605
+   d_max = 0.600E-03 at i =  17, j =   2, d_avg = 0.235E-04
+ Time step number         4610
+   d_max = 0.600E-03 at i =  17, j =   2, d_avg = 0.235E-04
+ Time step number         4615
+   d_max = 0.600E-03 at i =  17, j =   2, d_avg = 0.235E-04
+ Time step number         4620
+   d_max = 0.600E-03 at i =  17, j =   2, d_avg = 0.235E-04
+ Time step number         4625
+   d_max = 0.601E-03 at i =  17, j =   2, d_avg = 0.235E-04
+ Time step number         4630
+   d_max = 0.601E-03 at i =  17, j =   2, d_avg = 0.235E-04
+ Time step number         4635
+   d_max = 0.601E-03 at i =  17, j =   2, d_avg = 0.235E-04
+ Time step number         4640
+   d_max = 0.601E-03 at i =  17, j =   2, d_avg = 0.235E-04
+ Time step number         4645
+   d_max = 0.601E-03 at i =  17, j =   2, d_avg = 0.235E-04
+ Time step number         4650
+   d_max = 0.601E-03 at i =  17, j =   2, d_avg = 0.234E-04
+ Time step number         4655
+   d_max = 0.601E-03 at i =  17, j =   2, d_avg = 0.234E-04
+ Time step number         4660
+   d_max = 0.601E-03 at i =  17, j =   2, d_avg = 0.234E-04
+ Time step number         4665
+   d_max = 0.601E-03 at i =  17, j =   2, d_avg = 0.234E-04
+ Time step number         4670
+   d_max = 0.601E-03 at i =  17, j =   2, d_avg = 0.234E-04
+ Time step number         4675
+   d_max = 0.601E-03 at i =  17, j =   2, d_avg = 0.234E-04
+ Time step number         4680
+   d_max = 0.601E-03 at i =  17, j =   2, d_avg = 0.234E-04
+ Time step number         4685
+   d_max = 0.602E-03 at i =  17, j =   2, d_avg = 0.234E-04
+ Time step number         4690
+   d_max = 0.602E-03 at i =  17, j =   2, d_avg = 0.234E-04
+ Time step number         4695
+   d_max = 0.602E-03 at i =  17, j =   2, d_avg = 0.234E-04
+ Time step number         4700
+   d_max = 0.602E-03 at i =  17, j =   2, d_avg = 0.234E-04
+ Time step number         4705
+   d_max = 0.602E-03 at i =  17, j =   2, d_avg = 0.234E-04
+ Time step number         4710
+   d_max = 0.602E-03 at i =  17, j =   2, d_avg = 0.234E-04
+ Time step number         4715
+   d_max = 0.602E-03 at i =  17, j =   2, d_avg = 0.234E-04
+ Time step number         4720
+   d_max = 0.602E-03 at i =  17, j =   2, d_avg = 0.234E-04
+ Time step number         4725
+   d_max = 0.602E-03 at i =  17, j =   2, d_avg = 0.234E-04
+ Time step number         4730
+   d_max = 0.602E-03 at i =  17, j =   2, d_avg = 0.234E-04
+ Time step number         4735
+   d_max = 0.602E-03 at i =  17, j =   2, d_avg = 0.234E-04
+ Time step number         4740
+   d_max = 0.602E-03 at i =  17, j =   2, d_avg = 0.234E-04
+ Time step number         4745
+   d_max = 0.602E-03 at i =  17, j =   2, d_avg = 0.234E-04
+ Time step number         4750
+   d_max = 0.602E-03 at i =  17, j =   2, d_avg = 0.234E-04
+ Time step number         4755
+   d_max = 0.602E-03 at i =  17, j =   2, d_avg = 0.234E-04
+ Time step number         4760
+   d_max = 0.602E-03 at i =  17, j =   2, d_avg = 0.234E-04
+ Time step number         4765
+   d_max = 0.603E-03 at i =  17, j =   2, d_avg = 0.234E-04
+ Time step number         4770
+   d_max = 0.603E-03 at i =  17, j =   2, d_avg = 0.234E-04
+ Time step number         4775
+   d_max = 0.603E-03 at i =  17, j =   2, d_avg = 0.234E-04
+ Time step number         4780
+   d_max = 0.603E-03 at i =  17, j =   2, d_avg = 0.234E-04
+ Time step number         4785
+   d_max = 0.603E-03 at i =  17, j =   2, d_avg = 0.234E-04
+ Time step number         4790
+   d_max = 0.603E-03 at i =  17, j =   2, d_avg = 0.234E-04
+ Time step number         4795
+   d_max = 0.603E-03 at i =  17, j =   2, d_avg = 0.234E-04
+ Time step number         4800
+   d_max = 0.603E-03 at i =  17, j =   2, d_avg = 0.234E-04
+ Time step number         4805
+   d_max = 0.603E-03 at i =  17, j =   2, d_avg = 0.234E-04
+ Time step number         4810
+   d_max = 0.603E-03 at i =  17, j =   2, d_avg = 0.234E-04
+ Time step number         4815
+   d_max = 0.603E-03 at i =  17, j =   2, d_avg = 0.234E-04
+ Time step number         4820
+   d_max = 0.603E-03 at i =  17, j =   2, d_avg = 0.234E-04
+ Time step number         4825
+   d_max = 0.603E-03 at i =  17, j =   2, d_avg = 0.234E-04
+ Time step number         4830
+   d_max = 0.603E-03 at i =  17, j =   2, d_avg = 0.234E-04
+ Time step number         4835
+   d_max = 0.603E-03 at i =  17, j =   2, d_avg = 0.234E-04
+ Time step number         4840
+   d_max = 0.603E-03 at i =  17, j =   2, d_avg = 0.234E-04
+ Time step number         4845
+   d_max = 0.603E-03 at i =  17, j =   2, d_avg = 0.234E-04
+ Time step number         4850
+   d_max = 0.603E-03 at i =  17, j =   2, d_avg = 0.234E-04
+ Time step number         4855
+   d_max = 0.603E-03 at i =  17, j =   2, d_avg = 0.234E-04
+ Time step number         4860
+   d_max = 0.603E-03 at i =  17, j =   2, d_avg = 0.234E-04
+ Time step number         4865
+   d_max = 0.603E-03 at i =  17, j =   2, d_avg = 0.234E-04
+ Time step number         4870
+   d_max = 0.603E-03 at i =  17, j =   2, d_avg = 0.235E-04
+ Time step number         4875
+   d_max = 0.603E-03 at i =  17, j =   2, d_avg = 0.235E-04
+ Time step number         4880
+   d_max = 0.603E-03 at i =  17, j =   2, d_avg = 0.235E-04
+ Time step number         4885
+   d_max = 0.603E-03 at i =  17, j =   2, d_avg = 0.235E-04
+ Time step number         4890
+   d_max = 0.603E-03 at i =  17, j =   2, d_avg = 0.235E-04
+ Time step number         4895
+   d_max = 0.603E-03 at i =  17, j =   2, d_avg = 0.235E-04
+ Time step number         4900
+   d_max = 0.603E-03 at i =  17, j =   2, d_avg = 0.235E-04
+ Time step number         4905
+   d_max = 0.603E-03 at i =  17, j =   2, d_avg = 0.235E-04
+ Time step number         4910
+   d_max = 0.603E-03 at i =  17, j =   2, d_avg = 0.235E-04
+ Time step number         4915
+   d_max = 0.603E-03 at i =  17, j =   2, d_avg = 0.235E-04
+ Time step number         4920
+   d_max = 0.603E-03 at i =  17, j =   2, d_avg = 0.236E-04
+ Time step number         4925
+   d_max = 0.603E-03 at i =  17, j =   2, d_avg = 0.236E-04
+ Time step number         4930
+   d_max = 0.603E-03 at i =  17, j =   2, d_avg = 0.236E-04
+ Time step number         4935
+   d_max = 0.603E-03 at i =  17, j =   2, d_avg = 0.236E-04
+ Time step number         4940
+   d_max = 0.603E-03 at i =  17, j =   2, d_avg = 0.236E-04
+ Time step number         4945
+   d_max = 0.603E-03 at i =  17, j =   2, d_avg = 0.236E-04
+ Time step number         4950
+   d_max = 0.603E-03 at i =  17, j =   2, d_avg = 0.236E-04
+ Time step number         4955
+   d_max = 0.603E-03 at i =  17, j =   2, d_avg = 0.236E-04
+ Time step number         4960
+   d_max = 0.603E-03 at i =  17, j =   2, d_avg = 0.236E-04
+ Time step number         4965
+   d_max = 0.603E-03 at i =  17, j =   2, d_avg = 0.237E-04
+ Time step number         4970
+   d_max = 0.519E-03 at i =  18, j =   2, d_avg = 0.237E-04
+ Time step number         4975
+   d_max = 0.519E-03 at i =  18, j =   2, d_avg = 0.237E-04
+ Time step number         4980
+   d_max = 0.519E-03 at i =  18, j =   2, d_avg = 0.238E-04
+ Time step number         4985
+   d_max = 0.519E-03 at i =  18, j =   2, d_avg = 0.238E-04
+ Time step number         4990
+   d_max = 0.519E-03 at i =  18, j =   2, d_avg = 0.239E-04
+ Time step number         4995
+   d_max = 0.518E-03 at i =  18, j =   2, d_avg = 0.239E-04
+ Time step number         5000
+   d_max = 0.518E-03 at i =  18, j =   2, d_avg = 0.239E-04
+ Time step number         5005
+   d_max = 0.518E-03 at i =  18, j =   2, d_avg = 0.240E-04
+ Time step number         5010
+   d_max = 0.518E-03 at i =  18, j =   2, d_avg = 0.240E-04
+ Time step number         5015
+   d_max = 0.518E-03 at i =  18, j =   2, d_avg = 0.240E-04
+ Time step number         5020
+   d_max = 0.518E-03 at i =  18, j =   2, d_avg = 0.241E-04
+ Time step number         5025
+   d_max = 0.518E-03 at i =  18, j =   2, d_avg = 0.241E-04
+ Time step number         5030
+   d_max = 0.518E-03 at i =  18, j =   2, d_avg = 0.241E-04
+ Time step number         5035
+   d_max = 0.518E-03 at i =  18, j =   2, d_avg = 0.242E-04
+ Time step number         5040
+   d_max = 0.518E-03 at i =  18, j =   2, d_avg = 0.242E-04
+ Time step number         5045
+   d_max = 0.518E-03 at i =  18, j =   2, d_avg = 0.242E-04
+ Time step number         5050
+   d_max = 0.518E-03 at i =  18, j =   2, d_avg = 0.242E-04
+ Time step number         5055
+   d_max = 0.518E-03 at i =  18, j =   2, d_avg = 0.243E-04
+ Time step number         5060
+   d_max = 0.518E-03 at i =  18, j =   2, d_avg = 0.243E-04
+ Time step number         5065
+   d_max = 0.518E-03 at i =  18, j =   2, d_avg = 0.243E-04
+ Time step number         5070
+   d_max = 0.518E-03 at i =  18, j =   2, d_avg = 0.243E-04
+ Time step number         5075
+   d_max = 0.518E-03 at i =  18, j =   2, d_avg = 0.244E-04
+ Time step number         5080
+   d_max = 0.518E-03 at i =  18, j =   2, d_avg = 0.244E-04
+ Time step number         5085
+   d_max = 0.518E-03 at i =  18, j =   2, d_avg = 0.244E-04
+ Time step number         5090
+   d_max = 0.518E-03 at i =  18, j =   2, d_avg = 0.244E-04
+ Time step number         5095
+   d_max = 0.518E-03 at i =  18, j =   2, d_avg = 0.244E-04
+ Time step number         5100
+   d_max = 0.518E-03 at i =  18, j =   2, d_avg = 0.245E-04
+ Time step number         5105
+   d_max = 0.518E-03 at i =  18, j =   2, d_avg = 0.245E-04
+ Time step number         5110
+   d_max = 0.518E-03 at i =  18, j =   2, d_avg = 0.245E-04
+ Time step number         5115
+   d_max = 0.518E-03 at i =  18, j =   2, d_avg = 0.245E-04
+ Time step number         5120
+   d_max = 0.517E-03 at i =  18, j =   2, d_avg = 0.245E-04
+ Time step number         5125
+   d_max = 0.517E-03 at i =  18, j =   2, d_avg = 0.245E-04
+ Time step number         5130
+   d_max = 0.517E-03 at i =  18, j =   2, d_avg = 0.246E-04
+ Time step number         5135
+   d_max = 0.517E-03 at i =  18, j =   2, d_avg = 0.246E-04
+ Time step number         5140
+   d_max = 0.517E-03 at i =  18, j =   2, d_avg = 0.246E-04
+ Time step number         5145
+   d_max = 0.517E-03 at i =  18, j =   2, d_avg = 0.246E-04
+ Time step number         5150
+   d_max = 0.517E-03 at i =  18, j =   2, d_avg = 0.246E-04
+ Time step number         5155
+   d_max = 0.517E-03 at i =  18, j =   2, d_avg = 0.246E-04
+ Time step number         5160
+   d_max = 0.517E-03 at i =  18, j =   2, d_avg = 0.246E-04
+ Time step number         5165
+   d_max = 0.517E-03 at i =  18, j =   2, d_avg = 0.246E-04
+ Time step number         5170
+   d_max = 0.517E-03 at i =  18, j =   2, d_avg = 0.246E-04
+ Time step number         5175
+   d_max = 0.517E-03 at i =  18, j =   2, d_avg = 0.246E-04
+ Time step number         5180
+   d_max = 0.517E-03 at i =  18, j =   2, d_avg = 0.246E-04
+ Time step number         5185
+   d_max = 0.517E-03 at i =  18, j =   2, d_avg = 0.246E-04
+ Time step number         5190
+   d_max = 0.517E-03 at i =  18, j =   2, d_avg = 0.246E-04
+ Time step number         5195
+   d_max = 0.517E-03 at i =  18, j =   2, d_avg = 0.246E-04
+ Time step number         5200
+   d_max = 0.517E-03 at i =  18, j =   2, d_avg = 0.246E-04
+ Time step number         5205
+   d_max = 0.517E-03 at i =  18, j =   2, d_avg = 0.246E-04
+ Time step number         5210
+   d_max = 0.517E-03 at i =  18, j =   2, d_avg = 0.246E-04
+ Time step number         5215
+   d_max = 0.517E-03 at i =  18, j =   2, d_avg = 0.245E-04
+ Time step number         5220
+   d_max = 0.517E-03 at i =  18, j =   2, d_avg = 0.245E-04
+ Time step number         5225
+   d_max = 0.516E-03 at i =  18, j =   2, d_avg = 0.245E-04
+ Time step number         5230
+   d_max = 0.516E-03 at i =  18, j =   2, d_avg = 0.245E-04
+ Time step number         5235
+   d_max = 0.516E-03 at i =  18, j =   2, d_avg = 0.245E-04
+ Time step number         5240
+   d_max = 0.516E-03 at i =  18, j =   2, d_avg = 0.245E-04
+ Time step number         5245
+   d_max = 0.599E-03 at i =  17, j =   2, d_avg = 0.245E-04
+ Time step number         5250
+   d_max = 0.599E-03 at i =  17, j =   2, d_avg = 0.245E-04
+ Time step number         5255
+   d_max = 0.599E-03 at i =  17, j =   2, d_avg = 0.245E-04
+ Time step number         5260
+   d_max = 0.599E-03 at i =  17, j =   2, d_avg = 0.245E-04
+ Time step number         5265
+   d_max = 0.599E-03 at i =  17, j =   2, d_avg = 0.245E-04
+ Time step number         5270
+   d_max = 0.599E-03 at i =  17, j =   2, d_avg = 0.246E-04
+ Time step number         5275
+   d_max = 0.599E-03 at i =  17, j =   2, d_avg = 0.246E-04
+ Time step number         5280
+   d_max = 0.599E-03 at i =  17, j =   2, d_avg = 0.246E-04
+ Time step number         5285
+   d_max = 0.598E-03 at i =  17, j =   2, d_avg = 0.246E-04
+ Time step number         5290
+   d_max = 0.598E-03 at i =  17, j =   2, d_avg = 0.246E-04
+ Time step number         5295
+   d_max = 0.598E-03 at i =  17, j =   2, d_avg = 0.246E-04
+ Time step number         5300
+   d_max = 0.598E-03 at i =  17, j =   2, d_avg = 0.246E-04
+ Time step number         5305
+   d_max = 0.598E-03 at i =  17, j =   2, d_avg = 0.246E-04
+ Time step number         5310
+   d_max = 0.598E-03 at i =  17, j =   2, d_avg = 0.247E-04
+ Time step number         5315
+   d_max = 0.598E-03 at i =  17, j =   2, d_avg = 0.247E-04
+ Time step number         5320
+   d_max = 0.598E-03 at i =  17, j =   2, d_avg = 0.247E-04
+ Time step number         5325
+   d_max = 0.597E-03 at i =  17, j =   2, d_avg = 0.247E-04
+ Time step number         5330
+   d_max = 0.597E-03 at i =  17, j =   2, d_avg = 0.247E-04
+ Time step number         5335
+   d_max = 0.597E-03 at i =  17, j =   2, d_avg = 0.247E-04
+ Time step number         5340
+   d_max = 0.597E-03 at i =  17, j =   2, d_avg = 0.247E-04
+ Time step number         5345
+   d_max = 0.597E-03 at i =  17, j =   2, d_avg = 0.247E-04
+ Time step number         5350
+   d_max = 0.597E-03 at i =  17, j =   2, d_avg = 0.247E-04
+ Time step number         5355
+   d_max = 0.597E-03 at i =  17, j =   2, d_avg = 0.247E-04
+ Time step number         5360
+   d_max = 0.597E-03 at i =  17, j =   2, d_avg = 0.247E-04
+ Time step number         5365
+   d_max = 0.596E-03 at i =  17, j =   2, d_avg = 0.248E-04
+ Time step number         5370
+   d_max = 0.596E-03 at i =  17, j =   2, d_avg = 0.248E-04
+ Time step number         5375
+   d_max = 0.596E-03 at i =  17, j =   2, d_avg = 0.248E-04
+ Time step number         5380
+   d_max = 0.596E-03 at i =  17, j =   2, d_avg = 0.248E-04
+ Time step number         5385
+   d_max = 0.596E-03 at i =  17, j =   2, d_avg = 0.248E-04
+ Time step number         5390
+   d_max = 0.596E-03 at i =  17, j =   2, d_avg = 0.248E-04
+ Time step number         5395
+   d_max = 0.596E-03 at i =  17, j =   2, d_avg = 0.248E-04
+ Time step number         5400
+   d_max = 0.595E-03 at i =  17, j =   2, d_avg = 0.248E-04
+ Time step number         5405
+   d_max = 0.595E-03 at i =  17, j =   2, d_avg = 0.248E-04
+ Time step number         5410
+   d_max = 0.595E-03 at i =  17, j =   2, d_avg = 0.248E-04
+ Time step number         5415
+   d_max = 0.595E-03 at i =  17, j =   2, d_avg = 0.248E-04
+ Time step number         5420
+   d_max = 0.595E-03 at i =  17, j =   2, d_avg = 0.248E-04
+ Time step number         5425
+   d_max = 0.595E-03 at i =  17, j =   2, d_avg = 0.248E-04
+ Time step number         5430
+   d_max = 0.595E-03 at i =  17, j =   2, d_avg = 0.248E-04
+ Time step number         5435
+   d_max = 0.595E-03 at i =  17, j =   2, d_avg = 0.248E-04
+ Time step number         5440
+   d_max = 0.594E-03 at i =  17, j =   2, d_avg = 0.248E-04
+ Time step number         5445
+   d_max = 0.594E-03 at i =  17, j =   2, d_avg = 0.248E-04
+ Time step number         5450
+   d_max = 0.594E-03 at i =  17, j =   2, d_avg = 0.248E-04
+ Time step number         5455
+   d_max = 0.594E-03 at i =  17, j =   2, d_avg = 0.248E-04
+ Time step number         5460
+   d_max = 0.594E-03 at i =  17, j =   2, d_avg = 0.248E-04
+ Time step number         5465
+   d_max = 0.594E-03 at i =  17, j =   2, d_avg = 0.249E-04
+ Time step number         5470
+   d_max = 0.594E-03 at i =  17, j =   2, d_avg = 0.249E-04
+ Time step number         5475
+   d_max = 0.594E-03 at i =  17, j =   2, d_avg = 0.249E-04
+ Time step number         5480
+   d_max = 0.593E-03 at i =  17, j =   2, d_avg = 0.249E-04
+ Time step number         5485
+   d_max = 0.593E-03 at i =  17, j =   2, d_avg = 0.249E-04
+ Time step number         5490
+   d_max = 0.593E-03 at i =  17, j =   2, d_avg = 0.249E-04
+ Time step number         5495
+   d_max = 0.593E-03 at i =  17, j =   2, d_avg = 0.249E-04
+ Time step number         5500
+   d_max = 0.593E-03 at i =  17, j =   2, d_avg = 0.249E-04
+ Time step number         5505
+   d_max = 0.593E-03 at i =  17, j =   2, d_avg = 0.249E-04
+ Time step number         5510
+   d_max = 0.593E-03 at i =  17, j =   2, d_avg = 0.249E-04
+ Time step number         5515
+   d_max = 0.593E-03 at i =  17, j =   2, d_avg = 0.249E-04
+ Time step number         5520
+   d_max = 0.593E-03 at i =  17, j =   2, d_avg = 0.249E-04
+ Time step number         5525
+   d_max = 0.592E-03 at i =  17, j =   2, d_avg = 0.249E-04
+ Time step number         5530
+   d_max = 0.592E-03 at i =  17, j =   2, d_avg = 0.249E-04
+ Time step number         5535
+   d_max = 0.592E-03 at i =  17, j =   2, d_avg = 0.249E-04
+ Time step number         5540
+   d_max = 0.592E-03 at i =  17, j =   2, d_avg = 0.249E-04
+ Time step number         5545
+   d_max = 0.592E-03 at i =  17, j =   2, d_avg = 0.249E-04
+ Time step number         5550
+   d_max = 0.592E-03 at i =  17, j =   2, d_avg = 0.249E-04
+ Time step number         5555
+   d_max = 0.592E-03 at i =  17, j =   2, d_avg = 0.249E-04
+ Time step number         5560
+   d_max = 0.592E-03 at i =  17, j =   2, d_avg = 0.249E-04
+ Time step number         5565
+   d_max = 0.592E-03 at i =  17, j =   2, d_avg = 0.249E-04
+ Time step number         5570
+   d_max = 0.592E-03 at i =  17, j =   2, d_avg = 0.248E-04
+ Time step number         5575
+   d_max = 0.591E-03 at i =  17, j =   2, d_avg = 0.248E-04
+ Time step number         5580
+   d_max = 0.591E-03 at i =  17, j =   2, d_avg = 0.248E-04
+ Time step number         5585
+   d_max = 0.591E-03 at i =  17, j =   2, d_avg = 0.248E-04
+ Time step number         5590
+   d_max = 0.591E-03 at i =  17, j =   2, d_avg = 0.248E-04
+ Time step number         5595
+   d_max = 0.591E-03 at i =  17, j =   2, d_avg = 0.248E-04
+ Time step number         5600
+   d_max = 0.591E-03 at i =  17, j =   2, d_avg = 0.248E-04
+ Time step number         5605
+   d_max = 0.591E-03 at i =  17, j =   2, d_avg = 0.248E-04
+ Time step number         5610
+   d_max = 0.591E-03 at i =  17, j =   2, d_avg = 0.248E-04
+ Time step number         5615
+   d_max = 0.591E-03 at i =  17, j =   2, d_avg = 0.248E-04
+ Time step number         5620
+   d_max = 0.591E-03 at i =  17, j =   2, d_avg = 0.248E-04
+ Time step number         5625
+   d_max = 0.591E-03 at i =  17, j =   2, d_avg = 0.248E-04
+ Time step number         5630
+   d_max = 0.591E-03 at i =  17, j =   2, d_avg = 0.248E-04
+ Time step number         5635
+   d_max = 0.590E-03 at i =  17, j =   2, d_avg = 0.248E-04
+ Time step number         5640
+   d_max = 0.590E-03 at i =  17, j =   2, d_avg = 0.248E-04
+ Time step number         5645
+   d_max = 0.590E-03 at i =  17, j =   2, d_avg = 0.248E-04
+ Time step number         5650
+   d_max = 0.590E-03 at i =  17, j =   2, d_avg = 0.248E-04
+ Time step number         5655
+   d_max = 0.590E-03 at i =  17, j =   2, d_avg = 0.248E-04
+ Time step number         5660
+   d_max = 0.590E-03 at i =  17, j =   2, d_avg = 0.248E-04
+ Time step number         5665
+   d_max = 0.590E-03 at i =  17, j =   2, d_avg = 0.248E-04
+ Time step number         5670
+   d_max = 0.590E-03 at i =  17, j =   2, d_avg = 0.248E-04
+ Time step number         5675
+   d_max = 0.590E-03 at i =  17, j =   2, d_avg = 0.248E-04
+ Time step number         5680
+   d_max = 0.590E-03 at i =  17, j =   2, d_avg = 0.248E-04
+ Time step number         5685
+   d_max = 0.590E-03 at i =  17, j =   2, d_avg = 0.247E-04
+ Time step number         5690
+   d_max = 0.590E-03 at i =  17, j =   2, d_avg = 0.247E-04
+ Time step number         5695
+   d_max = 0.590E-03 at i =  17, j =   2, d_avg = 0.247E-04
+ Time step number         5700
+   d_max = 0.590E-03 at i =  17, j =   2, d_avg = 0.247E-04
+ Time step number         5705
+   d_max = 0.590E-03 at i =  17, j =   2, d_avg = 0.247E-04
+ Time step number         5710
+   d_max = 0.590E-03 at i =  17, j =   2, d_avg = 0.247E-04
+ Time step number         5715
+   d_max = 0.590E-03 at i =  17, j =   2, d_avg = 0.247E-04
+ Time step number         5720
+   d_max = 0.590E-03 at i =  17, j =   2, d_avg = 0.247E-04
+ Time step number         5725
+   d_max = 0.589E-03 at i =  17, j =   2, d_avg = 0.247E-04
+ Time step number         5730
+   d_max = 0.589E-03 at i =  17, j =   2, d_avg = 0.247E-04
+ Time step number         5735
+   d_max = 0.589E-03 at i =  17, j =   2, d_avg = 0.247E-04
+ Time step number         5740
+   d_max = 0.589E-03 at i =  17, j =   2, d_avg = 0.247E-04
+ Time step number         5745
+   d_max = 0.589E-03 at i =  17, j =   2, d_avg = 0.246E-04
+ Time step number         5750
+   d_max = 0.589E-03 at i =  17, j =   2, d_avg = 0.246E-04
+ Time step number         5755
+   d_max = 0.589E-03 at i =  17, j =   2, d_avg = 0.246E-04
+ Time step number         5760
+   d_max = 0.589E-03 at i =  17, j =   2, d_avg = 0.246E-04
+ Time step number         5765
+   d_max = 0.589E-03 at i =  17, j =   2, d_avg = 0.246E-04
+ Time step number         5770
+   d_max = 0.589E-03 at i =  17, j =   2, d_avg = 0.246E-04
+ Time step number         5775
+   d_max = 0.589E-03 at i =  17, j =   2, d_avg = 0.246E-04
+ Time step number         5780
+   d_max = 0.589E-03 at i =  17, j =   2, d_avg = 0.246E-04
+ Time step number         5785
+   d_max = 0.589E-03 at i =  17, j =   2, d_avg = 0.246E-04
+ Time step number         5790
+   d_max = 0.589E-03 at i =  17, j =   2, d_avg = 0.246E-04
+ Time step number         5795
+   d_max = 0.589E-03 at i =  17, j =   2, d_avg = 0.245E-04
+ Time step number         5800
+   d_max = 0.589E-03 at i =  17, j =   2, d_avg = 0.245E-04
+ Time step number         5805
+   d_max = 0.589E-03 at i =  17, j =   2, d_avg = 0.245E-04
+ Time step number         5810
+   d_max = 0.589E-03 at i =  17, j =   2, d_avg = 0.245E-04
+ Time step number         5815
+   d_max = 0.589E-03 at i =  17, j =   2, d_avg = 0.245E-04
+ Time step number         5820
+   d_max = 0.589E-03 at i =  17, j =   2, d_avg = 0.245E-04
+ Time step number         5825
+   d_max = 0.589E-03 at i =  17, j =   2, d_avg = 0.245E-04
+ Time step number         5830
+   d_max = 0.589E-03 at i =  17, j =   2, d_avg = 0.245E-04
+ Time step number         5835
+   d_max = 0.589E-03 at i =  17, j =   2, d_avg = 0.245E-04
+ Time step number         5840
+   d_max = 0.589E-03 at i =  17, j =   2, d_avg = 0.244E-04
+ Time step number         5845
+   d_max = 0.589E-03 at i =  17, j =   2, d_avg = 0.244E-04
+ Time step number         5850
+   d_max = 0.589E-03 at i =  17, j =   2, d_avg = 0.244E-04
+ Time step number         5855
+   d_max = 0.589E-03 at i =  17, j =   2, d_avg = 0.244E-04
+ Time step number         5860
+   d_max = 0.589E-03 at i =  17, j =   2, d_avg = 0.244E-04
+ Time step number         5865
+   d_max = 0.589E-03 at i =  17, j =   2, d_avg = 0.244E-04
+ Time step number         5870
+   d_max = 0.589E-03 at i =  17, j =   2, d_avg = 0.244E-04
+ Time step number         5875
+   d_max = 0.589E-03 at i =  17, j =   2, d_avg = 0.244E-04
+ Time step number         5880
+   d_max = 0.589E-03 at i =  17, j =   2, d_avg = 0.244E-04
+ Time step number         5885
+   d_max = 0.589E-03 at i =  17, j =   2, d_avg = 0.243E-04
+ Time step number         5890
+   d_max = 0.589E-03 at i =  17, j =   2, d_avg = 0.243E-04
+ Time step number         5895
+   d_max = 0.589E-03 at i =  17, j =   2, d_avg = 0.243E-04
+ Time step number         5900
+   d_max = 0.589E-03 at i =  17, j =   2, d_avg = 0.243E-04
+ Time step number         5905
+   d_max = 0.589E-03 at i =  17, j =   2, d_avg = 0.243E-04
+ Time step number         5910
+   d_max = 0.589E-03 at i =  17, j =   2, d_avg = 0.243E-04
+ Time step number         5915
+   d_max = 0.589E-03 at i =  17, j =   2, d_avg = 0.243E-04
+ Time step number         5920
+   d_max = 0.589E-03 at i =  17, j =   2, d_avg = 0.243E-04
+ Time step number         5925
+   d_max = 0.589E-03 at i =  17, j =   2, d_avg = 0.242E-04
+ Time step number         5930
+   d_max = 0.589E-03 at i =  17, j =   2, d_avg = 0.242E-04
+ Time step number         5935
+   d_max = 0.590E-03 at i =  17, j =   2, d_avg = 0.242E-04
+ Time step number         5940
+   d_max = 0.590E-03 at i =  17, j =   2, d_avg = 0.242E-04
+ Time step number         5945
+   d_max = 0.590E-03 at i =  17, j =   2, d_avg = 0.242E-04
+ Time step number         5950
+   d_max = 0.590E-03 at i =  17, j =   2, d_avg = 0.242E-04
+ Time step number         5955
+   d_max = 0.590E-03 at i =  17, j =   2, d_avg = 0.242E-04
+ Time step number         5960
+   d_max = 0.590E-03 at i =  17, j =   2, d_avg = 0.242E-04
+ Time step number         5965
+   d_max = 0.590E-03 at i =  17, j =   2, d_avg = 0.242E-04
+ Time step number         5970
+   d_max = 0.590E-03 at i =  17, j =   2, d_avg = 0.241E-04
+ Time step number         5975
+   d_max = 0.590E-03 at i =  17, j =   2, d_avg = 0.241E-04
+ Time step number         5980
+   d_max = 0.590E-03 at i =  17, j =   2, d_avg = 0.241E-04
+ Time step number         5985
+   d_max = 0.590E-03 at i =  17, j =   2, d_avg = 0.241E-04
+ Time step number         5990
+   d_max = 0.590E-03 at i =  17, j =   2, d_avg = 0.241E-04
+ Time step number         5995
+   d_max = 0.590E-03 at i =  17, j =   2, d_avg = 0.241E-04
+ Time step number         6000
+   d_max = 0.590E-03 at i =  17, j =   2, d_avg = 0.241E-04
+ Time step number         6005
+   d_max = 0.590E-03 at i =  17, j =   2, d_avg = 0.241E-04
+ Time step number         6010
+   d_max = 0.590E-03 at i =  17, j =   2, d_avg = 0.240E-04
+ Time step number         6015
+   d_max = 0.590E-03 at i =  17, j =   2, d_avg = 0.240E-04
+ Time step number         6020
+   d_max = 0.590E-03 at i =  17, j =   2, d_avg = 0.240E-04
+ Time step number         6025
+   d_max = 0.590E-03 at i =  17, j =   2, d_avg = 0.240E-04
+ Time step number         6030
+   d_max = 0.590E-03 at i =  17, j =   2, d_avg = 0.240E-04
+ Time step number         6035
+   d_max = 0.590E-03 at i =  17, j =   2, d_avg = 0.240E-04
+ Time step number         6040
+   d_max = 0.590E-03 at i =  17, j =   2, d_avg = 0.240E-04
+ Time step number         6045
+   d_max = 0.590E-03 at i =  17, j =   2, d_avg = 0.240E-04
+ Time step number         6050
+   d_max = 0.590E-03 at i =  17, j =   2, d_avg = 0.239E-04
+ Time step number         6055
+   d_max = 0.590E-03 at i =  17, j =   2, d_avg = 0.239E-04
+ Time step number         6060
+   d_max = 0.591E-03 at i =  17, j =   2, d_avg = 0.239E-04
+ Time step number         6065
+   d_max = 0.591E-03 at i =  17, j =   2, d_avg = 0.239E-04
+ Time step number         6070
+   d_max = 0.591E-03 at i =  17, j =   2, d_avg = 0.239E-04
+ Time step number         6075
+   d_max = 0.591E-03 at i =  17, j =   2, d_avg = 0.239E-04
+ Time step number         6080
+   d_max = 0.591E-03 at i =  17, j =   2, d_avg = 0.239E-04
+ Time step number         6085
+   d_max = 0.591E-03 at i =  17, j =   2, d_avg = 0.239E-04
+ Time step number         6090
+   d_max = 0.591E-03 at i =  17, j =   2, d_avg = 0.239E-04
+ Time step number         6095
+   d_max = 0.591E-03 at i =  17, j =   2, d_avg = 0.238E-04
+ Time step number         6100
+   d_max = 0.591E-03 at i =  17, j =   2, d_avg = 0.238E-04
+ Time step number         6105
+   d_max = 0.591E-03 at i =  17, j =   2, d_avg = 0.238E-04
+ Time step number         6110
+   d_max = 0.591E-03 at i =  17, j =   2, d_avg = 0.238E-04
+ Time step number         6115
+   d_max = 0.591E-03 at i =  17, j =   2, d_avg = 0.238E-04
+ Time step number         6120
+   d_max = 0.591E-03 at i =  17, j =   2, d_avg = 0.238E-04
+ Time step number         6125
+   d_max = 0.591E-03 at i =  17, j =   2, d_avg = 0.238E-04
+ Time step number         6130
+   d_max = 0.591E-03 at i =  17, j =   2, d_avg = 0.238E-04
+ Time step number         6135
+   d_max = 0.591E-03 at i =  17, j =   2, d_avg = 0.238E-04
+ Time step number         6140
+   d_max = 0.591E-03 at i =  17, j =   2, d_avg = 0.237E-04
+ Time step number         6145
+   d_max = 0.591E-03 at i =  17, j =   2, d_avg = 0.237E-04
+ Time step number         6150
+   d_max = 0.591E-03 at i =  17, j =   2, d_avg = 0.237E-04
+ Time step number         6155
+   d_max = 0.591E-03 at i =  17, j =   2, d_avg = 0.237E-04
+ Time step number         6160
+   d_max = 0.592E-03 at i =  17, j =   2, d_avg = 0.237E-04
+ Time step number         6165
+   d_max = 0.592E-03 at i =  17, j =   2, d_avg = 0.237E-04
+ Time step number         6170
+   d_max = 0.592E-03 at i =  17, j =   2, d_avg = 0.237E-04
+ Time step number         6175
+   d_max = 0.592E-03 at i =  17, j =   2, d_avg = 0.237E-04
+ Time step number         6180
+   d_max = 0.592E-03 at i =  17, j =   2, d_avg = 0.237E-04
+ Time step number         6185
+   d_max = 0.592E-03 at i =  17, j =   2, d_avg = 0.237E-04
+ Time step number         6190
+   d_max = 0.592E-03 at i =  17, j =   2, d_avg = 0.236E-04
+ Time step number         6195
+   d_max = 0.592E-03 at i =  17, j =   2, d_avg = 0.236E-04
+ Time step number         6200
+   d_max = 0.592E-03 at i =  17, j =   2, d_avg = 0.236E-04
+ Time step number         6205
+   d_max = 0.592E-03 at i =  17, j =   2, d_avg = 0.236E-04
+ Time step number         6210
+   d_max = 0.592E-03 at i =  17, j =   2, d_avg = 0.236E-04
+ Time step number         6215
+   d_max = 0.592E-03 at i =  17, j =   2, d_avg = 0.236E-04
+ Time step number         6220
+   d_max = 0.592E-03 at i =  17, j =   2, d_avg = 0.236E-04
+ Time step number         6225
+   d_max = 0.592E-03 at i =  17, j =   2, d_avg = 0.236E-04
+ Time step number         6230
+   d_max = 0.592E-03 at i =  17, j =   2, d_avg = 0.236E-04
+ Time step number         6235
+   d_max = 0.592E-03 at i =  17, j =   2, d_avg = 0.236E-04
+ Time step number         6240
+   d_max = 0.592E-03 at i =  17, j =   2, d_avg = 0.236E-04
+ Time step number         6245
+   d_max = 0.592E-03 at i =  17, j =   2, d_avg = 0.235E-04
+ Time step number         6250
+   d_max = 0.592E-03 at i =  17, j =   2, d_avg = 0.235E-04
+ Time step number         6255
+   d_max = 0.592E-03 at i =  17, j =   2, d_avg = 0.235E-04
+ Time step number         6260
+   d_max = 0.592E-03 at i =  17, j =   2, d_avg = 0.235E-04
+ Time step number         6265
+   d_max = 0.593E-03 at i =  17, j =   2, d_avg = 0.235E-04
+ Time step number         6270
+   d_max = 0.593E-03 at i =  17, j =   2, d_avg = 0.235E-04
+ Time step number         6275
+   d_max = 0.593E-03 at i =  17, j =   2, d_avg = 0.235E-04
+ Time step number         6280
+   d_max = 0.593E-03 at i =  17, j =   2, d_avg = 0.235E-04
+ Time step number         6285
+   d_max = 0.593E-03 at i =  17, j =   2, d_avg = 0.235E-04
+ Time step number         6290
+   d_max = 0.593E-03 at i =  17, j =   2, d_avg = 0.235E-04
+ Time step number         6295
+   d_max = 0.593E-03 at i =  17, j =   2, d_avg = 0.234E-04
+ Time step number         6300
+   d_max = 0.593E-03 at i =  17, j =   2, d_avg = 0.234E-04
+ Time step number         6305
+   d_max = 0.593E-03 at i =  17, j =   2, d_avg = 0.234E-04
+ Time step number         6310
+   d_max = 0.593E-03 at i =  17, j =   2, d_avg = 0.234E-04
+ Time step number         6315
+   d_max = 0.593E-03 at i =  17, j =   2, d_avg = 0.234E-04
+ Time step number         6320
+   d_max = 0.593E-03 at i =  17, j =   2, d_avg = 0.234E-04
+ Time step number         6325
+   d_max = 0.593E-03 at i =  17, j =   2, d_avg = 0.234E-04
+ Time step number         6330
+   d_max = 0.593E-03 at i =  17, j =   2, d_avg = 0.234E-04
+ Time step number         6335
+   d_max = 0.593E-03 at i =  17, j =   2, d_avg = 0.234E-04
+ Time step number         6340
+   d_max = 0.593E-03 at i =  17, j =   2, d_avg = 0.234E-04
+ Time step number         6345
+   d_max = 0.593E-03 at i =  17, j =   2, d_avg = 0.234E-04
+ Time step number         6350
+   d_max = 0.593E-03 at i =  17, j =   2, d_avg = 0.233E-04
+ Time step number         6355
+   d_max = 0.593E-03 at i =  17, j =   2, d_avg = 0.233E-04
+ Time step number         6360
+   d_max = 0.593E-03 at i =  17, j =   2, d_avg = 0.233E-04
+ Time step number         6365
+   d_max = 0.593E-03 at i =  17, j =   2, d_avg = 0.233E-04
+ Time step number         6370
+   d_max = 0.593E-03 at i =  17, j =   2, d_avg = 0.233E-04
+ Time step number         6375
+   d_max = 0.593E-03 at i =  17, j =   2, d_avg = 0.233E-04
+ Time step number         6380
+   d_max = 0.593E-03 at i =  17, j =   2, d_avg = 0.233E-04
+ Time step number         6385
+   d_max = 0.593E-03 at i =  17, j =   2, d_avg = 0.233E-04
+ Time step number         6390
+   d_max = 0.593E-03 at i =  17, j =   2, d_avg = 0.233E-04
+ Time step number         6395
+   d_max = 0.593E-03 at i =  17, j =   2, d_avg = 0.233E-04
+ Time step number         6400
+   d_max = 0.594E-03 at i =  17, j =   2, d_avg = 0.232E-04
+ Time step number         6405
+   d_max = 0.594E-03 at i =  17, j =   2, d_avg = 0.232E-04
+ Time step number         6410
+   d_max = 0.594E-03 at i =  17, j =   2, d_avg = 0.232E-04
+ Time step number         6415
+   d_max = 0.594E-03 at i =  17, j =   2, d_avg = 0.232E-04
+ Time step number         6420
+   d_max = 0.594E-03 at i =  17, j =   2, d_avg = 0.232E-04
+ Time step number         6425
+   d_max = 0.594E-03 at i =  17, j =   2, d_avg = 0.232E-04
+ Time step number         6430
+   d_max = 0.594E-03 at i =  17, j =   2, d_avg = 0.232E-04
+ Time step number         6435
+   d_max = 0.594E-03 at i =  17, j =   2, d_avg = 0.232E-04
+ Time step number         6440
+   d_max = 0.594E-03 at i =  17, j =   2, d_avg = 0.232E-04
+ Time step number         6445
+   d_max = 0.594E-03 at i =  17, j =   2, d_avg = 0.231E-04
+ Time step number         6450
+   d_max = 0.594E-03 at i =  17, j =   2, d_avg = 0.231E-04
+ Time step number         6455
+   d_max = 0.594E-03 at i =  17, j =   2, d_avg = 0.231E-04
+ Time step number         6460
+   d_max = 0.594E-03 at i =  17, j =   2, d_avg = 0.231E-04
+ Time step number         6465
+   d_max = 0.594E-03 at i =  17, j =   2, d_avg = 0.231E-04
+ Time step number         6470
+   d_max = 0.594E-03 at i =  17, j =   2, d_avg = 0.231E-04
+ Time step number         6475
+   d_max = 0.594E-03 at i =  17, j =   2, d_avg = 0.231E-04
+ Time step number         6480
+   d_max = 0.594E-03 at i =  17, j =   2, d_avg = 0.231E-04
+ Time step number         6485
+   d_max = 0.594E-03 at i =  17, j =   2, d_avg = 0.231E-04
+ Time step number         6490
+   d_max = 0.594E-03 at i =  17, j =   2, d_avg = 0.230E-04
+ Time step number         6495
+   d_max = 0.594E-03 at i =  17, j =   2, d_avg = 0.230E-04
+ Time step number         6500
+   d_max = 0.594E-03 at i =  17, j =   2, d_avg = 0.230E-04
+ Time step number         6505
+   d_max = 0.594E-03 at i =  17, j =   2, d_avg = 0.230E-04
+ Time step number         6510
+   d_max = 0.594E-03 at i =  17, j =   2, d_avg = 0.230E-04
+ Time step number         6515
+   d_max = 0.594E-03 at i =  17, j =   2, d_avg = 0.230E-04
+ Time step number         6520
+   d_max = 0.594E-03 at i =  17, j =   2, d_avg = 0.230E-04
+ Time step number         6525
+   d_max = 0.594E-03 at i =  17, j =   2, d_avg = 0.230E-04
+ Time step number         6530
+   d_max = 0.594E-03 at i =  17, j =   2, d_avg = 0.229E-04
+ Time step number         6535
+   d_max = 0.594E-03 at i =  17, j =   2, d_avg = 0.229E-04
+ Time step number         6540
+   d_max = 0.594E-03 at i =  17, j =   2, d_avg = 0.229E-04
+ Time step number         6545
+   d_max = 0.594E-03 at i =  17, j =   2, d_avg = 0.229E-04
+ Time step number         6550
+   d_max = 0.594E-03 at i =  17, j =   2, d_avg = 0.229E-04
+ Time step number         6555
+   d_max = 0.594E-03 at i =  17, j =   2, d_avg = 0.229E-04
+ Time step number         6560
+   d_max = 0.594E-03 at i =  17, j =   2, d_avg = 0.229E-04
+ Time step number         6565
+   d_max = 0.594E-03 at i =  17, j =   2, d_avg = 0.229E-04
+ Time step number         6570
+   d_max = 0.594E-03 at i =  17, j =   2, d_avg = 0.228E-04
+ Time step number         6575
+   d_max = 0.594E-03 at i =  17, j =   2, d_avg = 0.228E-04
+ Time step number         6580
+   d_max = 0.594E-03 at i =  17, j =   2, d_avg = 0.228E-04
+ Time step number         6585
+   d_max = 0.594E-03 at i =  17, j =   2, d_avg = 0.228E-04
+ Time step number         6590
+   d_max = 0.594E-03 at i =  17, j =   2, d_avg = 0.228E-04
+ Time step number         6595
+   d_max = 0.594E-03 at i =  17, j =   2, d_avg = 0.228E-04
+ Time step number         6600
+   d_max = 0.594E-03 at i =  17, j =   2, d_avg = 0.228E-04
+ Time step number         6605
+   d_max = 0.594E-03 at i =  17, j =   2, d_avg = 0.228E-04
+ Time step number         6610
+   d_max = 0.594E-03 at i =  17, j =   2, d_avg = 0.227E-04
+ Time step number         6615
+   d_max = 0.594E-03 at i =  17, j =   2, d_avg = 0.227E-04
+ Time step number         6620
+   d_max = 0.594E-03 at i =  17, j =   2, d_avg = 0.227E-04
+ Time step number         6625
+   d_max = 0.594E-03 at i =  17, j =   2, d_avg = 0.227E-04
+ Time step number         6630
+   d_max = 0.594E-03 at i =  17, j =   2, d_avg = 0.227E-04
+ Time step number         6635
+   d_max = 0.594E-03 at i =  17, j =   2, d_avg = 0.227E-04
+ Time step number         6640
+   d_max = 0.594E-03 at i =  17, j =   2, d_avg = 0.227E-04
+ Time step number         6645
+   d_max = 0.594E-03 at i =  17, j =   2, d_avg = 0.227E-04
+ Time step number         6650
+   d_max = 0.594E-03 at i =  17, j =   2, d_avg = 0.226E-04
+ Time step number         6655
+   d_max = 0.594E-03 at i =  17, j =   2, d_avg = 0.226E-04
+ Time step number         6660
+   d_max = 0.594E-03 at i =  17, j =   2, d_avg = 0.226E-04
+ Time step number         6665
+   d_max = 0.594E-03 at i =  17, j =   2, d_avg = 0.226E-04
+ Time step number         6670
+   d_max = 0.594E-03 at i =  17, j =   2, d_avg = 0.226E-04
+ Time step number         6675
+   d_max = 0.594E-03 at i =  17, j =   2, d_avg = 0.226E-04
+ Time step number         6680
+   d_max = 0.515E-03 at i =  18, j =   2, d_avg = 0.226E-04
+ Time step number         6685
+   d_max = 0.515E-03 at i =  18, j =   2, d_avg = 0.227E-04
+ Time step number         6690
+   d_max = 0.515E-03 at i =  18, j =   2, d_avg = 0.227E-04
+ Time step number         6695
+   d_max = 0.515E-03 at i =  18, j =   2, d_avg = 0.228E-04
+ Time step number         6700
+   d_max = 0.515E-03 at i =  18, j =   2, d_avg = 0.228E-04
+ Time step number         6705
+   d_max = 0.515E-03 at i =  18, j =   2, d_avg = 0.229E-04
+ Time step number         6710
+   d_max = 0.515E-03 at i =  18, j =   2, d_avg = 0.229E-04
+ Time step number         6715
+   d_max = 0.515E-03 at i =  18, j =   2, d_avg = 0.230E-04
+ Time step number         6720
+   d_max = 0.515E-03 at i =  18, j =   2, d_avg = 0.230E-04
+ Time step number         6725
+   d_max = 0.515E-03 at i =  18, j =   2, d_avg = 0.231E-04
+ Time step number         6730
+   d_max = 0.515E-03 at i =  18, j =   2, d_avg = 0.231E-04
+ Time step number         6735
+   d_max = 0.515E-03 at i =  18, j =   2, d_avg = 0.232E-04
+ Time step number         6740
+   d_max = 0.515E-03 at i =  18, j =   2, d_avg = 0.232E-04
+ Time step number         6745
+   d_max = 0.515E-03 at i =  18, j =   2, d_avg = 0.233E-04
+ Time step number         6750
+   d_max = 0.515E-03 at i =  18, j =   2, d_avg = 0.233E-04
+ Time step number         6755
+   d_max = 0.515E-03 at i =  18, j =   2, d_avg = 0.234E-04
+ Time step number         6760
+   d_max = 0.515E-03 at i =  18, j =   2, d_avg = 0.234E-04
+ Time step number         6765
+   d_max = 0.515E-03 at i =  18, j =   2, d_avg = 0.234E-04
+ Time step number         6770
+   d_max = 0.515E-03 at i =  18, j =   2, d_avg = 0.235E-04
+ Time step number         6775
+   d_max = 0.515E-03 at i =  18, j =   2, d_avg = 0.235E-04
+ Time step number         6780
+   d_max = 0.515E-03 at i =  18, j =   2, d_avg = 0.236E-04
+ Time step number         6785
+   d_max = 0.515E-03 at i =  18, j =   2, d_avg = 0.236E-04
+ Time step number         6790
+   d_max = 0.515E-03 at i =  18, j =   2, d_avg = 0.236E-04
+ Time step number         6795
+   d_max = 0.514E-03 at i =  18, j =   2, d_avg = 0.237E-04
+ Time step number         6800
+   d_max = 0.514E-03 at i =  18, j =   2, d_avg = 0.237E-04
+ Time step number         6805
+   d_max = 0.514E-03 at i =  18, j =   2, d_avg = 0.237E-04
+ Time step number         6810
+   d_max = 0.514E-03 at i =  18, j =   2, d_avg = 0.238E-04
+ Time step number         6815
+   d_max = 0.514E-03 at i =  18, j =   2, d_avg = 0.238E-04
+ Time step number         6820
+   d_max = 0.514E-03 at i =  18, j =   2, d_avg = 0.238E-04
+ Time step number         6825
+   d_max = 0.514E-03 at i =  18, j =   2, d_avg = 0.239E-04
+ Time step number         6830
+   d_max = 0.514E-03 at i =  18, j =   2, d_avg = 0.239E-04
+ Time step number         6835
+   d_max = 0.514E-03 at i =  18, j =   2, d_avg = 0.239E-04
+ Time step number         6840
+   d_max = 0.514E-03 at i =  18, j =   2, d_avg = 0.239E-04
+ Time step number         6845
+   d_max = 0.514E-03 at i =  18, j =   2, d_avg = 0.240E-04
+ Time step number         6850
+   d_max = 0.514E-03 at i =  18, j =   2, d_avg = 0.240E-04
+ Time step number         6855
+   d_max = 0.514E-03 at i =  18, j =   2, d_avg = 0.240E-04
+ Time step number         6860
+   d_max = 0.514E-03 at i =  18, j =   2, d_avg = 0.240E-04
+ Time step number         6865
+   d_max = 0.514E-03 at i =  18, j =   2, d_avg = 0.240E-04
+ Time step number         6870
+   d_max = 0.514E-03 at i =  18, j =   2, d_avg = 0.241E-04
+ Time step number         6875
+   d_max = 0.514E-03 at i =  18, j =   2, d_avg = 0.241E-04
+ Time step number         6880
+   d_max = 0.514E-03 at i =  18, j =   2, d_avg = 0.241E-04
+ Time step number         6885
+   d_max = 0.514E-03 at i =  18, j =   2, d_avg = 0.241E-04
+ Time step number         6890
+   d_max = 0.514E-03 at i =  18, j =   2, d_avg = 0.241E-04
+ Time step number         6895
+   d_max = 0.514E-03 at i =  18, j =   2, d_avg = 0.241E-04
+ Time step number         6900
+   d_max = 0.514E-03 at i =  18, j =   2, d_avg = 0.241E-04
+ Time step number         6905
+   d_max = 0.514E-03 at i =  18, j =   2, d_avg = 0.241E-04
+ Time step number         6910
+   d_max = 0.514E-03 at i =  18, j =   2, d_avg = 0.242E-04
+ Time step number         6915
+   d_max = 0.514E-03 at i =  18, j =   2, d_avg = 0.242E-04
+ Time step number         6920
+   d_max = 0.514E-03 at i =  18, j =   2, d_avg = 0.242E-04
+ Time step number         6925
+   d_max = 0.514E-03 at i =  18, j =   2, d_avg = 0.242E-04
+ Time step number         6930
+   d_max = 0.514E-03 at i =  18, j =   2, d_avg = 0.242E-04
+ Time step number         6935
+   d_max = 0.514E-03 at i =  18, j =   2, d_avg = 0.242E-04
+ Time step number         6940
+   d_max = 0.514E-03 at i =  18, j =   2, d_avg = 0.242E-04
+ Time step number         6945
+   d_max = 0.514E-03 at i =  18, j =   2, d_avg = 0.242E-04
+ Time step number         6950
+   d_max = 0.513E-03 at i =  18, j =   2, d_avg = 0.242E-04
+ Time step number         6955
+   d_max = 0.513E-03 at i =  18, j =   2, d_avg = 0.242E-04
+ Time step number         6960
+   d_max = 0.513E-03 at i =  18, j =   2, d_avg = 0.241E-04
+ Time step number         6965
+   d_max = 0.513E-03 at i =  18, j =   2, d_avg = 0.241E-04
+ Time step number         6970
+   d_max = 0.513E-03 at i =  18, j =   2, d_avg = 0.241E-04
+ Time step number         6975
+   d_max = 0.513E-03 at i =  18, j =   2, d_avg = 0.241E-04
+ Time step number         6980
+   d_max = 0.513E-03 at i =  18, j =   2, d_avg = 0.241E-04
+ Time step number         6985
+   d_max = 0.513E-03 at i =  18, j =   2, d_avg = 0.241E-04
+ Time step number         6990
+   d_max = 0.513E-03 at i =  18, j =   2, d_avg = 0.241E-04
+ Time step number         6995
+   d_max = 0.513E-03 at i =  18, j =   2, d_avg = 0.241E-04
+ Time step number         7000
+   d_max = 0.513E-03 at i =  18, j =   2, d_avg = 0.240E-04
+ Time step number         7005
+   d_max = 0.513E-03 at i =  18, j =   2, d_avg = 0.240E-04
+ Time step number         7010
+   d_max = 0.513E-03 at i =  18, j =   2, d_avg = 0.240E-04
+ Time step number         7015
+   d_max = 0.513E-03 at i =  18, j =   2, d_avg = 0.240E-04
+ Time step number         7020
+   d_max = 0.513E-03 at i =  18, j =   2, d_avg = 0.239E-04
+ Time step number         7025
+   d_max = 0.513E-03 at i =  18, j =   2, d_avg = 0.239E-04
+ Time step number         7030
+   d_max = 0.513E-03 at i =  18, j =   2, d_avg = 0.239E-04
+ Time step number         7035
+   d_max = 0.513E-03 at i =  18, j =   2, d_avg = 0.239E-04
+ Time step number         7040
+   d_max = 0.513E-03 at i =  18, j =   2, d_avg = 0.238E-04
+ Time step number         7045
+   d_max = 0.513E-03 at i =  18, j =   2, d_avg = 0.238E-04
+ Time step number         7050
+   d_max = 0.513E-03 at i =  18, j =   2, d_avg = 0.238E-04
+ Time step number         7055
+   d_max = 0.513E-03 at i =  18, j =   2, d_avg = 0.237E-04
+ Time step number         7060
+   d_max = 0.513E-03 at i =  18, j =   2, d_avg = 0.237E-04
+ Time step number         7065
+   d_max = 0.513E-03 at i =  18, j =   2, d_avg = 0.237E-04
+ Time step number         7070
+   d_max = 0.513E-03 at i =  18, j =   2, d_avg = 0.236E-04
+ Time step number         7075
+   d_max = 0.513E-03 at i =  18, j =   2, d_avg = 0.236E-04
+ Time step number         7080
+   d_max = 0.513E-03 at i =  18, j =   2, d_avg = 0.235E-04
+ Time step number         7085
+   d_max = 0.513E-03 at i =  18, j =   2, d_avg = 0.235E-04
+ Time step number         7090
+   d_max = 0.513E-03 at i =  18, j =   2, d_avg = 0.235E-04
+ Time step number         7095
+   d_max = 0.513E-03 at i =  18, j =   2, d_avg = 0.234E-04
+ Time step number         7100
+   d_max = 0.512E-03 at i =  18, j =   2, d_avg = 0.234E-04
+ Time step number         7105
+   d_max = 0.512E-03 at i =  18, j =   2, d_avg = 0.233E-04
+ Time step number         7110
+   d_max = 0.512E-03 at i =  18, j =   2, d_avg = 0.233E-04
+ Time step number         7115
+   d_max = 0.512E-03 at i =  18, j =   2, d_avg = 0.232E-04
+ Time step number         7120
+   d_max = 0.512E-03 at i =  18, j =   2, d_avg = 0.232E-04
+ Time step number         7125
+   d_max = 0.512E-03 at i =  18, j =   2, d_avg = 0.231E-04
+ Time step number         7130
+   d_max = 0.512E-03 at i =  18, j =   2, d_avg = 0.231E-04
+ Time step number         7135
+   d_max = 0.512E-03 at i =  18, j =   2, d_avg = 0.230E-04
+ Time step number         7140
+   d_max = 0.512E-03 at i =  18, j =   2, d_avg = 0.230E-04
+ Time step number         7145
+   d_max = 0.512E-03 at i =  18, j =   2, d_avg = 0.229E-04
+ Time step number         7150
+   d_max = 0.512E-03 at i =  18, j =   2, d_avg = 0.229E-04
+ Time step number         7155
+   d_max = 0.512E-03 at i =  18, j =   2, d_avg = 0.228E-04
+ Time step number         7160
+   d_max = 0.588E-03 at i =  17, j =   2, d_avg = 0.228E-04
+ Time step number         7165
+   d_max = 0.588E-03 at i =  17, j =   2, d_avg = 0.228E-04
+ Time step number         7170
+   d_max = 0.588E-03 at i =  17, j =   2, d_avg = 0.228E-04
+ Time step number         7175
+   d_max = 0.588E-03 at i =  17, j =   2, d_avg = 0.228E-04
+ Time step number         7180
+   d_max = 0.588E-03 at i =  17, j =   2, d_avg = 0.228E-04
+ Time step number         7185
+   d_max = 0.588E-03 at i =  17, j =   2, d_avg = 0.228E-04
+ Time step number         7190
+   d_max = 0.588E-03 at i =  17, j =   2, d_avg = 0.228E-04
+ Time step number         7195
+   d_max = 0.588E-03 at i =  17, j =   2, d_avg = 0.228E-04
+ Time step number         7200
+   d_max = 0.588E-03 at i =  17, j =   2, d_avg = 0.228E-04
+ Time step number         7205
+   d_max = 0.587E-03 at i =  17, j =   2, d_avg = 0.228E-04
+ Time step number         7210
+   d_max = 0.587E-03 at i =  17, j =   2, d_avg = 0.229E-04
+ Time step number         7215
+   d_max = 0.587E-03 at i =  17, j =   2, d_avg = 0.229E-04
+ Time step number         7220
+   d_max = 0.587E-03 at i =  17, j =   2, d_avg = 0.229E-04
+ Time step number         7225
+   d_max = 0.587E-03 at i =  17, j =   2, d_avg = 0.229E-04
+ Time step number         7230
+   d_max = 0.587E-03 at i =  17, j =   2, d_avg = 0.229E-04
+ Time step number         7235
+   d_max = 0.587E-03 at i =  17, j =   2, d_avg = 0.229E-04
+ Time step number         7240
+   d_max = 0.587E-03 at i =  17, j =   2, d_avg = 0.229E-04
+ Time step number         7245
+   d_max = 0.587E-03 at i =  17, j =   2, d_avg = 0.229E-04
+ Time step number         7250
+   d_max = 0.587E-03 at i =  17, j =   2, d_avg = 0.229E-04
+ Time step number         7255
+   d_max = 0.587E-03 at i =  17, j =   2, d_avg = 0.229E-04
+ Time step number         7260
+   d_max = 0.587E-03 at i =  17, j =   2, d_avg = 0.229E-04
+ Time step number         7265
+   d_max = 0.587E-03 at i =  17, j =   2, d_avg = 0.229E-04
+ Time step number         7270
+   d_max = 0.587E-03 at i =  17, j =   2, d_avg = 0.229E-04
+ Time step number         7275
+   d_max = 0.586E-03 at i =  17, j =   2, d_avg = 0.229E-04
+ Time step number         7280
+   d_max = 0.586E-03 at i =  17, j =   2, d_avg = 0.229E-04
+ Time step number         7285
+   d_max = 0.586E-03 at i =  17, j =   2, d_avg = 0.229E-04
+ Time step number         7290
+   d_max = 0.586E-03 at i =  17, j =   2, d_avg = 0.229E-04
+ Time step number         7295
+   d_max = 0.586E-03 at i =  17, j =   2, d_avg = 0.229E-04
+ Time step number         7300
+   d_max = 0.586E-03 at i =  17, j =   2, d_avg = 0.229E-04
+ Time step number         7305
+   d_max = 0.586E-03 at i =  17, j =   2, d_avg = 0.229E-04
+ Time step number         7310
+   d_max = 0.586E-03 at i =  17, j =   2, d_avg = 0.229E-04
+ Time step number         7315
+   d_max = 0.586E-03 at i =  17, j =   2, d_avg = 0.229E-04
+ Time step number         7320
+   d_max = 0.586E-03 at i =  17, j =   2, d_avg = 0.230E-04
+ Time step number         7325
+   d_max = 0.586E-03 at i =  17, j =   2, d_avg = 0.230E-04
+ Time step number         7330
+   d_max = 0.586E-03 at i =  17, j =   2, d_avg = 0.230E-04
+ Time step number         7335
+   d_max = 0.586E-03 at i =  17, j =   2, d_avg = 0.230E-04
+ Time step number         7340
+   d_max = 0.586E-03 at i =  17, j =   2, d_avg = 0.230E-04
+ Time step number         7345
+   d_max = 0.586E-03 at i =  17, j =   2, d_avg = 0.230E-04
+ Time step number         7350
+   d_max = 0.586E-03 at i =  17, j =   2, d_avg = 0.230E-04
+ Time step number         7355
+   d_max = 0.585E-03 at i =  17, j =   2, d_avg = 0.230E-04
+ Time step number         7360
+   d_max = 0.585E-03 at i =  17, j =   2, d_avg = 0.230E-04
+ Time step number         7365
+   d_max = 0.585E-03 at i =  17, j =   2, d_avg = 0.230E-04
+ Time step number         7370
+   d_max = 0.585E-03 at i =  17, j =   2, d_avg = 0.230E-04
+ Time step number         7375
+   d_max = 0.585E-03 at i =  17, j =   2, d_avg = 0.230E-04
+ Time step number         7380
+   d_max = 0.585E-03 at i =  17, j =   2, d_avg = 0.230E-04
+ Time step number         7385
+   d_max = 0.585E-03 at i =  17, j =   2, d_avg = 0.230E-04
+ Time step number         7390
+   d_max = 0.585E-03 at i =  17, j =   2, d_avg = 0.230E-04
+ Time step number         7395
+   d_max = 0.585E-03 at i =  17, j =   2, d_avg = 0.230E-04
+ Time step number         7400
+   d_max = 0.585E-03 at i =  17, j =   2, d_avg = 0.230E-04
+ Time step number         7405
+   d_max = 0.585E-03 at i =  17, j =   2, d_avg = 0.230E-04
+ Time step number         7410
+   d_max = 0.585E-03 at i =  17, j =   2, d_avg = 0.230E-04
+ Time step number         7415
+   d_max = 0.585E-03 at i =  17, j =   2, d_avg = 0.229E-04
+ Time step number         7420
+   d_max = 0.585E-03 at i =  17, j =   2, d_avg = 0.229E-04
+ Time step number         7425
+   d_max = 0.585E-03 at i =  17, j =   2, d_avg = 0.229E-04
+ Time step number         7430
+   d_max = 0.585E-03 at i =  17, j =   2, d_avg = 0.229E-04
+ Time step number         7435
+   d_max = 0.585E-03 at i =  17, j =   2, d_avg = 0.229E-04
+ Time step number         7440
+   d_max = 0.585E-03 at i =  17, j =   2, d_avg = 0.229E-04
+ Time step number         7445
+   d_max = 0.585E-03 at i =  17, j =   2, d_avg = 0.229E-04
+ Time step number         7450
+   d_max = 0.584E-03 at i =  17, j =   2, d_avg = 0.229E-04
+ Time step number         7455
+   d_max = 0.584E-03 at i =  17, j =   2, d_avg = 0.229E-04
+ Time step number         7460
+   d_max = 0.584E-03 at i =  17, j =   2, d_avg = 0.229E-04
+ Time step number         7465
+   d_max = 0.584E-03 at i =  17, j =   2, d_avg = 0.229E-04
+ Time step number         7470
+   d_max = 0.584E-03 at i =  17, j =   2, d_avg = 0.229E-04
+ Time step number         7475
+   d_max = 0.584E-03 at i =  17, j =   2, d_avg = 0.229E-04
+ Time step number         7480
+   d_max = 0.584E-03 at i =  17, j =   2, d_avg = 0.229E-04
+ Time step number         7485
+   d_max = 0.584E-03 at i =  17, j =   2, d_avg = 0.229E-04
+ Time step number         7490
+   d_max = 0.584E-03 at i =  17, j =   2, d_avg = 0.229E-04
+ Time step number         7495
+   d_max = 0.584E-03 at i =  17, j =   2, d_avg = 0.229E-04
+ Time step number         7500
+   d_max = 0.584E-03 at i =  17, j =   2, d_avg = 0.229E-04
+ Time step number         7505
+   d_max = 0.584E-03 at i =  17, j =   2, d_avg = 0.229E-04
+ Time step number         7510
+   d_max = 0.584E-03 at i =  17, j =   2, d_avg = 0.229E-04
+ Time step number         7515
+   d_max = 0.584E-03 at i =  17, j =   2, d_avg = 0.229E-04
+ Time step number         7520
+   d_max = 0.584E-03 at i =  17, j =   2, d_avg = 0.229E-04
+ Time step number         7525
+   d_max = 0.584E-03 at i =  17, j =   2, d_avg = 0.229E-04
+ Time step number         7530
+   d_max = 0.584E-03 at i =  17, j =   2, d_avg = 0.229E-04
+ Time step number         7535
+   d_max = 0.584E-03 at i =  17, j =   2, d_avg = 0.228E-04
+ Time step number         7540
+   d_max = 0.584E-03 at i =  17, j =   2, d_avg = 0.228E-04
+ Time step number         7545
+   d_max = 0.584E-03 at i =  17, j =   2, d_avg = 0.228E-04
+ Time step number         7550
+   d_max = 0.584E-03 at i =  17, j =   2, d_avg = 0.228E-04
+ Time step number         7555
+   d_max = 0.584E-03 at i =  17, j =   2, d_avg = 0.228E-04
+ Time step number         7560
+   d_max = 0.584E-03 at i =  17, j =   2, d_avg = 0.228E-04
+ Time step number         7565
+   d_max = 0.584E-03 at i =  17, j =   2, d_avg = 0.228E-04
+ Time step number         7570
+   d_max = 0.584E-03 at i =  17, j =   2, d_avg = 0.228E-04
+ Time step number         7575
+   d_max = 0.584E-03 at i =  17, j =   2, d_avg = 0.228E-04
+ Time step number         7580
+   d_max = 0.584E-03 at i =  17, j =   2, d_avg = 0.228E-04
+ Time step number         7585
+   d_max = 0.584E-03 at i =  17, j =   2, d_avg = 0.228E-04
+ Time step number         7590
+   d_max = 0.584E-03 at i =  17, j =   2, d_avg = 0.228E-04
+ Time step number         7595
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.228E-04
+ Time step number         7600
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.228E-04
+ Time step number         7605
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.228E-04
+ Time step number         7610
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.227E-04
+ Time step number         7615
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.227E-04
+ Time step number         7620
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.227E-04
+ Time step number         7625
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.227E-04
+ Time step number         7630
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.227E-04
+ Time step number         7635
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.227E-04
+ Time step number         7640
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.227E-04
+ Time step number         7645
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.227E-04
+ Time step number         7650
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.227E-04
+ Time step number         7655
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.227E-04
+ Time step number         7660
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.227E-04
+ Time step number         7665
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.227E-04
+ Time step number         7670
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.227E-04
+ Time step number         7675
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.227E-04
+ Time step number         7680
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.226E-04
+ Time step number         7685
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.226E-04
+ Time step number         7690
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.226E-04
+ Time step number         7695
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.226E-04
+ Time step number         7700
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.226E-04
+ Time step number         7705
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.226E-04
+ Time step number         7710
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.226E-04
+ Time step number         7715
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.226E-04
+ Time step number         7720
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.226E-04
+ Time step number         7725
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.226E-04
+ Time step number         7730
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.226E-04
+ Time step number         7735
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.226E-04
+ Time step number         7740
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.226E-04
+ Time step number         7745
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.225E-04
+ Time step number         7750
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.225E-04
+ Time step number         7755
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.225E-04
+ Time step number         7760
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.225E-04
+ Time step number         7765
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.225E-04
+ Time step number         7770
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.225E-04
+ Time step number         7775
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.225E-04
+ Time step number         7780
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.225E-04
+ Time step number         7785
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.225E-04
+ Time step number         7790
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.225E-04
+ Time step number         7795
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.225E-04
+ Time step number         7800
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.225E-04
+ Time step number         7805
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.225E-04
+ Time step number         7810
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.225E-04
+ Time step number         7815
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.225E-04
+ Time step number         7820
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.225E-04
+ Time step number         7825
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.224E-04
+ Time step number         7830
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.224E-04
+ Time step number         7835
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.224E-04
+ Time step number         7840
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.224E-04
+ Time step number         7845
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.224E-04
+ Time step number         7850
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.224E-04
+ Time step number         7855
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.224E-04
+ Time step number         7860
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.224E-04
+ Time step number         7865
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.224E-04
+ Time step number         7870
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.224E-04
+ Time step number         7875
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.224E-04
+ Time step number         7880
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.224E-04
+ Time step number         7885
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.224E-04
+ Time step number         7890
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.224E-04
+ Time step number         7895
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.224E-04
+ Time step number         7900
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.224E-04
+ Time step number         7905
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.224E-04
+ Time step number         7910
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.224E-04
+ Time step number         7915
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.224E-04
+ Time step number         7920
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.224E-04
+ Time step number         7925
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.224E-04
+ Time step number         7930
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.224E-04
+ Time step number         7935
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.224E-04
+ Time step number         7940
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.224E-04
+ Time step number         7945
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.224E-04
+ Time step number         7950
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.224E-04
+ Time step number         7955
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.224E-04
+ Time step number         7960
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.224E-04
+ Time step number         7965
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.224E-04
+ Time step number         7970
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.224E-04
+ Time step number         7975
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.224E-04
+ Time step number         7980
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.224E-04
+ Time step number         7985
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.224E-04
+ Time step number         7990
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.224E-04
+ Time step number         7995
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.224E-04
+ Time step number         8000
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.224E-04
+ Time step number         8005
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.224E-04
+ Time step number         8010
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.224E-04
+ Time step number         8015
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.224E-04
+ Time step number         8020
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.224E-04
+ Time step number         8025
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.224E-04
+ Time step number         8030
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.224E-04
+ Time step number         8035
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.224E-04
+ Time step number         8040
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.224E-04
+ Time step number         8045
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.224E-04
+ Time step number         8050
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.224E-04
+ Time step number         8055
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.224E-04
+ Time step number         8060
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.224E-04
+ Time step number         8065
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.224E-04
+ Time step number         8070
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.224E-04
+ Time step number         8075
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.224E-04
+ Time step number         8080
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.224E-04
+ Time step number         8085
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.224E-04
+ Time step number         8090
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.224E-04
+ Time step number         8095
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.224E-04
+ Time step number         8100
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.224E-04
+ Time step number         8105
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.224E-04
+ Time step number         8110
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.224E-04
+ Time step number         8115
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.224E-04
+ Time step number         8120
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.224E-04
+ Time step number         8125
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.224E-04
+ Time step number         8130
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.224E-04
+ Time step number         8135
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.224E-04
+ Time step number         8140
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.224E-04
+ Time step number         8145
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.224E-04
+ Time step number         8150
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.224E-04
+ Time step number         8155
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.224E-04
+ Time step number         8160
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.224E-04
+ Time step number         8165
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.225E-04
+ Time step number         8170
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.225E-04
+ Time step number         8175
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.225E-04
+ Time step number         8180
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.225E-04
+ Time step number         8185
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.225E-04
+ Time step number         8190
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.225E-04
+ Time step number         8195
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.225E-04
+ Time step number         8200
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.225E-04
+ Time step number         8205
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.225E-04
+ Time step number         8210
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.225E-04
+ Time step number         8215
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.225E-04
+ Time step number         8220
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.225E-04
+ Time step number         8225
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.225E-04
+ Time step number         8230
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.225E-04
+ Time step number         8235
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.225E-04
+ Time step number         8240
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.225E-04
+ Time step number         8245
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.224E-04
+ Time step number         8250
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.224E-04
+ Time step number         8255
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.224E-04
+ Time step number         8260
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.224E-04
+ Time step number         8265
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.224E-04
+ Time step number         8270
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.224E-04
+ Time step number         8275
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.224E-04
+ Time step number         8280
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.224E-04
+ Time step number         8285
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.224E-04
+ Time step number         8290
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.224E-04
+ Time step number         8295
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.224E-04
+ Time step number         8300
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.224E-04
+ Time step number         8305
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.224E-04
+ Time step number         8310
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.224E-04
+ Time step number         8315
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.224E-04
+ Time step number         8320
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.224E-04
+ Time step number         8325
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.224E-04
+ Time step number         8330
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.224E-04
+ Time step number         8335
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.224E-04
+ Time step number         8340
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.224E-04
+ Time step number         8345
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.224E-04
+ Time step number         8350
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.224E-04
+ Time step number         8355
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.223E-04
+ Time step number         8360
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.223E-04
+ Time step number         8365
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.223E-04
+ Time step number         8370
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.223E-04
+ Time step number         8375
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.223E-04
+ Time step number         8380
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.223E-04
+ Time step number         8385
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.223E-04
+ Time step number         8390
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.223E-04
+ Time step number         8395
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.223E-04
+ Time step number         8400
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.223E-04
+ Time step number         8405
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.223E-04
+ Time step number         8410
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.222E-04
+ Time step number         8415
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.222E-04
+ Time step number         8420
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.222E-04
+ Time step number         8425
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.222E-04
+ Time step number         8430
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.222E-04
+ Time step number         8435
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.222E-04
+ Time step number         8440
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.222E-04
+ Time step number         8445
+   d_max = 0.582E-03 at i =  17, j =   2, d_avg = 0.222E-04
+ Time step number         8450
+   d_max = 0.582E-03 at i =  17, j =   2, d_avg = 0.222E-04
+ Time step number         8455
+   d_max = 0.582E-03 at i =  17, j =   2, d_avg = 0.222E-04
+ Time step number         8460
+   d_max = 0.582E-03 at i =  17, j =   2, d_avg = 0.221E-04
+ Time step number         8465
+   d_max = 0.582E-03 at i =  17, j =   2, d_avg = 0.221E-04
+ Time step number         8470
+   d_max = 0.582E-03 at i =  17, j =   2, d_avg = 0.221E-04
+ Time step number         8475
+   d_max = 0.582E-03 at i =  17, j =   2, d_avg = 0.221E-04
+ Time step number         8480
+   d_max = 0.582E-03 at i =  17, j =   2, d_avg = 0.221E-04
+ Time step number         8485
+   d_max = 0.582E-03 at i =  17, j =   2, d_avg = 0.221E-04
+ Time step number         8490
+   d_max = 0.582E-03 at i =  17, j =   2, d_avg = 0.221E-04
+ Time step number         8495
+   d_max = 0.582E-03 at i =  17, j =   2, d_avg = 0.221E-04
+ Time step number         8500
+   d_max = 0.582E-03 at i =  17, j =   2, d_avg = 0.221E-04
+ Time step number         8505
+   d_max = 0.582E-03 at i =  17, j =   2, d_avg = 0.220E-04
+ Time step number         8510
+   d_max = 0.582E-03 at i =  17, j =   2, d_avg = 0.220E-04
+ Time step number         8515
+   d_max = 0.508E-03 at i =  18, j =   2, d_avg = 0.220E-04
+ Time step number         8520
+   d_max = 0.508E-03 at i =  18, j =   2, d_avg = 0.221E-04
+ Time step number         8525
+   d_max = 0.508E-03 at i =  18, j =   2, d_avg = 0.221E-04
+ Time step number         8530
+   d_max = 0.508E-03 at i =  18, j =   2, d_avg = 0.221E-04
+ Time step number         8535
+   d_max = 0.508E-03 at i =  18, j =   2, d_avg = 0.222E-04
+ Time step number         8540
+   d_max = 0.508E-03 at i =  18, j =   2, d_avg = 0.222E-04
+ Time step number         8545
+   d_max = 0.508E-03 at i =  18, j =   2, d_avg = 0.222E-04
+ Time step number         8550
+   d_max = 0.508E-03 at i =  18, j =   2, d_avg = 0.222E-04
+ Time step number         8555
+   d_max = 0.508E-03 at i =  18, j =   2, d_avg = 0.223E-04
+ Time step number         8560
+   d_max = 0.508E-03 at i =  18, j =   2, d_avg = 0.223E-04
+ Time step number         8565
+   d_max = 0.508E-03 at i =  18, j =   2, d_avg = 0.223E-04
+ Time step number         8570
+   d_max = 0.508E-03 at i =  18, j =   2, d_avg = 0.223E-04
+ Time step number         8575
+   d_max = 0.508E-03 at i =  18, j =   2, d_avg = 0.224E-04
+ Time step number         8580
+   d_max = 0.508E-03 at i =  18, j =   2, d_avg = 0.224E-04
+ Time step number         8585
+   d_max = 0.508E-03 at i =  18, j =   2, d_avg = 0.224E-04
+ Time step number         8590
+   d_max = 0.508E-03 at i =  18, j =   2, d_avg = 0.224E-04
+ Time step number         8595
+   d_max = 0.508E-03 at i =  18, j =   2, d_avg = 0.224E-04
+ Time step number         8600
+   d_max = 0.508E-03 at i =  18, j =   2, d_avg = 0.225E-04
+ Time step number         8605
+   d_max = 0.507E-03 at i =  18, j =   2, d_avg = 0.225E-04
+ Time step number         8610
+   d_max = 0.507E-03 at i =  18, j =   2, d_avg = 0.225E-04
+ Time step number         8615
+   d_max = 0.507E-03 at i =  18, j =   2, d_avg = 0.225E-04
+ Time step number         8620
+   d_max = 0.507E-03 at i =  18, j =   2, d_avg = 0.225E-04
+ Time step number         8625
+   d_max = 0.507E-03 at i =  18, j =   2, d_avg = 0.225E-04
+ Time step number         8630
+   d_max = 0.507E-03 at i =  18, j =   2, d_avg = 0.226E-04
+ Time step number         8635
+   d_max = 0.507E-03 at i =  18, j =   2, d_avg = 0.226E-04
+ Time step number         8640
+   d_max = 0.507E-03 at i =  18, j =   2, d_avg = 0.226E-04
+ Time step number         8645
+   d_max = 0.507E-03 at i =  18, j =   2, d_avg = 0.226E-04
+ Time step number         8650
+   d_max = 0.507E-03 at i =  18, j =   2, d_avg = 0.226E-04
+ Time step number         8655
+   d_max = 0.507E-03 at i =  18, j =   2, d_avg = 0.226E-04
+ Time step number         8660
+   d_max = 0.507E-03 at i =  18, j =   2, d_avg = 0.226E-04
+ Time step number         8665
+   d_max = 0.507E-03 at i =  18, j =   2, d_avg = 0.226E-04
+ Time step number         8670
+   d_max = 0.507E-03 at i =  18, j =   2, d_avg = 0.226E-04
+ Time step number         8675
+   d_max = 0.507E-03 at i =  18, j =   2, d_avg = 0.226E-04
+ Time step number         8680
+   d_max = 0.507E-03 at i =  18, j =   2, d_avg = 0.226E-04
+ Time step number         8685
+   d_max = 0.507E-03 at i =  18, j =   2, d_avg = 0.226E-04
+ Time step number         8690
+   d_max = 0.507E-03 at i =  18, j =   2, d_avg = 0.226E-04
+ Time step number         8695
+   d_max = 0.507E-03 at i =  18, j =   2, d_avg = 0.226E-04
+ Time step number         8700
+   d_max = 0.507E-03 at i =  18, j =   2, d_avg = 0.226E-04
+ Time step number         8705
+   d_max = 0.507E-03 at i =  18, j =   2, d_avg = 0.226E-04
+ Time step number         8710
+   d_max = 0.507E-03 at i =  18, j =   2, d_avg = 0.226E-04
+ Time step number         8715
+   d_max = 0.507E-03 at i =  18, j =   2, d_avg = 0.226E-04
+ Time step number         8720
+   d_max = 0.507E-03 at i =  18, j =   2, d_avg = 0.226E-04
+ Time step number         8725
+   d_max = 0.507E-03 at i =  18, j =   2, d_avg = 0.226E-04
+ Time step number         8730
+   d_max = 0.507E-03 at i =  18, j =   2, d_avg = 0.226E-04
+ Time step number         8735
+   d_max = 0.507E-03 at i =  18, j =   2, d_avg = 0.226E-04
+ Time step number         8740
+   d_max = 0.507E-03 at i =  18, j =   2, d_avg = 0.226E-04
+ Time step number         8745
+   d_max = 0.507E-03 at i =  18, j =   2, d_avg = 0.226E-04
+ Time step number         8750
+   d_max = 0.507E-03 at i =  18, j =   2, d_avg = 0.226E-04
+ Time step number         8755
+   d_max = 0.507E-03 at i =  18, j =   2, d_avg = 0.226E-04
+ Time step number         8760
+   d_max = 0.507E-03 at i =  18, j =   2, d_avg = 0.226E-04
+ Time step number         8765
+   d_max = 0.507E-03 at i =  18, j =   2, d_avg = 0.225E-04
+ Time step number         8770
+   d_max = 0.507E-03 at i =  18, j =   2, d_avg = 0.225E-04
+ Time step number         8775
+   d_max = 0.507E-03 at i =  18, j =   2, d_avg = 0.225E-04
+ Time step number         8780
+   d_max = 0.506E-03 at i =  18, j =   2, d_avg = 0.225E-04
+ Time step number         8785
+   d_max = 0.506E-03 at i =  18, j =   2, d_avg = 0.225E-04
+ Time step number         8790
+   d_max = 0.506E-03 at i =  18, j =   2, d_avg = 0.225E-04
+ Time step number         8795
+   d_max = 0.506E-03 at i =  18, j =   2, d_avg = 0.224E-04
+ Time step number         8800
+   d_max = 0.506E-03 at i =  18, j =   2, d_avg = 0.224E-04
+ Time step number         8805
+   d_max = 0.506E-03 at i =  18, j =   2, d_avg = 0.224E-04
+ Time step number         8810
+   d_max = 0.506E-03 at i =  18, j =   2, d_avg = 0.224E-04
+ Time step number         8815
+   d_max = 0.506E-03 at i =  18, j =   2, d_avg = 0.224E-04
+ Time step number         8820
+   d_max = 0.506E-03 at i =  18, j =   2, d_avg = 0.223E-04
+ Time step number         8825
+   d_max = 0.506E-03 at i =  18, j =   2, d_avg = 0.223E-04
+ Time step number         8830
+   d_max = 0.506E-03 at i =  18, j =   2, d_avg = 0.223E-04
+ Time step number         8835
+   d_max = 0.506E-03 at i =  18, j =   2, d_avg = 0.223E-04
+ Time step number         8840
+   d_max = 0.506E-03 at i =  18, j =   2, d_avg = 0.222E-04
+ Time step number         8845
+   d_max = 0.506E-03 at i =  18, j =   2, d_avg = 0.222E-04
+ Time step number         8850
+   d_max = 0.506E-03 at i =  18, j =   2, d_avg = 0.222E-04
+ Time step number         8855
+   d_max = 0.506E-03 at i =  18, j =   2, d_avg = 0.221E-04
+ Time step number         8860
+   d_max = 0.506E-03 at i =  18, j =   2, d_avg = 0.221E-04
+ Time step number         8865
+   d_max = 0.506E-03 at i =  18, j =   2, d_avg = 0.221E-04
+ Time step number         8870
+   d_max = 0.506E-03 at i =  18, j =   2, d_avg = 0.221E-04
+ Time step number         8875
+   d_max = 0.506E-03 at i =  18, j =   2, d_avg = 0.220E-04
+ Time step number         8880
+   d_max = 0.506E-03 at i =  18, j =   2, d_avg = 0.220E-04
+ Time step number         8885
+   d_max = 0.506E-03 at i =  18, j =   2, d_avg = 0.220E-04
+ Time step number         8890
+   d_max = 0.506E-03 at i =  18, j =   2, d_avg = 0.219E-04
+ Time step number         8895
+   d_max = 0.506E-03 at i =  18, j =   2, d_avg = 0.219E-04
+ Time step number         8900
+   d_max = 0.506E-03 at i =  18, j =   2, d_avg = 0.218E-04
+ Time step number         8905
+   d_max = 0.506E-03 at i =  18, j =   2, d_avg = 0.218E-04
+ Time step number         8910
+   d_max = 0.506E-03 at i =  18, j =   2, d_avg = 0.218E-04
+ Time step number         8915
+   d_max = 0.579E-03 at i =  17, j =   2, d_avg = 0.218E-04
+ Time step number         8920
+   d_max = 0.579E-03 at i =  17, j =   2, d_avg = 0.218E-04
+ Time step number         8925
+   d_max = 0.579E-03 at i =  17, j =   2, d_avg = 0.218E-04
+ Time step number         8930
+   d_max = 0.578E-03 at i =  17, j =   2, d_avg = 0.218E-04
+ Time step number         8935
+   d_max = 0.578E-03 at i =  17, j =   2, d_avg = 0.218E-04
+ Time step number         8940
+   d_max = 0.578E-03 at i =  17, j =   2, d_avg = 0.218E-04
+ Time step number         8945
+   d_max = 0.578E-03 at i =  17, j =   2, d_avg = 0.218E-04
+ Time step number         8950
+   d_max = 0.578E-03 at i =  17, j =   2, d_avg = 0.218E-04
+ Time step number         8955
+   d_max = 0.578E-03 at i =  17, j =   2, d_avg = 0.218E-04
+ Time step number         8960
+   d_max = 0.578E-03 at i =  17, j =   2, d_avg = 0.218E-04
+ Time step number         8965
+   d_max = 0.578E-03 at i =  17, j =   2, d_avg = 0.218E-04
+ Time step number         8970
+   d_max = 0.578E-03 at i =  17, j =   2, d_avg = 0.218E-04
+ Time step number         8975
+   d_max = 0.578E-03 at i =  17, j =   2, d_avg = 0.218E-04
+ Time step number         8980
+   d_max = 0.578E-03 at i =  17, j =   2, d_avg = 0.218E-04
+ Time step number         8985
+   d_max = 0.578E-03 at i =  17, j =   2, d_avg = 0.218E-04
+ Time step number         8990
+   d_max = 0.578E-03 at i =  17, j =   2, d_avg = 0.218E-04
+ Time step number         8995
+   d_max = 0.578E-03 at i =  17, j =   2, d_avg = 0.218E-04
+ Time step number         9000
+   d_max = 0.578E-03 at i =  17, j =   2, d_avg = 0.218E-04
+ Time step number         9005
+   d_max = 0.578E-03 at i =  17, j =   2, d_avg = 0.218E-04
+ Time step number         9010
+   d_max = 0.578E-03 at i =  17, j =   2, d_avg = 0.218E-04
+ Time step number         9015
+   d_max = 0.578E-03 at i =  17, j =   2, d_avg = 0.218E-04
+ Time step number         9020
+   d_max = 0.578E-03 at i =  17, j =   2, d_avg = 0.218E-04
+ Time step number         9025
+   d_max = 0.578E-03 at i =  17, j =   2, d_avg = 0.218E-04
+ Time step number         9030
+   d_max = 0.578E-03 at i =  17, j =   2, d_avg = 0.218E-04
+ Time step number         9035
+   d_max = 0.578E-03 at i =  17, j =   2, d_avg = 0.218E-04
+ Time step number         9040
+   d_max = 0.577E-03 at i =  17, j =   2, d_avg = 0.218E-04
+ Time step number         9045
+   d_max = 0.577E-03 at i =  17, j =   2, d_avg = 0.219E-04
+ Time step number         9050
+   d_max = 0.577E-03 at i =  17, j =   2, d_avg = 0.219E-04
+ Time step number         9055
+   d_max = 0.577E-03 at i =  17, j =   2, d_avg = 0.219E-04
+ Time step number         9060
+   d_max = 0.577E-03 at i =  17, j =   2, d_avg = 0.219E-04
+ Time step number         9065
+   d_max = 0.577E-03 at i =  17, j =   2, d_avg = 0.219E-04
+ Time step number         9070
+   d_max = 0.577E-03 at i =  17, j =   2, d_avg = 0.219E-04
+ Time step number         9075
+   d_max = 0.577E-03 at i =  17, j =   2, d_avg = 0.219E-04
+ Time step number         9080
+   d_max = 0.577E-03 at i =  17, j =   2, d_avg = 0.219E-04
+ Time step number         9085
+   d_max = 0.577E-03 at i =  17, j =   2, d_avg = 0.219E-04
+ Time step number         9090
+   d_max = 0.577E-03 at i =  17, j =   2, d_avg = 0.219E-04
+ Time step number         9095
+   d_max = 0.577E-03 at i =  17, j =   2, d_avg = 0.219E-04
+ Time step number         9100
+   d_max = 0.577E-03 at i =  17, j =   2, d_avg = 0.219E-04
+ Time step number         9105
+   d_max = 0.577E-03 at i =  17, j =   2, d_avg = 0.219E-04
+ Time step number         9110
+   d_max = 0.577E-03 at i =  17, j =   2, d_avg = 0.219E-04
+ Time step number         9115
+   d_max = 0.577E-03 at i =  17, j =   2, d_avg = 0.219E-04
+ Time step number         9120
+   d_max = 0.577E-03 at i =  17, j =   2, d_avg = 0.219E-04
+ Time step number         9125
+   d_max = 0.577E-03 at i =  17, j =   2, d_avg = 0.219E-04
+ Time step number         9130
+   d_max = 0.577E-03 at i =  17, j =   2, d_avg = 0.219E-04
+ Time step number         9135
+   d_max = 0.577E-03 at i =  17, j =   2, d_avg = 0.219E-04
+ Time step number         9140
+   d_max = 0.577E-03 at i =  17, j =   2, d_avg = 0.219E-04
+ Time step number         9145
+   d_max = 0.577E-03 at i =  17, j =   2, d_avg = 0.219E-04
+ Time step number         9150
+   d_max = 0.577E-03 at i =  17, j =   2, d_avg = 0.219E-04
+ Time step number         9155
+   d_max = 0.577E-03 at i =  17, j =   2, d_avg = 0.219E-04
+ Time step number         9160
+   d_max = 0.576E-03 at i =  17, j =   2, d_avg = 0.219E-04
+ Time step number         9165
+   d_max = 0.576E-03 at i =  17, j =   2, d_avg = 0.219E-04
+ Time step number         9170
+   d_max = 0.576E-03 at i =  17, j =   2, d_avg = 0.219E-04
+ Time step number         9175
+   d_max = 0.576E-03 at i =  17, j =   2, d_avg = 0.219E-04
+ Time step number         9180
+   d_max = 0.576E-03 at i =  17, j =   2, d_avg = 0.219E-04
+ Time step number         9185
+   d_max = 0.576E-03 at i =  17, j =   2, d_avg = 0.219E-04
+ Time step number         9190
+   d_max = 0.576E-03 at i =  17, j =   2, d_avg = 0.219E-04
+ Time step number         9195
+   d_max = 0.576E-03 at i =  17, j =   2, d_avg = 0.219E-04
+ Time step number         9200
+   d_max = 0.576E-03 at i =  17, j =   2, d_avg = 0.219E-04
+ Time step number         9205
+   d_max = 0.576E-03 at i =  17, j =   2, d_avg = 0.219E-04
+ Time step number         9210
+   d_max = 0.576E-03 at i =  17, j =   2, d_avg = 0.219E-04
+ Time step number         9215
+   d_max = 0.576E-03 at i =  17, j =   2, d_avg = 0.219E-04
+ Time step number         9220
+   d_max = 0.576E-03 at i =  17, j =   2, d_avg = 0.219E-04
+ Time step number         9225
+   d_max = 0.576E-03 at i =  17, j =   2, d_avg = 0.219E-04
+ Time step number         9230
+   d_max = 0.576E-03 at i =  17, j =   2, d_avg = 0.219E-04
+ Time step number         9235
+   d_max = 0.576E-03 at i =  17, j =   2, d_avg = 0.219E-04
+ Time step number         9240
+   d_max = 0.576E-03 at i =  17, j =   2, d_avg = 0.219E-04
+ Time step number         9245
+   d_max = 0.576E-03 at i =  17, j =   2, d_avg = 0.219E-04
+ Time step number         9250
+   d_max = 0.576E-03 at i =  17, j =   2, d_avg = 0.219E-04
+ Time step number         9255
+   d_max = 0.576E-03 at i =  17, j =   2, d_avg = 0.219E-04
+ Time step number         9260
+   d_max = 0.576E-03 at i =  17, j =   2, d_avg = 0.219E-04
+ Time step number         9265
+   d_max = 0.576E-03 at i =  17, j =   2, d_avg = 0.219E-04
+ Time step number         9270
+   d_max = 0.576E-03 at i =  17, j =   2, d_avg = 0.219E-04
+ Time step number         9275
+   d_max = 0.576E-03 at i =  17, j =   2, d_avg = 0.219E-04
+ Time step number         9280
+   d_max = 0.576E-03 at i =  17, j =   2, d_avg = 0.219E-04
+ Time step number         9285
+   d_max = 0.576E-03 at i =  17, j =   2, d_avg = 0.219E-04
+ Time step number         9290
+   d_max = 0.576E-03 at i =  17, j =   2, d_avg = 0.219E-04
+ Time step number         9295
+   d_max = 0.576E-03 at i =  17, j =   2, d_avg = 0.219E-04
+ Time step number         9300
+   d_max = 0.576E-03 at i =  17, j =   2, d_avg = 0.219E-04
+ Time step number         9305
+   d_max = 0.576E-03 at i =  17, j =   2, d_avg = 0.219E-04
+ Time step number         9310
+   d_max = 0.576E-03 at i =  17, j =   2, d_avg = 0.219E-04
+ Time step number         9315
+   d_max = 0.575E-03 at i =  17, j =   2, d_avg = 0.219E-04
+ Time step number         9320
+   d_max = 0.575E-03 at i =  17, j =   2, d_avg = 0.219E-04
+ Time step number         9325
+   d_max = 0.575E-03 at i =  17, j =   2, d_avg = 0.219E-04
+ Time step number         9330
+   d_max = 0.575E-03 at i =  17, j =   2, d_avg = 0.219E-04
+ Time step number         9335
+   d_max = 0.575E-03 at i =  17, j =   2, d_avg = 0.219E-04
+ Time step number         9340
+   d_max = 0.575E-03 at i =  17, j =   2, d_avg = 0.219E-04
+ Time step number         9345
+   d_max = 0.575E-03 at i =  17, j =   2, d_avg = 0.219E-04
+ Time step number         9350
+   d_max = 0.575E-03 at i =  17, j =   2, d_avg = 0.219E-04
+ Time step number         9355
+   d_max = 0.575E-03 at i =  17, j =   2, d_avg = 0.219E-04
+ Time step number         9360
+   d_max = 0.575E-03 at i =  17, j =   2, d_avg = 0.219E-04
+ Time step number         9365
+   d_max = 0.575E-03 at i =  17, j =   2, d_avg = 0.219E-04
+ Time step number         9370
+   d_max = 0.575E-03 at i =  17, j =   2, d_avg = 0.219E-04
+ Time step number         9375
+   d_max = 0.575E-03 at i =  17, j =   2, d_avg = 0.219E-04
+ Time step number         9380
+   d_max = 0.575E-03 at i =  17, j =   2, d_avg = 0.219E-04
+ Time step number         9385
+   d_max = 0.575E-03 at i =  17, j =   2, d_avg = 0.219E-04
+ Time step number         9390
+   d_max = 0.575E-03 at i =  17, j =   2, d_avg = 0.219E-04
+ Time step number         9395
+   d_max = 0.575E-03 at i =  17, j =   2, d_avg = 0.219E-04
+ Time step number         9400
+   d_max = 0.575E-03 at i =  17, j =   2, d_avg = 0.219E-04
+ Time step number         9405
+   d_max = 0.575E-03 at i =  17, j =   2, d_avg = 0.219E-04
+ Time step number         9410
+   d_max = 0.575E-03 at i =  17, j =   2, d_avg = 0.219E-04
+ Time step number         9415
+   d_max = 0.575E-03 at i =  17, j =   2, d_avg = 0.219E-04
+ Time step number         9420
+   d_max = 0.575E-03 at i =  17, j =   2, d_avg = 0.219E-04
+ Time step number         9425
+   d_max = 0.575E-03 at i =  17, j =   2, d_avg = 0.219E-04
+ Time step number         9430
+   d_max = 0.575E-03 at i =  17, j =   2, d_avg = 0.219E-04
+ Time step number         9435
+   d_max = 0.575E-03 at i =  17, j =   2, d_avg = 0.219E-04
+ Time step number         9440
+   d_max = 0.575E-03 at i =  17, j =   2, d_avg = 0.219E-04
+ Time step number         9445
+   d_max = 0.575E-03 at i =  17, j =   2, d_avg = 0.219E-04
+ Time step number         9450
+   d_max = 0.575E-03 at i =  17, j =   2, d_avg = 0.219E-04
+ Time step number         9455
+   d_max = 0.575E-03 at i =  17, j =   2, d_avg = 0.219E-04
+ Time step number         9460
+   d_max = 0.575E-03 at i =  17, j =   2, d_avg = 0.219E-04
+ Time step number         9465
+   d_max = 0.575E-03 at i =  17, j =   2, d_avg = 0.219E-04
+ Time step number         9470
+   d_max = 0.575E-03 at i =  17, j =   2, d_avg = 0.219E-04
+ Time step number         9475
+   d_max = 0.575E-03 at i =  17, j =   2, d_avg = 0.219E-04
+ Time step number         9480
+   d_max = 0.575E-03 at i =  17, j =   2, d_avg = 0.219E-04
+ Time step number         9485
+   d_max = 0.575E-03 at i =  17, j =   2, d_avg = 0.219E-04
+ Time step number         9490
+   d_max = 0.575E-03 at i =  17, j =   2, d_avg = 0.219E-04
+ Time step number         9495
+   d_max = 0.575E-03 at i =  17, j =   2, d_avg = 0.219E-04
+ Time step number         9500
+   d_max = 0.575E-03 at i =  17, j =   2, d_avg = 0.220E-04
+ Time step number         9505
+   d_max = 0.575E-03 at i =  17, j =   2, d_avg = 0.220E-04
+ Time step number         9510
+   d_max = 0.575E-03 at i =  17, j =   2, d_avg = 0.220E-04
+ Time step number         9515
+   d_max = 0.575E-03 at i =  17, j =   2, d_avg = 0.220E-04
+ Time step number         9520
+   d_max = 0.575E-03 at i =  17, j =   2, d_avg = 0.220E-04
+ Time step number         9525
+   d_max = 0.575E-03 at i =  17, j =   2, d_avg = 0.220E-04
+ Time step number         9530
+   d_max = 0.575E-03 at i =  17, j =   2, d_avg = 0.220E-04
+ Time step number         9535
+   d_max = 0.575E-03 at i =  17, j =   2, d_avg = 0.220E-04
+ Time step number         9540
+   d_max = 0.575E-03 at i =  17, j =   2, d_avg = 0.220E-04
+ Time step number         9545
+   d_max = 0.575E-03 at i =  17, j =   2, d_avg = 0.220E-04
+ Time step number         9550
+   d_max = 0.575E-03 at i =  17, j =   2, d_avg = 0.220E-04
+ Time step number         9555
+   d_max = 0.575E-03 at i =  17, j =   2, d_avg = 0.220E-04
+ Time step number         9560
+   d_max = 0.575E-03 at i =  17, j =   2, d_avg = 0.220E-04
+ Time step number         9565
+   d_max = 0.575E-03 at i =  17, j =   2, d_avg = 0.220E-04
+ Time step number         9570
+   d_max = 0.575E-03 at i =  17, j =   2, d_avg = 0.220E-04
+ Time step number         9575
+   d_max = 0.575E-03 at i =  17, j =   2, d_avg = 0.220E-04
+ Time step number         9580
+   d_max = 0.575E-03 at i =  17, j =   2, d_avg = 0.220E-04
+ Time step number         9585
+   d_max = 0.575E-03 at i =  17, j =   2, d_avg = 0.220E-04
+ Time step number         9590
+   d_max = 0.575E-03 at i =  17, j =   2, d_avg = 0.220E-04
+ Time step number         9595
+   d_max = 0.575E-03 at i =  17, j =   2, d_avg = 0.220E-04
+ Time step number         9600
+   d_max = 0.575E-03 at i =  17, j =   2, d_avg = 0.220E-04
+ Time step number         9605
+   d_max = 0.575E-03 at i =  17, j =   2, d_avg = 0.220E-04
+ Time step number         9610
+   d_max = 0.575E-03 at i =  17, j =   2, d_avg = 0.220E-04
+ Time step number         9615
+   d_max = 0.575E-03 at i =  17, j =   2, d_avg = 0.220E-04
+ Time step number         9620
+   d_max = 0.575E-03 at i =  17, j =   2, d_avg = 0.220E-04
+ Time step number         9625
+   d_max = 0.575E-03 at i =  17, j =   2, d_avg = 0.220E-04
+ Time step number         9630
+   d_max = 0.575E-03 at i =  17, j =   2, d_avg = 0.220E-04
+ Time step number         9635
+   d_max = 0.575E-03 at i =  17, j =   2, d_avg = 0.220E-04
+ Time step number         9640
+   d_max = 0.575E-03 at i =  17, j =   2, d_avg = 0.220E-04
+ Time step number         9645
+   d_max = 0.575E-03 at i =  17, j =   2, d_avg = 0.220E-04
+ Time step number         9650
+   d_max = 0.574E-03 at i =  17, j =   2, d_avg = 0.220E-04
+ Time step number         9655
+   d_max = 0.574E-03 at i =  17, j =   2, d_avg = 0.220E-04
+ Time step number         9660
+   d_max = 0.574E-03 at i =  17, j =   2, d_avg = 0.221E-04
+ Time step number         9665
+   d_max = 0.574E-03 at i =  17, j =   2, d_avg = 0.221E-04
+ Time step number         9670
+   d_max = 0.574E-03 at i =  17, j =   2, d_avg = 0.221E-04
+ Time step number         9675
+   d_max = 0.574E-03 at i =  17, j =   2, d_avg = 0.221E-04
+ Time step number         9680
+   d_max = 0.574E-03 at i =  17, j =   2, d_avg = 0.221E-04
+ Time step number         9685
+   d_max = 0.574E-03 at i =  17, j =   2, d_avg = 0.221E-04
+ Time step number         9690
+   d_max = 0.574E-03 at i =  17, j =   2, d_avg = 0.221E-04
+ Time step number         9695
+   d_max = 0.574E-03 at i =  17, j =   2, d_avg = 0.221E-04
+ Time step number         9700
+   d_max = 0.574E-03 at i =  17, j =   2, d_avg = 0.221E-04
+ Time step number         9705
+   d_max = 0.574E-03 at i =  17, j =   2, d_avg = 0.221E-04
+ Time step number         9710
+   d_max = 0.574E-03 at i =  17, j =   2, d_avg = 0.221E-04
+ Time step number         9715
+   d_max = 0.574E-03 at i =  17, j =   2, d_avg = 0.221E-04
+ Time step number         9720
+   d_max = 0.574E-03 at i =  17, j =   2, d_avg = 0.221E-04
+ Time step number         9725
+   d_max = 0.574E-03 at i =  17, j =   2, d_avg = 0.222E-04
+ Time step number         9730
+   d_max = 0.574E-03 at i =  17, j =   2, d_avg = 0.222E-04
+ Time step number         9735
+   d_max = 0.574E-03 at i =  17, j =   2, d_avg = 0.222E-04
+ Time step number         9740
+   d_max = 0.574E-03 at i =  17, j =   2, d_avg = 0.222E-04
+ Time step number         9745
+   d_max = 0.574E-03 at i =  17, j =   2, d_avg = 0.222E-04
+ Time step number         9750
+   d_max = 0.574E-03 at i =  17, j =   2, d_avg = 0.222E-04
+ Time step number         9755
+   d_max = 0.574E-03 at i =  17, j =   2, d_avg = 0.222E-04
+ Time step number         9760
+   d_max = 0.574E-03 at i =  17, j =   2, d_avg = 0.222E-04
+ Time step number         9765
+   d_max = 0.574E-03 at i =  17, j =   2, d_avg = 0.222E-04
+ Time step number         9770
+   d_max = 0.574E-03 at i =  17, j =   2, d_avg = 0.222E-04
+ Time step number         9775
+   d_max = 0.574E-03 at i =  17, j =   2, d_avg = 0.222E-04
+ Time step number         9780
+   d_max = 0.574E-03 at i =  17, j =   2, d_avg = 0.222E-04
+ Time step number         9785
+   d_max = 0.574E-03 at i =  17, j =   2, d_avg = 0.223E-04
+ Time step number         9790
+   d_max = 0.574E-03 at i =  17, j =   2, d_avg = 0.223E-04
+ Time step number         9795
+   d_max = 0.574E-03 at i =  17, j =   2, d_avg = 0.223E-04
+ Time step number         9800
+   d_max = 0.574E-03 at i =  17, j =   2, d_avg = 0.223E-04
+ Time step number         9805
+   d_max = 0.574E-03 at i =  17, j =   2, d_avg = 0.223E-04
+ Time step number         9810
+   d_max = 0.574E-03 at i =  17, j =   2, d_avg = 0.223E-04
+ Time step number         9815
+   d_max = 0.574E-03 at i =  17, j =   2, d_avg = 0.223E-04
+ Time step number         9820
+   d_max = 0.574E-03 at i =  17, j =   2, d_avg = 0.223E-04
+ Time step number         9825
+   d_max = 0.574E-03 at i =  17, j =   2, d_avg = 0.223E-04
+ Time step number         9830
+   d_max = 0.574E-03 at i =  17, j =   2, d_avg = 0.223E-04
+ Time step number         9835
+   d_max = 0.574E-03 at i =  17, j =   2, d_avg = 0.223E-04
+ Time step number         9840
+   d_max = 0.574E-03 at i =  17, j =   2, d_avg = 0.223E-04
+ Time step number         9845
+   d_max = 0.574E-03 at i =  17, j =   2, d_avg = 0.223E-04
+ Time step number         9850
+   d_max = 0.574E-03 at i =  17, j =   2, d_avg = 0.223E-04
+ Time step number         9855
+   d_max = 0.574E-03 at i =  17, j =   2, d_avg = 0.224E-04
+ Time step number         9860
+   d_max = 0.574E-03 at i =  17, j =   2, d_avg = 0.224E-04
+ Time step number         9865
+   d_max = 0.574E-03 at i =  17, j =   2, d_avg = 0.224E-04
+ Time step number         9870
+   d_max = 0.574E-03 at i =  17, j =   2, d_avg = 0.224E-04
+ Time step number         9875
+   d_max = 0.574E-03 at i =  17, j =   2, d_avg = 0.224E-04
+ Time step number         9880
+   d_max = 0.574E-03 at i =  17, j =   2, d_avg = 0.224E-04
+ Time step number         9885
+   d_max = 0.574E-03 at i =  17, j =   2, d_avg = 0.224E-04
+ Time step number         9890
+   d_max = 0.574E-03 at i =  17, j =   2, d_avg = 0.224E-04
+ Time step number         9895
+   d_max = 0.574E-03 at i =  17, j =   2, d_avg = 0.224E-04
+ Time step number         9900
+   d_max = 0.574E-03 at i =  17, j =   2, d_avg = 0.224E-04
+ Time step number         9905
+   d_max = 0.574E-03 at i =  17, j =   2, d_avg = 0.224E-04
+ Time step number         9910
+   d_max = 0.574E-03 at i =  17, j =   2, d_avg = 0.224E-04
+ Time step number         9915
+   d_max = 0.574E-03 at i =  17, j =   2, d_avg = 0.224E-04
+ Time step number         9920
+   d_max = 0.574E-03 at i =  17, j =   2, d_avg = 0.224E-04
+ Time step number         9925
+   d_max = 0.574E-03 at i =  17, j =   2, d_avg = 0.224E-04
+ Time step number         9930
+   d_max = 0.574E-03 at i =  17, j =   2, d_avg = 0.224E-04
+ Time step number         9935
+   d_max = 0.574E-03 at i =  17, j =   2, d_avg = 0.224E-04
+ Time step number         9940
+   d_max = 0.574E-03 at i =  17, j =   2, d_avg = 0.224E-04
+ Time step number         9945
+   d_max = 0.574E-03 at i =  17, j =   2, d_avg = 0.224E-04
+ Time step number         9950
+   d_max = 0.574E-03 at i =  17, j =   2, d_avg = 0.224E-04
+ Time step number         9955
+   d_max = 0.574E-03 at i =  17, j =   2, d_avg = 0.224E-04
+ Time step number         9960
+   d_max = 0.574E-03 at i =  17, j =   2, d_avg = 0.224E-04
+ Time step number         9965
+   d_max = 0.574E-03 at i =  17, j =   2, d_avg = 0.224E-04
+ Time step number         9970
+   d_max = 0.574E-03 at i =  17, j =   2, d_avg = 0.224E-04
+ Time step number         9975
+   d_max = 0.574E-03 at i =  17, j =   2, d_avg = 0.224E-04
+ Time step number         9980
+   d_max = 0.574E-03 at i =  17, j =   2, d_avg = 0.224E-04
+ Time step number         9985
+   d_max = 0.574E-03 at i =  17, j =   2, d_avg = 0.224E-04
+ Time step number         9990
+   d_max = 0.574E-03 at i =  17, j =   2, d_avg = 0.224E-04
+ Time step number         9995
+   d_max = 0.574E-03 at i =  17, j =   2, d_avg = 0.224E-04
+ Time step number        10000
+   d_max = 0.574E-03 at i =  17, j =   2, d_avg = 0.224E-04
+ Calculation completed after       10000 iterations
