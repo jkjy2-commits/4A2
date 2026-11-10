@@ -49,10 +49,12 @@ def main():
 
     # Static pressure coefficient, stored in g so the plotting loop can find it
     g['cp'] = (g['p'] - p_ref) / (pstag_ref - p_ref)
+    g['cploss'] = (g['pstag'] - pstag_ref) / (pstag_ref - p_ref)
+    g['tratio'] = g['tstag']/av['tstag']
 
     # Specify the parameters to plot
-    fieldnames = ['cp', 'mach','vx','vy']; 
-    colnames = ['Static pressure coefficient','Mach number','Vx','Vy']
+    fieldnames = ['cp', 'mach','cploss']; 
+    colnames = ['Static pressure coefficient','Mach number','Stagnation Pressure Loss Coefficient']
 
     # Plot the calculated non-dimensional parameters to show the flow solution
     for n,name in enumerate(fieldnames):
@@ -76,6 +78,32 @@ def main():
 
         # Draw the walls of the block
         plot_wall(ax,g)
+
+    plt.show()
+
+    fieldnames = ['tratio']
+    ylabels = ['Stagnation temperature ratio']
+    j_cut = int((g['tratio'].shape[1] - 1)/2)
+    
+
+    for n,name in enumerate(fieldnames):
+
+        # Values along the chosen line of constant j
+        vals = g[name][:, j_cut]
+
+        # Cell index starting from 1, as in the figure
+        cell_index = np.arange(1, len(vals) + 1)
+
+        # Open a new figure window
+        fig = plt.figure(figsize=[9.6,7.2]); ax = plt.axes()
+
+        # Line with small circular markers
+        ax.plot(cell_index, vals, marker='o', markersize=3, linewidth=1)
+
+        # Labels and grid
+        ax.set_xlabel('Cell index')
+        ax.set_ylabel(ylabels[n])
+        ax.grid(True)
 
     # Show all the plots
     plt.show()

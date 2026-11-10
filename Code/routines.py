@@ -46,6 +46,16 @@ def calc_secondary(av,b):
     Tref = 288.15
     Pref = 101325
     b['s'] = av['cp'] * np.log(b['t']/Tref) - av['rgas'] * np.log(b['p']/Pref)
+
+    # Stagnation Enthalpy
+    b['hstag'] = av['cp'] * b['t'] + 0.5 * b['v']
+
+    # Stagnation temperature
+    b['tstag'] = b['t']* (1 + 0.5 * (av['gam']-1) * b['M']**2 )
+
+    # Stagnation pressure
+    b['pstag'] = b['p'] * (1 + 0.5 * (av['gam']-1)* b['M']**2) ** (av['gam']/(av['gam']-1))
+    b['pstagloss'] = b['pstag'] - av['pstag']
     
 
     return b
