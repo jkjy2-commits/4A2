@@ -302,7 +302,7 @@
  Time step number          685
    d_max = 0.779E-03 at i =  17, j =   2, d_avg = 0.669E-04
  Time step number          690
-   d_max = 0.777E-03 at i =  17, j =   2, d_avg = 0.665E-04
+   d_max = 0.777E-03 at i =  17, j =   2, d_avg = 0.664E-04
  Time step number          695
    d_max = 0.774E-03 at i =  17, j =   2, d_avg = 0.660E-04
  Time step number          700
@@ -312,7 +312,7 @@
  Time step number          710
    d_max = 0.768E-03 at i =  17, j =   2, d_avg = 0.646E-04
  Time step number          715
-   d_max = 0.766E-03 at i =  17, j =   2, d_avg = 0.642E-04
+   d_max = 0.766E-03 at i =  17, j =   2, d_avg = 0.641E-04
  Time step number          720
    d_max = 0.764E-03 at i =  17, j =   2, d_avg = 0.637E-04
  Time step number          725
@@ -390,7 +390,7 @@
  Time step number          905
    d_max = 0.703E-03 at i =  17, j =   2, d_avg = 0.516E-04
  Time step number          910
-   d_max = 0.701E-03 at i =  17, j =   2, d_avg = 0.514E-04
+   d_max = 0.701E-03 at i =  17, j =   2, d_avg = 0.513E-04
  Time step number          915
    d_max = 0.700E-03 at i =  17, j =   2, d_avg = 0.511E-04
  Time step number          920
@@ -504,7 +504,7 @@
  Time step number         1190
    d_max = 0.566E-03 at i =  18, j =   2, d_avg = 0.494E-04
  Time step number         1195
-   d_max = 0.565E-03 at i =  18, j =   2, d_avg = 0.492E-04
+   d_max = 0.565E-03 at i =  18, j =   2, d_avg = 0.491E-04
  Time step number         1200
    d_max = 0.565E-03 at i =  18, j =   2, d_avg = 0.490E-04
  Time step number         1205
@@ -522,7 +522,7 @@
  Time step number         1235
    d_max = 0.562E-03 at i =  18, j =   2, d_avg = 0.477E-04
  Time step number         1240
-   d_max = 0.561E-03 at i =  18, j =   2, d_avg = 0.476E-04
+   d_max = 0.561E-03 at i =  18, j =   2, d_avg = 0.475E-04
  Time step number         1245
    d_max = 0.561E-03 at i =  18, j =   2, d_avg = 0.474E-04
  Time step number         1250
@@ -582,7 +582,7 @@
  Time step number         1385
    d_max = 0.594E-03 at i =  17, j =   2, d_avg = 0.433E-04
  Time step number         1390
-   d_max = 0.594E-03 at i =  17, j =   2, d_avg = 0.435E-04
+   d_max = 0.594E-03 at i =  17, j =   2, d_avg = 0.434E-04
  Time step number         1395
    d_max = 0.593E-03 at i =  17, j =   2, d_avg = 0.436E-04
  Time step number         1400
@@ -628,7 +628,7 @@
  Time step number         1500
    d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.451E-04
  Time step number         1505
-   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.452E-04
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.451E-04
  Time step number         1510
    d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.452E-04
  Time step number         1515
@@ -640,7 +640,7 @@
  Time step number         1530
    d_max = 0.582E-03 at i =  17, j =   2, d_avg = 0.453E-04
  Time step number         1535
-   d_max = 0.581E-03 at i =  17, j =   2, d_avg = 0.454E-04
+   d_max = 0.582E-03 at i =  17, j =   2, d_avg = 0.454E-04
  Time step number         1540
    d_max = 0.581E-03 at i =  17, j =   2, d_avg = 0.454E-04
  Time step number         1545
@@ -720,7 +720,7 @@
  Time step number         1730
    d_max = 0.598E-03 at i =  17, j =   2, d_avg = 0.441E-04
  Time step number         1735
-   d_max = 0.599E-03 at i =  17, j =   2, d_avg = 0.440E-04
+   d_max = 0.598E-03 at i =  17, j =   2, d_avg = 0.440E-04
  Time step number         1740
    d_max = 0.598E-03 at i =  17, j =   2, d_avg = 0.439E-04
  Time step number         1745
@@ -742,9 +742,9 @@
  Time step number         1785
    d_max = 0.595E-03 at i =  17, j =   2, d_avg = 0.430E-04
  Time step number         1790
-   d_max = 0.594E-03 at i =  17, j =   2, d_avg = 0.429E-04
+   d_max = 0.595E-03 at i =  17, j =   2, d_avg = 0.429E-04
  Time step number         1795
-   d_max = 0.594E-03 at i =  17, j =   2, d_avg = 0.428E-04
+   d_max = 0.594E-03 at i =  17, j =   2, d_avg = 0.427E-04
  Time step number         1800
    d_max = 0.593E-03 at i =  17, j =   2, d_avg = 0.426E-04
  Time step number         1805
@@ -758,7 +758,7 @@
  Time step number         1825
    d_max = 0.588E-03 at i =  17, j =   2, d_avg = 0.421E-04
  Time step number         1830
-   d_max = 0.587E-03 at i =  17, j =   2, d_avg = 0.420E-04
+   d_max = 0.587E-03 at i =  17, j =   2, d_avg = 0.419E-04
  Time step number         1835
    d_max = 0.586E-03 at i =  17, j =   2, d_avg = 0.418E-04
  Time step number         1840
@@ -774,7 +774,7 @@
  Time step number         1865
    d_max = 0.580E-03 at i =  17, j =   2, d_avg = 0.411E-04
  Time step number         1870
-   d_max = 0.579E-03 at i =  17, j =   2, d_avg = 0.410E-04
+   d_max = 0.580E-03 at i =  17, j =   2, d_avg = 0.410E-04
  Time step number         1875
    d_max = 0.579E-03 at i =  17, j =   2, d_avg = 0.409E-04
  Time step number         1880
@@ -788,7 +788,7 @@
  Time step number         1900
    d_max = 0.574E-03 at i =  17, j =   2, d_avg = 0.404E-04
  Time step number         1905
-   d_max = 0.573E-03 at i =  17, j =   2, d_avg = 0.403E-04
+   d_max = 0.574E-03 at i =  17, j =   2, d_avg = 0.403E-04
  Time step number         1910
    d_max = 0.573E-03 at i =  17, j =   2, d_avg = 0.402E-04
  Time step number         1915
@@ -856,7 +856,7 @@
  Time step number         2070
    d_max = 0.563E-03 at i =  17, j =   2, d_avg = 0.371E-04
  Time step number         2075
-   d_max = 0.563E-03 at i =  17, j =   2, d_avg = 0.370E-04
+   d_max = 0.563E-03 at i =  17, j =   2, d_avg = 0.371E-04
  Time step number         2080
    d_max = 0.563E-03 at i =  17, j =   2, d_avg = 0.370E-04
  Time step number         2085
@@ -874,7 +874,7 @@
  Time step number         2115
    d_max = 0.562E-03 at i =  17, j =   2, d_avg = 0.365E-04
  Time step number         2120
-   d_max = 0.561E-03 at i =  17, j =   2, d_avg = 0.364E-04
+   d_max = 0.562E-03 at i =  17, j =   2, d_avg = 0.364E-04
  Time step number         2125
    d_max = 0.561E-03 at i =  17, j =   2, d_avg = 0.364E-04
  Time step number         2130
@@ -890,11 +890,11 @@
  Time step number         2155
    d_max = 0.561E-03 at i =  17, j =   2, d_avg = 0.359E-04
  Time step number         2160
-   d_max = 0.517E-03 at i =  18, j =   2, d_avg = 0.359E-04
+   d_max = 0.518E-03 at i =  18, j =   2, d_avg = 0.359E-04
  Time step number         2165
-   d_max = 0.517E-03 at i =  18, j =   2, d_avg = 0.360E-04
+   d_max = 0.518E-03 at i =  18, j =   2, d_avg = 0.360E-04
  Time step number         2170
-   d_max = 0.517E-03 at i =  18, j =   2, d_avg = 0.361E-04
+   d_max = 0.518E-03 at i =  18, j =   2, d_avg = 0.361E-04
  Time step number         2175
    d_max = 0.518E-03 at i =  18, j =   2, d_avg = 0.361E-04
  Time step number         2180
@@ -928,9 +928,9 @@
  Time step number         2250
    d_max = 0.518E-03 at i =  18, j =   2, d_avg = 0.375E-04
  Time step number         2255
-   d_max = 0.517E-03 at i =  18, j =   2, d_avg = 0.376E-04
+   d_max = 0.518E-03 at i =  18, j =   2, d_avg = 0.376E-04
  Time step number         2260
-   d_max = 0.517E-03 at i =  18, j =   2, d_avg = 0.377E-04
+   d_max = 0.518E-03 at i =  18, j =   2, d_avg = 0.377E-04
  Time step number         2265
    d_max = 0.517E-03 at i =  18, j =   2, d_avg = 0.378E-04
  Time step number         2270
@@ -962,7 +962,7 @@
  Time step number         2335
    d_max = 0.517E-03 at i =  18, j =   2, d_avg = 0.390E-04
  Time step number         2340
-   d_max = 0.517E-03 at i =  18, j =   2, d_avg = 0.390E-04
+   d_max = 0.517E-03 at i =  18, j =   2, d_avg = 0.391E-04
  Time step number         2345
    d_max = 0.517E-03 at i =  18, j =   2, d_avg = 0.391E-04
  Time step number         2350
@@ -996,7 +996,7 @@
  Time step number         2420
    d_max = 0.516E-03 at i =  18, j =   2, d_avg = 0.390E-04
  Time step number         2425
-   d_max = 0.516E-03 at i =  18, j =   2, d_avg = 0.389E-04
+   d_max = 0.516E-03 at i =  18, j =   2, d_avg = 0.390E-04
  Time step number         2430
    d_max = 0.516E-03 at i =  18, j =   2, d_avg = 0.389E-04
  Time step number         2435
@@ -1038,7 +1038,7 @@
  Time step number         2525
    d_max = 0.515E-03 at i =  18, j =   2, d_avg = 0.358E-04
  Time step number         2530
-   d_max = 0.515E-03 at i =  18, j =   2, d_avg = 0.355E-04
+   d_max = 0.515E-03 at i =  18, j =   2, d_avg = 0.356E-04
  Time step number         2535
    d_max = 0.515E-03 at i =  18, j =   2, d_avg = 0.353E-04
  Time step number         2540
@@ -1060,7 +1060,7 @@
  Time step number         2580
    d_max = 0.515E-03 at i =  18, j =   2, d_avg = 0.330E-04
  Time step number         2585
-   d_max = 0.514E-03 at i =  18, j =   2, d_avg = 0.327E-04
+   d_max = 0.515E-03 at i =  18, j =   2, d_avg = 0.327E-04
  Time step number         2590
    d_max = 0.514E-03 at i =  18, j =   2, d_avg = 0.325E-04
  Time step number         2595
@@ -1068,7 +1068,7 @@
  Time step number         2600
    d_max = 0.514E-03 at i =  18, j =   2, d_avg = 0.321E-04
  Time step number         2605
-   d_max = 0.514E-03 at i =  18, j =   2, d_avg = 0.319E-04
+   d_max = 0.514E-03 at i =  18, j =   2, d_avg = 0.320E-04
  Time step number         2610
    d_max = 0.514E-03 at i =  18, j =   2, d_avg = 0.318E-04
  Time step number         2615
@@ -1106,7 +1106,7 @@
  Time step number         2695
    d_max = 0.514E-03 at i =  18, j =   2, d_avg = 0.308E-04
  Time step number         2700
-   d_max = 0.514E-03 at i =  18, j =   2, d_avg = 0.307E-04
+   d_max = 0.514E-03 at i =  18, j =   2, d_avg = 0.308E-04
  Time step number         2705
    d_max = 0.514E-03 at i =  18, j =   2, d_avg = 0.307E-04
  Time step number         2710
@@ -1216,7 +1216,7 @@
  Time step number         2970
    d_max = 0.579E-03 at i =  17, j =   2, d_avg = 0.288E-04
  Time step number         2975
-   d_max = 0.579E-03 at i =  17, j =   2, d_avg = 0.288E-04
+   d_max = 0.579E-03 at i =  17, j =   2, d_avg = 0.289E-04
  Time step number         2980
    d_max = 0.580E-03 at i =  17, j =   2, d_avg = 0.289E-04
  Time step number         2985
@@ -1256,7 +1256,7 @@
  Time step number         3070
    d_max = 0.585E-03 at i =  17, j =   2, d_avg = 0.292E-04
  Time step number         3075
-   d_max = 0.585E-03 at i =  17, j =   2, d_avg = 0.292E-04
+   d_max = 0.585E-03 at i =  17, j =   2, d_avg = 0.293E-04
  Time step number         3080
    d_max = 0.585E-03 at i =  17, j =   2, d_avg = 0.293E-04
  Time step number         3085
@@ -1380,7 +1380,7 @@
  Time step number         3380
    d_max = 0.598E-03 at i =  17, j =   2, d_avg = 0.286E-04
  Time step number         3385
-   d_max = 0.599E-03 at i =  17, j =   2, d_avg = 0.285E-04
+   d_max = 0.599E-03 at i =  17, j =   2, d_avg = 0.286E-04
  Time step number         3390
    d_max = 0.599E-03 at i =  17, j =   2, d_avg = 0.285E-04
  Time step number         3395
@@ -1436,7 +1436,7 @@
  Time step number         3520
    d_max = 0.598E-03 at i =  17, j =   2, d_avg = 0.277E-04
  Time step number         3525
-   d_max = 0.598E-03 at i =  17, j =   2, d_avg = 0.276E-04
+   d_max = 0.598E-03 at i =  17, j =   2, d_avg = 0.277E-04
  Time step number         3530
    d_max = 0.598E-03 at i =  17, j =   2, d_avg = 0.276E-04
  Time step number         3535
@@ -1452,7 +1452,7 @@
  Time step number         3560
    d_max = 0.598E-03 at i =  17, j =   2, d_avg = 0.275E-04
  Time step number         3565
-   d_max = 0.597E-03 at i =  17, j =   2, d_avg = 0.274E-04
+   d_max = 0.598E-03 at i =  17, j =   2, d_avg = 0.274E-04
  Time step number         3570
    d_max = 0.597E-03 at i =  17, j =   2, d_avg = 0.274E-04
  Time step number         3575
@@ -1466,9 +1466,9 @@
  Time step number         3595
    d_max = 0.597E-03 at i =  17, j =   2, d_avg = 0.273E-04
  Time step number         3600
-   d_max = 0.596E-03 at i =  17, j =   2, d_avg = 0.273E-04
+   d_max = 0.597E-03 at i =  17, j =   2, d_avg = 0.273E-04
  Time step number         3605
-   d_max = 0.596E-03 at i =  17, j =   2, d_avg = 0.272E-04
+   d_max = 0.596E-03 at i =  17, j =   2, d_avg = 0.273E-04
  Time step number         3610
    d_max = 0.596E-03 at i =  17, j =   2, d_avg = 0.272E-04
  Time step number         3615
@@ -1596,7 +1596,7 @@
  Time step number         3920
    d_max = 0.588E-03 at i =  17, j =   2, d_avg = 0.260E-04
  Time step number         3925
-   d_max = 0.588E-03 at i =  17, j =   2, d_avg = 0.260E-04
+   d_max = 0.587E-03 at i =  17, j =   2, d_avg = 0.260E-04
  Time step number         3930
    d_max = 0.587E-03 at i =  17, j =   2, d_avg = 0.260E-04
  Time step number         3935
@@ -1742,7 +1742,7 @@
  Time step number         4285
    d_max = 0.592E-03 at i =  17, j =   2, d_avg = 0.253E-04
  Time step number         4290
-   d_max = 0.593E-03 at i =  17, j =   2, d_avg = 0.253E-04
+   d_max = 0.592E-03 at i =  17, j =   2, d_avg = 0.253E-04
  Time step number         4295
    d_max = 0.593E-03 at i =  17, j =   2, d_avg = 0.253E-04
  Time step number         4300
@@ -1758,7 +1758,7 @@
  Time step number         4325
    d_max = 0.593E-03 at i =  17, j =   2, d_avg = 0.252E-04
  Time step number         4330
-   d_max = 0.594E-03 at i =  17, j =   2, d_avg = 0.251E-04
+   d_max = 0.594E-03 at i =  17, j =   2, d_avg = 0.252E-04
  Time step number         4335
    d_max = 0.594E-03 at i =  17, j =   2, d_avg = 0.251E-04
  Time step number         4340
@@ -1798,7 +1798,7 @@
  Time step number         4425
    d_max = 0.518E-03 at i =  18, j =   2, d_avg = 0.246E-04
  Time step number         4430
-   d_max = 0.519E-03 at i =  18, j =   2, d_avg = 0.246E-04
+   d_max = 0.518E-03 at i =  18, j =   2, d_avg = 0.246E-04
  Time step number         4435
    d_max = 0.519E-03 at i =  18, j =   2, d_avg = 0.246E-04
  Time step number         4440
@@ -1828,7 +1828,7 @@
  Time step number         4500
    d_max = 0.519E-03 at i =  18, j =   2, d_avg = 0.243E-04
  Time step number         4505
-   d_max = 0.519E-03 at i =  18, j =   2, d_avg = 0.242E-04
+   d_max = 0.519E-03 at i =  18, j =   2, d_avg = 0.243E-04
  Time step number         4510
    d_max = 0.519E-03 at i =  18, j =   2, d_avg = 0.242E-04
  Time step number         4515
@@ -1856,7 +1856,7 @@
  Time step number         4570
    d_max = 0.519E-03 at i =  18, j =   2, d_avg = 0.237E-04
  Time step number         4575
-   d_max = 0.600E-03 at i =  17, j =   2, d_avg = 0.236E-04
+   d_max = 0.519E-03 at i =  18, j =   2, d_avg = 0.236E-04
  Time step number         4580
    d_max = 0.600E-03 at i =  17, j =   2, d_avg = 0.236E-04
  Time step number         4585
@@ -1932,7 +1932,7 @@
  Time step number         4760
    d_max = 0.602E-03 at i =  17, j =   2, d_avg = 0.234E-04
  Time step number         4765
-   d_max = 0.603E-03 at i =  17, j =   2, d_avg = 0.234E-04
+   d_max = 0.602E-03 at i =  17, j =   2, d_avg = 0.234E-04
  Time step number         4770
    d_max = 0.603E-03 at i =  17, j =   2, d_avg = 0.234E-04
  Time step number         4775
@@ -2022,7 +2022,7 @@
  Time step number         4985
    d_max = 0.519E-03 at i =  18, j =   2, d_avg = 0.238E-04
  Time step number         4990
-   d_max = 0.519E-03 at i =  18, j =   2, d_avg = 0.239E-04
+   d_max = 0.519E-03 at i =  18, j =   2, d_avg = 0.238E-04
  Time step number         4995
    d_max = 0.518E-03 at i =  18, j =   2, d_avg = 0.239E-04
  Time step number         5000
@@ -2040,7 +2040,7 @@
  Time step number         5030
    d_max = 0.518E-03 at i =  18, j =   2, d_avg = 0.241E-04
  Time step number         5035
-   d_max = 0.518E-03 at i =  18, j =   2, d_avg = 0.242E-04
+   d_max = 0.518E-03 at i =  18, j =   2, d_avg = 0.241E-04
  Time step number         5040
    d_max = 0.518E-03 at i =  18, j =   2, d_avg = 0.242E-04
  Time step number         5045
@@ -2078,7 +2078,7 @@
  Time step number         5125
    d_max = 0.517E-03 at i =  18, j =   2, d_avg = 0.245E-04
  Time step number         5130
-   d_max = 0.517E-03 at i =  18, j =   2, d_avg = 0.246E-04
+   d_max = 0.517E-03 at i =  18, j =   2, d_avg = 0.245E-04
  Time step number         5135
    d_max = 0.517E-03 at i =  18, j =   2, d_avg = 0.246E-04
  Time step number         5140
@@ -2150,7 +2150,7 @@
  Time step number         5305
    d_max = 0.598E-03 at i =  17, j =   2, d_avg = 0.246E-04
  Time step number         5310
-   d_max = 0.598E-03 at i =  17, j =   2, d_avg = 0.247E-04
+   d_max = 0.598E-03 at i =  17, j =   2, d_avg = 0.246E-04
  Time step number         5315
    d_max = 0.598E-03 at i =  17, j =   2, d_avg = 0.247E-04
  Time step number         5320
@@ -2172,7 +2172,7 @@
  Time step number         5360
    d_max = 0.597E-03 at i =  17, j =   2, d_avg = 0.247E-04
  Time step number         5365
-   d_max = 0.596E-03 at i =  17, j =   2, d_avg = 0.248E-04
+   d_max = 0.596E-03 at i =  17, j =   2, d_avg = 0.247E-04
  Time step number         5370
    d_max = 0.596E-03 at i =  17, j =   2, d_avg = 0.248E-04
  Time step number         5375
@@ -2212,9 +2212,9 @@
  Time step number         5460
    d_max = 0.594E-03 at i =  17, j =   2, d_avg = 0.248E-04
  Time step number         5465
-   d_max = 0.594E-03 at i =  17, j =   2, d_avg = 0.249E-04
+   d_max = 0.594E-03 at i =  17, j =   2, d_avg = 0.248E-04
  Time step number         5470
-   d_max = 0.594E-03 at i =  17, j =   2, d_avg = 0.249E-04
+   d_max = 0.594E-03 at i =  17, j =   2, d_avg = 0.248E-04
  Time step number         5475
    d_max = 0.594E-03 at i =  17, j =   2, d_avg = 0.249E-04
  Time step number         5480
@@ -2252,7 +2252,7 @@
  Time step number         5560
    d_max = 0.592E-03 at i =  17, j =   2, d_avg = 0.249E-04
  Time step number         5565
-   d_max = 0.592E-03 at i =  17, j =   2, d_avg = 0.249E-04
+   d_max = 0.592E-03 at i =  17, j =   2, d_avg = 0.248E-04
  Time step number         5570
    d_max = 0.592E-03 at i =  17, j =   2, d_avg = 0.248E-04
  Time step number         5575
@@ -2278,7 +2278,7 @@
  Time step number         5625
    d_max = 0.591E-03 at i =  17, j =   2, d_avg = 0.248E-04
  Time step number         5630
-   d_max = 0.591E-03 at i =  17, j =   2, d_avg = 0.248E-04
+   d_max = 0.590E-03 at i =  17, j =   2, d_avg = 0.248E-04
  Time step number         5635
    d_max = 0.590E-03 at i =  17, j =   2, d_avg = 0.248E-04
  Time step number         5640
@@ -2362,7 +2362,7 @@
  Time step number         5835
    d_max = 0.589E-03 at i =  17, j =   2, d_avg = 0.245E-04
  Time step number         5840
-   d_max = 0.589E-03 at i =  17, j =   2, d_avg = 0.244E-04
+   d_max = 0.589E-03 at i =  17, j =   2, d_avg = 0.245E-04
  Time step number         5845
    d_max = 0.589E-03 at i =  17, j =   2, d_avg = 0.244E-04
  Time step number         5850
@@ -2396,11 +2396,11 @@
  Time step number         5920
    d_max = 0.589E-03 at i =  17, j =   2, d_avg = 0.243E-04
  Time step number         5925
-   d_max = 0.589E-03 at i =  17, j =   2, d_avg = 0.242E-04
+   d_max = 0.589E-03 at i =  17, j =   2, d_avg = 0.243E-04
  Time step number         5930
    d_max = 0.589E-03 at i =  17, j =   2, d_avg = 0.242E-04
  Time step number         5935
-   d_max = 0.590E-03 at i =  17, j =   2, d_avg = 0.242E-04
+   d_max = 0.589E-03 at i =  17, j =   2, d_avg = 0.242E-04
  Time step number         5940
    d_max = 0.590E-03 at i =  17, j =   2, d_avg = 0.242E-04
  Time step number         5945
@@ -2530,7 +2530,7 @@
  Time step number         6255
    d_max = 0.592E-03 at i =  17, j =   2, d_avg = 0.235E-04
  Time step number         6260
-   d_max = 0.592E-03 at i =  17, j =   2, d_avg = 0.235E-04
+   d_max = 0.593E-03 at i =  17, j =   2, d_avg = 0.235E-04
  Time step number         6265
    d_max = 0.593E-03 at i =  17, j =   2, d_avg = 0.235E-04
  Time step number         6270
@@ -2544,7 +2544,7 @@
  Time step number         6290
    d_max = 0.593E-03 at i =  17, j =   2, d_avg = 0.235E-04
  Time step number         6295
-   d_max = 0.593E-03 at i =  17, j =   2, d_avg = 0.234E-04
+   d_max = 0.593E-03 at i =  17, j =   2, d_avg = 0.235E-04
  Time step number         6300
    d_max = 0.593E-03 at i =  17, j =   2, d_avg = 0.234E-04
  Time step number         6305
@@ -2728,7 +2728,7 @@
  Time step number         6750
    d_max = 0.515E-03 at i =  18, j =   2, d_avg = 0.233E-04
  Time step number         6755
-   d_max = 0.515E-03 at i =  18, j =   2, d_avg = 0.234E-04
+   d_max = 0.515E-03 at i =  18, j =   2, d_avg = 0.233E-04
  Time step number         6760
    d_max = 0.515E-03 at i =  18, j =   2, d_avg = 0.234E-04
  Time step number         6765
@@ -2804,7 +2804,7 @@
  Time step number         6940
    d_max = 0.514E-03 at i =  18, j =   2, d_avg = 0.242E-04
  Time step number         6945
-   d_max = 0.514E-03 at i =  18, j =   2, d_avg = 0.242E-04
+   d_max = 0.513E-03 at i =  18, j =   2, d_avg = 0.242E-04
  Time step number         6950
    d_max = 0.513E-03 at i =  18, j =   2, d_avg = 0.242E-04
  Time step number         6955
@@ -2954,7 +2954,7 @@
  Time step number         7315
    d_max = 0.586E-03 at i =  17, j =   2, d_avg = 0.229E-04
  Time step number         7320
-   d_max = 0.586E-03 at i =  17, j =   2, d_avg = 0.230E-04
+   d_max = 0.586E-03 at i =  17, j =   2, d_avg = 0.229E-04
  Time step number         7325
    d_max = 0.586E-03 at i =  17, j =   2, d_avg = 0.230E-04
  Time step number         7330
@@ -3292,7 +3292,7 @@
  Time step number         8160
    d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.224E-04
  Time step number         8165
-   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.225E-04
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.224E-04
  Time step number         8170
    d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.225E-04
  Time step number         8175
@@ -3404,7 +3404,7 @@
  Time step number         8440
    d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.222E-04
  Time step number         8445
-   d_max = 0.582E-03 at i =  17, j =   2, d_avg = 0.222E-04
+   d_max = 0.583E-03 at i =  17, j =   2, d_avg = 0.222E-04
  Time step number         8450
    d_max = 0.582E-03 at i =  17, j =   2, d_avg = 0.222E-04
  Time step number         8455
@@ -3464,7 +3464,7 @@
  Time step number         8590
    d_max = 0.508E-03 at i =  18, j =   2, d_avg = 0.224E-04
  Time step number         8595
-   d_max = 0.508E-03 at i =  18, j =   2, d_avg = 0.224E-04
+   d_max = 0.508E-03 at i =  18, j =   2, d_avg = 0.225E-04
  Time step number         8600
    d_max = 0.508E-03 at i =  18, j =   2, d_avg = 0.225E-04
  Time step number         8605
@@ -3538,7 +3538,7 @@
  Time step number         8775
    d_max = 0.507E-03 at i =  18, j =   2, d_avg = 0.225E-04
  Time step number         8780
-   d_max = 0.506E-03 at i =  18, j =   2, d_avg = 0.225E-04
+   d_max = 0.507E-03 at i =  18, j =   2, d_avg = 0.225E-04
  Time step number         8785
    d_max = 0.506E-03 at i =  18, j =   2, d_avg = 0.225E-04
  Time step number         8790
@@ -3640,11 +3640,11 @@
  Time step number         9030
    d_max = 0.578E-03 at i =  17, j =   2, d_avg = 0.218E-04
  Time step number         9035
-   d_max = 0.578E-03 at i =  17, j =   2, d_avg = 0.218E-04
+   d_max = 0.577E-03 at i =  17, j =   2, d_avg = 0.218E-04
  Time step number         9040
    d_max = 0.577E-03 at i =  17, j =   2, d_avg = 0.218E-04
  Time step number         9045
-   d_max = 0.577E-03 at i =  17, j =   2, d_avg = 0.219E-04
+   d_max = 0.577E-03 at i =  17, j =   2, d_avg = 0.218E-04
  Time step number         9050
    d_max = 0.577E-03 at i =  17, j =   2, d_avg = 0.219E-04
  Time step number         9055
@@ -3886,7 +3886,7 @@
  Time step number         9645
    d_max = 0.575E-03 at i =  17, j =   2, d_avg = 0.220E-04
  Time step number         9650
-   d_max = 0.574E-03 at i =  17, j =   2, d_avg = 0.220E-04
+   d_max = 0.575E-03 at i =  17, j =   2, d_avg = 0.220E-04
  Time step number         9655
    d_max = 0.574E-03 at i =  17, j =   2, d_avg = 0.220E-04
  Time step number         9660
