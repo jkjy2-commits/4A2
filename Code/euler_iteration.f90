@@ -34,7 +34,6 @@
       where(g%wall(1:ni-1,:) .and. g%wall(2:ni,:)) mass_j = 0 
       where(g%wall(:,1:nj-1) .and. g%wall(:,2:nj)) mass_i = 0 
 
-      call sum_fluxes(av,mass_i,mass_j,g%area,g%ro,g%ro_start,g%dro)
 
 !     Update the density with mass fluxes by calling "sum_fluxes"
 !     INSERT
@@ -58,7 +57,7 @@
 
 !     Update the x-momentum with momentum flux
 !     INSERT
-      call sum_fluxes(av,flux_i,flux_j,g%area,g%rovx,g%rovx_start,g%drovx)
+      call sum_fluxes(av,flux_i,flux_j,g%area,g%rovx,g%drovx)
 
 !     Setup the y-momentum equation including momentum flux and pressure forces
 !     INSERT
@@ -67,7 +66,7 @@
 
 !     Update the y-momentum with momentum flux
 !     INSERT
-      call sum_fluxes(av,flux_i,flux_j,g%area,g%rovy,g%rovy_start,g%drovy)
+      call sum_fluxes(av,flux_i,flux_j,g%area,g%rovy,g%drovy)
 
 !     Add artificial viscosity by smoothing all of the primary flow variables
       call smooth_array(av,g%ro,av%ro_ref)
