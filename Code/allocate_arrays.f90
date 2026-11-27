@@ -24,7 +24,6 @@
 
 !     Arrays to store static conditions at the inlet plane
       allocate(bcs%ro(nj),bcs%p(nj))
-
 !     Node coordinates in the mesh
       allocate(g%x(ni,nj),g%y(ni,nj))
 

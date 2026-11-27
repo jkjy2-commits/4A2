@@ -26,7 +26,6 @@
 
 !     Read in the data on the run settings
       call read_settings(av,bcs)
-
 !     Determine whether to generate the mesh within this Fortran program or read
 !     it directly from a binary file written in Python
       if(av%ni /= -1) then
@@ -37,6 +36,8 @@
 
 !         Read in the case geometry
           call read_geom(av,geom)
+          print *, 'ni, nj =', g%ni, g%nj
+          print *, 'size of x =', size(g%x)
 
 !         Set up the mesh coordinates, interpolated between the geometry curves
           call generate_mesh(geom,g)
