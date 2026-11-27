@@ -34,6 +34,8 @@
       where(g%wall(1:ni-1,:) .and. g%wall(2:ni,:)) mass_j = 0 
       where(g%wall(:,1:nj-1) .and. g%wall(:,2:nj)) mass_i = 0 
 
+      call sum_fluxes(av,mass_i,mass_j,g%area,g%ro,g%ro_start,g%dro)
+
 !     Update the density with mass fluxes by calling "sum_fluxes"
 !     INSERT
       call sum_fluxes(av,mass_i,mass_j,g%area,g%ro,g%dro)
@@ -42,12 +44,12 @@
 !     and storing the values in "flux_i" and "flux_j", you will need "mass_i"
 !     and "mass_j" from before
 !     INSERT
-      flux_i = mass_i * 0.5 * (g%hstag(:,1:nj-1) + g%hstag(:,2:nj))
-      flux_j = mass_j * 0.5 * (g%hstag(1:ni-1,:) + g%hstag(2:ni,:))
+!      flux_i = mass_i * 0.5 * (g%hstag(:,1:nj-1) + g%hstag(:,2:nj))
+!      flux_j = mass_j * 0.5 * (g%hstag(1:ni-1,:) + g%hstag(2:ni,:))
 
 !     Update the internal energy with enthalpy fluxes
 !     INSERT
-      call sum_fluxes(av,flux_i,flux_j,g%area,g%roe,g%droe)
+!      call sum_fluxes(av,flux_i,flux_j,g%area,g%roe,g%droe)
 
 !     Setup the x-momentum equation including momentum flux and pressure forces
 !     INSERT
@@ -56,7 +58,7 @@
 
 !     Update the x-momentum with momentum flux
 !     INSERT
-      call sum_fluxes(av,flux_i,flux_j,g%area,g%rovx,g%drovx)
+      call sum_fluxes(av,flux_i,flux_j,g%area,g%rovx,g%rovx_start,g%drovx)
 
 !     Setup the y-momentum equation including momentum flux and pressure forces
 !     INSERT
@@ -65,13 +67,12 @@
 
 !     Update the y-momentum with momentum flux
 !     INSERT
-      call sum_fluxes(av,flux_i,flux_j,g%area,g%rovy,g%drovy)
+      call sum_fluxes(av,flux_i,flux_j,g%area,g%rovy,g%rovy_start,g%drovy)
 
 !     Add artificial viscosity by smoothing all of the primary flow variables
-      call smooth_array(av,g%ro)
-      call smooth_array(av,g%roe)
-      call smooth_array(av,g%rovx)
-      call smooth_array(av,g%rovy)
+      call smooth_array(av,g%ro,av%ro_ref)
+      call smooth_array(av,g%rovx,av%rov_ref)
+      call smooth_array(av,g%rovy,av%rov_ref)
       
 
       end subroutine euler_iteration

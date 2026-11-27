@@ -56,6 +56,9 @@
 !     INSERT
       read(5,*) bcs%p_out
 
+!     Hardcode facsec instead of reading it
+      av%facsec = 0.5
+
 !     Print the settings to check they have been read, you can use this syntax
 !     anywhere else you want in the program to debug your code
       write(6,*)

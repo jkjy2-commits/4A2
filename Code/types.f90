@@ -14,7 +14,7 @@
           real :: rgas, gam, cp, cv, fgam
 
 !         Timestepping, smoothing and other run options
-          real ::  cfl, sfac, dt, d_max, d_avg
+          real ::  cfl, sfac, dt, d_max, d_avg, facsec
           integer :: nsteps, nstep
 
 !         Reference values of the primary flow variables
@@ -89,6 +89,9 @@
 
 !         Logical array to store wall locations for the nodes
           logical, dimension(:,:), allocatable :: wall
+
+!         Primary variables for Runge-Kutta
+          real, dimension(:,:), allocatable :: ro_start, rovx_start, rovy_start
 
       end type t_grid
 

@@ -46,15 +46,17 @@ def main():
     c_in = cut_i(g,0)
     p_ref,_ = area_av(c_in,'p')
     pstag_ref,_ = mass_av(c_in,'pstag')
-
+    tstag_ref,_ = mass_av(c_in,'tstag')
+    
     # Static pressure coefficient, stored in g so the plotting loop can find it
     g['cp'] = (g['p'] - p_ref) / (pstag_ref - p_ref)
     g['cploss'] = (g['pstag'] - pstag_ref) / (pstag_ref - p_ref)
-    g['tratio'] = g['tstag']/av['tstag']
+    g['tratio'] = g['tstag']/tstag_ref
+    g['s'] = g['s']/av['rgas']
 
     # Specify the parameters to plot
-    fieldnames = ['cp', 'mach','cploss']; 
-    colnames = ['Static pressure coefficient','Mach number','Stagnation Pressure Loss Coefficient']
+    fieldnames = ['cp', 'mach','cploss','s']; 
+    colnames = ['Static pressure coefficient','Mach number','Stagnation Pressure Loss Coefficient','Δs/R']
 
     # Plot the calculated non-dimensional parameters to show the flow solution
     for n,name in enumerate(fieldnames):

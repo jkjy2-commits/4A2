@@ -24,13 +24,9 @@
 !     INSERT
       g%vx = g%rovx / g%ro
       g%vy = g%rovy / g%ro
-
-      t = (g%roe / g%ro - 0.5 * (g%vx**2 + g%vy**2))/ av%cv
-
+      g%hstag = av%cp * bcs%tstag 
+      t = (g%hstag - 0.5 * (g%vx**2 + g%vy**2)) / av%cp
       g%p = g%ro * av%rgas * t
-
-      g%hstag = av%cp * t + &
-            0.5 * (g%vx**2 + g%vy**2)
 
       end subroutine set_secondary
 
