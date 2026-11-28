@@ -27,7 +27,8 @@
 !     Get the block size and store locally for convenience
       ni = size(prop,1); nj = size(prop,2)
 !     IMPROVE
-
+      sf4 = 0
+      sf2 = 0.3
 
 !     Calculate the average values at the nodes in the interior region of the
 !     mesh, use the four neighbouring nodes in the plus and minus i and 
@@ -57,6 +58,9 @@
 
 !     fourth order smoothing
       prop_avg_4 = prop_avg_2
+
+
+
 !     IMPROVE
 !     Cubic through i-2, i-1, i+1, i+2, evaluated at i
       avg_4_i(3:ni-2,3:nj-2) = (2.0/3.0) * (prop(2:ni-3,3:nj-2) + prop(4:ni-1,3:nj-2)) &
@@ -74,8 +78,7 @@
 !     of the surrounding values. 
 !     INSERT
 !     IMPROVE
-      sf4 = 0.01
-      sf2 = 0.0025
+
       prop = (1.0 - sf2 - sf4) * prop + sf2 * prop_avg_2 + sf4 * prop_avg_4
 
       end subroutine smooth_array
