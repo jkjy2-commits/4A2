@@ -21,9 +21,9 @@
       real, dimension(size(prop,1),size(prop,2)) :: prop_avg_2, prop_avg_4
       real, intent(in) :: prop_ref
       real, dimension(size(prop,1),size(prop,2)) :: avg_4_i, avg_4_j, sfac_loc
-      real, dimension(size(prop,1),size(prop,2)) :: sf2
+      real, dimension(size(prop,1),size(prop,2)) :: 
       integer :: ni, nj
-      real:: sf4
+      real:: sf4, sf2
 
 !     Get the block size and store locally for convenience
       ni = size(prop,1); nj = size(prop,2)
@@ -75,9 +75,8 @@
 !     of the surrounding values. 
 !     INSERT
 !     IMPROVE
-      sfac_loc = av%sfac * abs(prop - prop_avg_2) / prop_ref
-      sf4 = av%sfac
-      sf2 = min(sfac_loc, 0.25 * sf4)
+      sf4 = 0.02
+      sf2 = 0.005
       prop = (1.0 - sf2 - sf4) * prop + sf2 * prop_avg_2 + sf4 * prop_avg_4
 
       end subroutine smooth_array
