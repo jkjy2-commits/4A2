@@ -75,8 +75,8 @@
 !     of the surrounding values. 
 !     INSERT
 !     IMPROVE
-      sf4 = 0.02
-      sf2 = 0.005
+      sf4 = 0.01
+      sf2 = 0.0025
       prop = (1.0 - sf2 - sf4) * prop + sf2 * prop_avg_2 + sf4 * prop_avg_4
 
       end subroutine smooth_array
