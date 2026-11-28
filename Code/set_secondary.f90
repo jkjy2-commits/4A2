@@ -1,5 +1,5 @@
       
-      subroutine set_secondary(av,g)
+      subroutine set_secondary(av,g,bcs)
 
 !     This subroutine calculates the secondary flow variables from the primary
 !     ones at every node
@@ -9,6 +9,8 @@
       implicit none
       type(t_appvars), intent(in) :: av
       type(t_grid), intent(inout) :: g
+      type(t_bconds), intent(in) :: bcs
+
 
 !     Define any further variables you may need
 !     INSERT
