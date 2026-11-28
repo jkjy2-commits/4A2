@@ -70,7 +70,7 @@
 
 !     Add artificial viscosity by smoothing all of the primary flow variables
       call smooth_array(av,g%ro)
-      call smooth_array(av,g%roe)
+!      call smooth_array(av,g%roe)
       call smooth_array(av,g%rovx)
       call smooth_array(av,g%rovy)
       
