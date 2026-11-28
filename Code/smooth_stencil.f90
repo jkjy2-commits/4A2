@@ -21,7 +21,6 @@
       real, dimension(size(prop,1),size(prop,2)) :: prop_avg_2, prop_avg_4
       real, intent(in) :: prop_ref
       real, dimension(size(prop,1),size(prop,2)) :: avg_4_i, avg_4_j, sfac_loc
-      real, dimension(size(prop,1),size(prop,2)) :: 
       integer :: ni, nj
       real:: sf4, sf2
 
