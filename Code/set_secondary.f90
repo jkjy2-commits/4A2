@@ -1,5 +1,5 @@
       
-      subroutine set_secondary(av,bcs,g)
+      subroutine set_secondary(av,g)
 
 !     This subroutine calculates the secondary flow variables from the primary
 !     ones at every node
@@ -8,11 +8,11 @@
       use types
       implicit none
       type(t_appvars), intent(in) :: av
-      type(t_bconds), intent(in) :: bcs
       type(t_grid), intent(inout) :: g
 
 !     Define any further variables you may need
 !     INSERT
+      real, dimension(g%ni,g%nj) :: t
 
 !     The primary flow variables are "ro", "roe", "rovx" and "rovy", these are 
 !     the conserved quantities within the Euler equations. Write the code to
@@ -24,9 +24,12 @@
 !     INSERT
       g%vx = g%rovx / g%ro
       g%vy = g%rovy / g%ro
-      g%hstag = av%cp * bcs%tstag
-      g%p = g%ro * av%rgas * (g%hstag - 0.5 * (g%vx**2 + g%vy**2)) / av%cp
 
+      t = (g%roe / g%ro - 0.5 * (g%vx**2 + g%vy**2))/ av%cv
+
+      g%p = g%ro * av%rgas * t
+
+      g%hstag = av%cp * bcs%tstag
       end subroutine set_secondary
 
 
